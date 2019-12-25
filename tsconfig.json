@@ -20,12 +20,14 @@
     "noEmit": true,
     "jsx": "react",
     "baseUrl": "./src",
+    "downlevelIteration": true,
     "paths": {
       "$root/*": ["*"],
       "$redux/*": ["redux/*"],
       "$storybook/*": ["../.storybook/*"],
       "$tests/*": ["../tests/*"],
-      "$stories/*": ["../stories/*"]
+      "$stories/*": ["../stories/*"],
+      "$gameData/*": ["gameData/*"]
     }
   },
   "include": [

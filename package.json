@@ -1,9 +1,10 @@
 {
-  "name": "cra-boilerplate",
+  "name": "IsaacCheatSheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/core": "7.7.4",
+    "@material-ui/core": "^4.8.0",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,11 +17,12 @@
     "@typescript-eslint/parser": "^2.8.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
-    "babel-loader": "8.0.6",
+    "babel-loader": "^8.0.6",
     "babel-plugin-named-asset-import": "^0.3.5",
     "babel-preset-react-app": "^9.1.0",
     "camelcase": "^5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "3.2.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
@@ -61,12 +63,14 @@
     "semver": "6.3.0",
     "style-loader": "1.0.0",
     "terser-webpack-plugin": "2.2.1",
+    "ts-loader": "^6.2.1",
     "ts-pnp": "1.1.5",
     "typescript": "~3.7.2",
     "url-loader": "2.3.0",
     "webpack": "4.41.2",
     "webpack-dev-server": "3.9.0",
     "webpack-manifest-plugin": "2.2.0",
+    "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
@@ -100,10 +104,10 @@
   },
   "jest": {
     "roots": [
-      "<rootDir>/src"
+      "<rootDir>"
     ],
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
+      "**/*.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts"
     ],
     "setupFiles": [
@@ -113,8 +117,8 @@
       "<rootDir>/src/setupTests.ts"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
-      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+      "<rootDir>/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/**/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jest-environment-jsdom-fourteen",
     "transform": {
@@ -129,7 +133,13 @@
     "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
-      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+      "^\\$root/(.*?)$": "<rootDir>/src/$1",
+      "^\\$storybook/(.*?)$": "<rootDir>/.storybook/$1",
+      "^\\$redux/(.*?)$": "<rootDir>/src/redux/$1",
+      "^\\$gameData/(.*?)$": "<rootDir>/src/gameData/$1",
+      "^\\$tests/(.*?)$": "<rootDir>/src/tests/$1",
+      "^\\$stories/(.*?)$": "<rootDir>/stories/$1"
     },
     "moduleFileExtensions": [
       "web.js",

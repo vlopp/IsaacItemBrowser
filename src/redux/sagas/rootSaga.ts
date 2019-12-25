@@ -12,9 +12,7 @@ import {
 } from "redux-saga/effects";
 
 export default function* rootSaga() {
-  const sagas = [
-    /*sagas*/
-  ];
+  const sagas = [];
 
   yield all(
     sagas.map(saga =>
