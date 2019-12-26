@@ -10,33 +10,60 @@ const items = itemsImport;
 const useStyles = makeStyles(theme => ({
   itemName: {
     fontSize: "300%",
-    textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;",
+    textShadow: "10px 6px 5px black",
     lineHeight: "75%",
-    color: "#b8b5b3",
+    color: "#e3e3e3",
     margin: "5px"
   },
   itemShortDescription: {
     fontSize: "150%",
-    color: "#8b8886",
-    margin: "5px"
+    color: "#959595",
+    margin: "5px",
+    textShadow: "5px 4px 5px black"
+  },
+  ul: {
+    alignSelf: "normal"
+  },
+  silom: {
+    fontFamily: "Silom",
+      textShadow:"5px 4px 5px black"
   }
 }));
 
 export const ItemDescription = () => {
-  const describedItemName = useSelector((x: Store) => x.describedItem);
+  const describedItem = useSelector((x: Store) => x.describedItem);
 
   const styles = useStyles();
 
   return (
     <Box display={"flex"} alignItems={"center"} flexDirection={"column"}>
-      <ItemIcon scale={2.6} itemName={describedItemName} />
+      <ItemIcon scale={2.6} itemName={describedItem} />
       <Typography align={"center"} className={styles.itemName}>
-        {describedItemName}
+        {items[describedItem].readableName}
       </Typography>
       <Typography align={"center"} className={styles.itemShortDescription}>
-        {items[describedItemName].shortDescription}
+        {items[describedItem].shortDescription}
       </Typography>
-      <Typography>{`${items[describedItemName].longDescription.effects}\n\n${items[describedItemName].longDescription.notes}`}</Typography>
+      <ul className={styles.ul}>
+        {items[describedItem].longDescription.effects
+          .split("\n")
+          .filter(x => !/(^$|\n|\t+)/.test(x))
+          .map(x => (
+            <li key={x}>
+              <Typography className={styles.silom}>{x}</Typography>
+            </li>
+          ))}
+      </ul>
+      <ul className={styles.ul}>
+        {items[describedItem].longDescription.notes
+          .split("\n")
+          .filter(x => !/(^$|\n|\t+)/.test(x))
+          .map(x => (
+            <li key={x}>
+              <Typography className={styles.silom}>{x}</Typography>
+            </li>
+          ))}
+      </ul>
     </Box>
   );
 };

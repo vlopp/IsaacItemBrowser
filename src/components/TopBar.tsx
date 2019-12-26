@@ -3,6 +3,7 @@ import { Box, InputBase, makeStyles, TextField } from "@material-ui/core";
 import { filterItems } from "$redux/actions/filterItems";
 import { useDispatch, useSelector } from "react-redux";
 import { Store } from "$redux/store/Store";
+import cursor from "$root/static/images/cursor.png";
 
 const useStyles = makeStyles(theme => ({
   input: {
@@ -11,13 +12,8 @@ const useStyles = makeStyles(theme => ({
     border: "none",
     textAlign:"center",
     fontSize:"140%",
-    letterSpacing:'2px'
-  },
-  searchField: {
-    minWidth: "20%",
-    maxWidth: "90%",
-    width: "500px",
-    backgroundImage: 'url("https://i.imgur.com/TECtBmf.png")'
+    letterSpacing:'2px',
+    cursor: `url("${cursor}"), auto`
   },
   pictureDiv: {
     backgroundImage: 'url("https://i.imgur.com/TECtBmf.png")',
@@ -27,7 +23,8 @@ const useStyles = makeStyles(theme => ({
     width: "676px",
     margin: "10px",
     padding:"5px 30px",
-    maxWidth:"95%"
+    maxWidth:"95%",
+    cursor: `url("${cursor}"), auto`
   }
 }));
 
@@ -54,15 +51,6 @@ export const TopBar = () => {
         value={state}
         inputProps={{ className: styles.input }}
       ></InputBase>
-      {/*<TextField
-        onChange={onChangeHandle}
-        value={state}
-        className={styles.searchField}
-        label={"XVII: May you find what you desire..."}
-        InputProps={{
-          className: styles.input
-        }}
-      />*/}
     </Box>
   );
 };

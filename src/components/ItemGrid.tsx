@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useMemo } from "react";
 import ItemIcon from "$root/components/ItemIcon";
 import { useSelector } from "react-redux";
 import { Store } from "$redux/store/Store";
+import { itemNames as itemNamesImport } from "$root/gameData/gameData";
+
+const itemNames = itemNamesImport;
 
 export const ItemGrid = () => {
-  const items = useSelector((x: Store) => x.currentItems);
+  const currentItems = useSelector((x: Store) => x.currentItems);
 
-  return <>{items.map(x => <ItemIcon key={x} scale={2} itemName={x}></ItemIcon>)}</>;
+  return (
+    <>
+      {currentItems.map(itemName => (
+        <ItemIcon key={itemName} scale={2} itemName={itemName}></ItemIcon>
+    ))}
+    </>
+  );
 };

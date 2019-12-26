@@ -1,8 +1,15 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import {items, sprites} from "$gameData/gameData.js";
-import {useDispatch} from "react-redux";
-import {describeItem} from "$redux/actions/describeItem";
+import {
+  items as itemsImport,
+  sprites as spritesImport
+} from "$gameData/gameData.js";
+import { useDispatch } from "react-redux";
+import { describeItem } from "$redux/actions/describeItem";
+
+/* Rebinding for debugging, see https://github.com/webpack/webpack/issues/3957 and https://github.com/babel/babel/issues/1468*/
+const items = itemsImport;
+const sprites = spritesImport;
 
 type ItemIconProps = {
   itemName: string;
@@ -23,26 +30,35 @@ const useStyles = makeStyles(theme => ({
     transform: `scale(${props.scale})`,
     margin: `${props.scale * 16 - 16}px`,
     imageRendering: "pixelated" as any,
-    //transformOrigin: `top left`,
     display: "inline-block"
   })
 }));
 
 const ItemIcon = (props: ItemIconProps) => {
   const { itemName, scale, ...rest } = props;
-  const styles = useStyles({ itemName, scale: scale ? scale : defaultScale });
+  const styles = useStyles({ itemName, scale: scale || defaultScale });
 
   const dispatch = useDispatch();
-  const onClickOrHoverHandle = (e) => {
+  const onClickOrHoverHandle = e => {
     dispatch(describeItem(itemName));
   };
 
   const onAuxClickHandle = () => {
-    window.open(`https://bindingofisaacrebirth.gamepedia.com/${items[itemName].encodedName}`, "_blank")
-  }
+    window.open(
+      `https://bindingofisaacrebirth.gamepedia.com/${items[itemName].encodedName}`,
+      "_blank"
+    );
+  };
 
-
-  return <div onAuxClick={onAuxClickHandle} onClick={onClickOrHoverHandle} onMouseEnter={onClickOrHoverHandle} {...rest} className={styles.root}></div>;
+  return (
+    <div
+      onAuxClick={onAuxClickHandle}
+      onClick={onClickOrHoverHandle}
+      onMouseEnter={onClickOrHoverHandle}
+      {...rest}
+      className={styles.root}
+    ></div>
+  );
 };
 
 export default ItemIcon;

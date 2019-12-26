@@ -1,11 +1,11 @@
 import jsonTags from "$gameData/tags.json";
 import jsonItems from "$gameData/items.json";
 
-const tags = jsonTags; // rebinding for debugging
+/* Rebinding for debugging, see https://github.com/webpack/webpack/issues/3957 and https://github.com/babel/babel/issues/1468 */
+const tags = jsonTags;
 const items = jsonItems;
 
-
-export function binsearch(
+export function tagBinsearch(
   phrase: string,
   mode: "leftmost" | "rightmost" = "leftmost"
 ) {
@@ -35,15 +35,16 @@ export function binsearch(
 
 const allItems = Object.keys(items);
 export function searchItems(...phrases): string[] {
-  if (!phrases.length || (phrases.length === 1 && phrases[0] === "")) return allItems;
+  if (!phrases.length || (phrases.length === 1 && phrases[0] === ""))
+    return allItems;
 
   const matchingItems = new Set<string>();
 
   for (const phrase of phrases) {
-    const { index: leftIndex } = binsearch(phrase);
+    const { index: leftIndex } = tagBinsearch(phrase);
     if (!leftIndex) return [];
 
-    const { index: rightIndex } = binsearch(phrase, "rightmost");
+    const { index: rightIndex } = tagBinsearch(phrase, "rightmost");
 
     for (let i = leftIndex; i <= (rightIndex as number); i++) {
       for (const item of tags[i].items) {
