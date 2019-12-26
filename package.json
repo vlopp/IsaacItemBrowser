@@ -100,7 +100,11 @@
     "@storybook/addon-notes": "^5.2.8",
     "@storybook/react": "^5.2.8",
     "@types/react-redux": "^7.1.5",
-    "prettier": "^1.19.1"
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0",
+    "prettier": "^1.19.1",
+    "spritesmith": "^3.4.0",
+    "xml2js-es6-promise": "^1.1.1"
   },
   "jest": {
     "roots": [
