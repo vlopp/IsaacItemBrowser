@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 import { ThemeOptions } from "@material-ui/core/styles/createMuiTheme";
 import "./static/fonts/fonts.css";
-import background from "./static/images/pent1.png";
+import cursor from "./static/images/cursor.png";
 
 declare module "@material-ui/core/styles/createMuiTheme" {
   interface Theme {}
@@ -41,7 +41,7 @@ const darkTheme = createMuiTheme({
     contrastThreshold: 3,
     tonalOffset: 0.2,
     text: {
-      primary: "#9c7667",
+      primary: "#a3877d",
       secondary: "rgba(86,4,5,0.87)",
       disabled: "rgba(255, 255, 255, 0.5)",
       hint: "rgba(255, 255, 255, 0.5)"
@@ -77,8 +77,9 @@ const IsaacCssBaseline = withStyles(theme => ({
   "@global": {
     body: {
       backgroundColor: "rgb(4,4,4)",
-      overflowY:"scroll",
-      minHeight:"120vh"
+      overflowY: "scroll",
+      minHeight: "120vh",
+      cursor: `url("${cursor}"), auto`
     },
     "*::-webkit-scrollbar": {
       background: "#000",
