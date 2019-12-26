@@ -1,8 +1,9 @@
-module.exports = async function(itemsData, tagDelimiterRegex = /([\s-=,\.])/) {
+export default async function (itemsData, tagDelimiterRegex = /([\s-=,\.])/) {
   const itemTags = {};
 
   for (const [encodedItemName, itemData] of Object.entries(itemsData)) {
-    const tagSources = [itemData.readableName, itemData.shortDescription];
+    // @ts-ignore
+    const tagSources = [itemData["readableName"], itemData["shortDescription"]];
 
     for (const tag of tagSources
       .map(source =>
@@ -21,4 +22,4 @@ module.exports = async function(itemsData, tagDelimiterRegex = /([\s-=,\.])/) {
   }
 
   return itemTags;
-};
+}

@@ -1,11 +1,11 @@
-const fsp = require("fs").promises;
-const path = require("path");
-const wikiFetchAll = require("./fetchWikiData");
-const generateSprites = require("./generateSprites");
-const extractItemData = require("./extractItemData");
-const extractTags = require("./extractTags");
+import { promises as fsp } from "fs";
+import path from "path";
+import {wikiFetchAll} from "./fetchWikiData";
+import generateSprites from "./generateSprites";
+import extractItemData from "./extractItemData";
+import extractTags from "./extractTags";
 
-module.exports = async function({
+export default async function({
   resourceDirPath,
   outputDir,
   customDataPath,
@@ -42,7 +42,7 @@ module.exports = async function({
   const customData = JSON.parse(await fsp.readFile(customDataPath, "utf8"));
   for (const [encodedItemName, { tags: customTags }] of Object.entries(
     customData
-  )) {
+  ) as any) {
     for (const customTag of customTags) {
       if (!tags[customTag]) tags[customTag] = [];
       if (!tags[customTag].includes(encodedItemName))
@@ -51,7 +51,7 @@ module.exports = async function({
   }
 
   /* Transform the tags into an ordered array for future binsearches. */
-  const tagsOrdered = [];
+  const tagsOrdered = [] as any[];
   for (const tag of Object.keys(tags).sort()) {
     tagsOrdered.push({ tag, items: tags[tag] });
   }
@@ -64,4 +64,4 @@ module.exports = async function({
     path.resolve(outputDir, "tags.json"),
     outputTagsStringified
   );
-};
+}

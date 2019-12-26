@@ -1,10 +1,10 @@
-const fsp = require("fs").promises;
-const xml2js = require("xml2js-es6-promise");
-const path = require("path");
-const parseItem = require("./parseItem");
+import {promises as fsp} from "fs";
+import xml2js from "xml2js-es6-promise";
+import parseItem from "./parseItem";
+import path from "path";
 
 /* Extract from items.xml */
-module.exports = async function({ resourceDirPath, spriteSheetOffsets }) {
+export default async function ({resourceDirPath, spriteSheetOffsets}) {
   const itemsXmlPath = path.resolve(resourceDirPath, "items.xml");
   const itemsXml = await fsp.readFile(itemsXmlPath, "utf8");
   const itemsJson = await xml2js(itemsXml);
@@ -37,4 +37,4 @@ module.exports = async function({ resourceDirPath, spriteSheetOffsets }) {
   }
 
   return itemsData;
-};
+}

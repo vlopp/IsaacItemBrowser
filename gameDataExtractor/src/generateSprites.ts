@@ -1,8 +1,8 @@
-const Spritesmith = require("spritesmith");
-const path = require("path");
-const fsp = require("fs").promises;
+import {promises as fsp} from "fs";
+import path from "path";
+import Spritesmith from "spritesmith";
 
-module.exports = async function({ resourceDirPath, outputDir }) {
+export default async function ({resourceDirPath, outputDir}) {
   const trinketsGfxPath = path.resolve(resourceDirPath, "gfx\\items\\trinkets");
   const collectiblesGfxPath = path.resolve(
     resourceDirPath,
@@ -42,4 +42,4 @@ module.exports = async function({ resourceDirPath, outputDir }) {
   });
 
   return spriteSheetOffsets;
-};
+}

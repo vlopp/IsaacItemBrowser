@@ -10,7 +10,7 @@ export function tagBinsearch(
   mode: "leftmost" | "rightmost" = "leftmost"
 ) {
   let l = 0;
-  let r = tags.length - 1;
+  let r = ((tags as unknown) as any[]).length - 1;
 
   while (l < r) {
     const mid = ~~((r + l) / 2);

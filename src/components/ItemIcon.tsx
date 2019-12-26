@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     width: `32px`,
     transform: `scale(${props.scale})`,
     margin: `${props.scale * 16 - 16}px`,
-    imageRendering: "pixelated" as any,
+    imageRendering: ("pixelated" as any),
     display: "inline-block"
   })
 }));
@@ -43,7 +43,8 @@ const ItemIcon = (props: ItemIconProps) => {
     dispatch(describeItem(itemName));
   };
 
-  const onAuxClickHandle = () => {
+  const onAuxClickHandle = (e) => {
+    e.preventDefault();
     window.open(
       `https://bindingofisaacrebirth.gamepedia.com/${items[itemName].encodedName}`,
       "_blank"

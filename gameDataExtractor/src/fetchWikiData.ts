@@ -1,5 +1,5 @@
-const cheerio = require("cheerio");
-const fetch = require("node-fetch");
+import cheerio from "cheerio";
+import fetch from "node-fetch";
 
 const extract = (elem, indent = -1) => {
   let acc = "";
@@ -27,7 +27,7 @@ const extract = (elem, indent = -1) => {
   return " ".repeat(indent) + acc.replace(/(?<!\s) {2,}(?!=\s)/g, " ");
 };
 
-const wikiFetchSingle = async itemName => {
+export const wikiFetchSingle = async itemName => {
 
   const response = await fetch(
     `https://bindingofisaacrebirth.gamepedia.com/${itemName.replace(/ /g, "_")}`
@@ -51,7 +51,7 @@ const wikiFetchSingle = async itemName => {
   return { ...result };
 };
 
-const wikiFetchAll = async (...encodedItemNames) => {
+export const wikiFetchAll = async (...encodedItemNames) => {
   const data = {};
   console.log(`Fetching data for ${encodedItemNames.length} items. This might take a while.`);
   const fetchedData = await Promise.all(encodedItemNames.map(name => wikiFetchSingle(name)));
@@ -62,6 +62,4 @@ const wikiFetchAll = async (...encodedItemNames) => {
   }
 
   return data;
-}
-
-module.exports = wikiFetchAll;
+};
