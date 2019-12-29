@@ -38,7 +38,7 @@ export function searchItems(...phrases): string[] {
   if (!phrases.length || (phrases.length === 1 && phrases[0] === ""))
     return allItems;
 
-  const matchingItems = new Set<string>();
+  const allMatches = [] as Set<string>[];
 
   for (const phrase of phrases) {
     const { index: leftIndex } = tagBinsearch(phrase);
@@ -46,12 +46,19 @@ export function searchItems(...phrases): string[] {
 
     const { index: rightIndex } = tagBinsearch(phrase, "rightmost");
 
+    const currentPhraseMatches = new Set<string>();
     for (let i = leftIndex; i <= (rightIndex as number); i++) {
       for (const item of tags[i].items) {
-        matchingItems.add(item);
+        currentPhraseMatches.add(item);
       }
     }
+    allMatches.push(currentPhraseMatches);
   }
 
-  return [...matchingItems.keys()];
+  const allMatchesIntersection = allMatches.reduce((acc, curr) => {
+    if (!acc) return curr;
+    return new Set<string>([...acc].filter(item => curr.has(item)));
+
+  });
+  return [...allMatchesIntersection.keys()];
 }
