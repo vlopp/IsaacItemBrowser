@@ -10,20 +10,20 @@ const useStyles = makeStyles(theme => ({
     color: "black",
     backgroundColor: "transparent",
     border: "none",
-    textAlign:"center",
-    fontSize:"140%",
-    letterSpacing:'2px',
+    textAlign: "center",
+    fontSize: "140%",
+    letterSpacing: "2px",
     cursor: `url("${cursor}"), auto`
   },
   pictureDiv: {
     backgroundImage: 'url("https://i.imgur.com/TECtBmf.png")',
 
-    backgroundSize: "cover",
+    backgroundSize: "100% 100%",
     height: "90px",
     width: "676px",
     margin: "10px",
-    padding:"5px 30px",
-    maxWidth:"95%",
+    padding: "5px 30px",
+    maxWidth: "95%",
     cursor: `url("${cursor}"), auto`
   }
 }));
@@ -38,7 +38,13 @@ export const TopBar = () => {
 
   const onChangeHandle = e => {
     setState(e.target.value);
-    dispatch(filterItems(...e.target.value.split(" ")));
+    dispatch(
+      filterItems(
+        ...e.target.value
+          .split(" ")
+          .filter(phrase => phrase !== "" && phrase !== " ")
+      )
+    );
   };
 
   return (
