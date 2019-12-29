@@ -22,11 +22,12 @@ const useStyles = makeStyles(theme => ({
     textShadow: "5px 4px 5px black"
   },
   ul: {
-    alignSelf: "normal"
+    alignSelf: "normal",
+    margin: "20px 0px"
   },
   silom: {
     fontFamily: "Silom",
-      textShadow:"5px 4px 5px black"
+    textShadow: "5px 4px 5px black"
   }
 }));
 
@@ -45,25 +46,41 @@ export const ItemDescription = () => {
         {items[describedItem].shortDescription}
       </Typography>
       <ul className={styles.ul}>
-        {items[describedItem].longDescription.effects
-          .split("\n")
-          .filter(x => !/(^$|\n|\t+)/.test(x))
-          .map(x => (
-            <li key={x}>
-              <Typography className={styles.silom}>{x}</Typography>
-            </li>
-          ))}
+        <ListEntry entryString={items[describedItem].longDescription.effects}></ListEntry>
+
       </ul>
       <ul className={styles.ul}>
-        {items[describedItem].longDescription.notes
-          .split("\n")
-          .filter(x => !/(^$|\n|\t+)/.test(x))
-          .map(x => (
-            <li key={x}>
-              <Typography className={styles.silom}>{x}</Typography>
-            </li>
-          ))}
+          <ListEntry entryString={items[describedItem].longDescription.notes}></ListEntry>
       </ul>
     </Box>
+  );
+};
+
+const ListEntry = ({ entryString }) => {
+  const styles = useStyles();
+
+  return (
+    <>
+      {entryString
+        .split("\n")
+        .filter(x => !/(^$|\n|\t+)/.test(x))
+        .map(x => (
+          <li
+              key={x}
+            style={
+              x.startsWith("  ")
+                ? {
+                    margin: "4px 5px",
+                    marginLeft: `${Math.floor(
+                      (/ +/.exec("  ") as any)[0].length / 2
+                    ) * 20}px`
+                  }
+                : { margin: "8px 5px" }
+            }
+          >
+            <Typography className={styles.silom}>{x}</Typography>
+          </li>
+        ))}
+    </>
   );
 };

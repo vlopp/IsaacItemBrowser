@@ -4,7 +4,9 @@ import {
   makeStyles,
   Paper,
   TextField,
-  Typography
+  Typography,
+  useMediaQuery,
+  useTheme
 } from "@material-ui/core";
 import { Box } from "@material-ui/core";
 import ItemIcon from "$root/components/ItemIcon";
@@ -17,12 +19,26 @@ import { ItemGrid } from "$root/components/ItemGrid";
 import { Background } from "$root/components/Background";
 
 const useStyles = makeStyles(theme => ({
+  mainGrid: {
+    height: "100vh",
+    overflow: "hidden"
+  },
   itemDesc: {
-    padding: theme.spacing(2)
+    padding: theme.spacing(2),
+    overflowY: "scroll",
+    height: "100%",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    [theme.breakpoints.down("xs")]: {
+      backgroundColor: theme.palette.secondary.main,
+      justifyContent: "center"
+    }
   },
   itemGrid: {
     padding: theme.spacing(2),
-    paddingTop: theme.spacing(4)
+    paddingTop: theme.spacing(4),
+    height: "100%",
+    overflowY: "scroll"
   },
   bar: {
     padding: theme.spacing(1)
@@ -35,11 +51,11 @@ const App = () => {
   return (
     <>
       <Background />
-      <Grid container>
+      <Grid container className={styles.mainGrid}>
         <Grid item xs={12} className={styles.bar}>
           <TopBar />
         </Grid>
-        <Grid className={styles.itemDesc} item xs={12} sm={3}>
+        <Grid className={styles.itemDesc} item container xs={12} sm={3}>
           <ItemDescription />
         </Grid>
         <Grid className={styles.itemGrid} item xs={12} sm={9}>

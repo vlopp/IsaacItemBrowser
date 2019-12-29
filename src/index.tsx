@@ -6,10 +6,12 @@ import ThemeConfiguration from "$root/ThemeConfiguration";
 import { CssBaseline, withStyles } from "@material-ui/core";
 
 ReactDOM.render(
-  <ThemeConfiguration>
-    <StoreConfiguration>
-      <App />
-    </StoreConfiguration>
-  </ThemeConfiguration>,
+  <CssBaseline>
+    <ThemeConfiguration>
+      <StoreConfiguration>
+        <App />
+      </StoreConfiguration>
+    </ThemeConfiguration>
+  </CssBaseline>,
   document.getElementById("root")
 );

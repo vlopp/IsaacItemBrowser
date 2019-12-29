@@ -77,8 +77,6 @@ const IsaacCssBaseline = withStyles(theme => ({
   "@global": {
     body: {
       backgroundColor: "rgb(4,4,4)",
-      overflowY: "scroll",
-      minHeight: "120vh",
       cursor: `url("${cursor}"), auto`,
       scrollBehavior: "smooth"
     },
