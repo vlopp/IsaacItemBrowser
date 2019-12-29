@@ -79,7 +79,8 @@ const IsaacCssBaseline = withStyles(theme => ({
       backgroundColor: "rgb(4,4,4)",
       overflowY: "scroll",
       minHeight: "120vh",
-      cursor: `url("${cursor}"), auto`
+      cursor: `url("${cursor}"), auto`,
+      scrollBehavior: "smooth"
     },
     "*::-webkit-scrollbar": {
       background: "#000",

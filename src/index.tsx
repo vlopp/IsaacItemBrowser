@@ -7,7 +7,6 @@ import { CssBaseline, withStyles } from "@material-ui/core";
 
 ReactDOM.render(
   <ThemeConfiguration>
-
     <StoreConfiguration>
       <App />
     </StoreConfiguration>

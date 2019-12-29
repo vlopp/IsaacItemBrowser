@@ -35,11 +35,10 @@ const App = () => {
   return (
     <>
       <Background />
-      <Grid style={{ height: "100%" }} container>
+      <Grid container>
         <Grid item xs={12} className={styles.bar}>
           <TopBar />
         </Grid>
-        <Grid container></Grid>
         <Grid className={styles.itemDesc} item xs={12} sm={3}>
           <ItemDescription />
         </Grid>
