@@ -3,7 +3,7 @@ export default async function (itemsData, tagDelimiterRegex = /([\s-=,\.])/) {
 
   for (const [encodedItemName, itemData] of Object.entries(itemsData)) {
     // @ts-ignore
-    const tagSources = [itemData["readableName"], itemData["shortDescription"]];
+    const tagSources = [itemData["readableName"], itemData["shortDescription"], itemData['type']];
 
     for (const tag of tagSources
       .map(source =>

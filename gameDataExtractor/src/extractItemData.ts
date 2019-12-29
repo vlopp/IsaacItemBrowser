@@ -1,6 +1,6 @@
 import {promises as fsp} from "fs";
 import xml2js from "xml2js-es6-promise";
-import parseItem from "./parseItem";
+import {parseItem} from "./parseItem";
 import path from "path";
 
 /* Extract from items.xml */
@@ -32,7 +32,7 @@ export default async function ({resourceDirPath, spriteSheetOffsets}) {
       return x.$;
     })
   ]) {
-    const { encodedName, gfx, ...rest } = parseItem(item, spriteSheetOffsets);
+    const { encodedName, ...rest } = parseItem(item, spriteSheetOffsets);
     itemsData[encodedName] = rest;
   }
 

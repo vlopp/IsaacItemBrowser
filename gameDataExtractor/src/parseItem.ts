@@ -1,17 +1,30 @@
-export default function (
-  {gfx, id, name, description, type},
+//todo fix scapular, marked
+function encodeName(itemName: string) {
+  const specialNames = {
+    "<3": "Less_Than_Three",
+    "Cat-o-nine-tails": "Cat-O-Nine-Tails",
+    "Humbleing_Bundle":"Humbling_Bundle",
+    "E._Coli": "E_Coli",
+    "Spiderbaby":"Spider_Baby",
+
+  };
+
+  return Object.keys(specialNames).includes(itemName)
+    ? specialNames[itemName]
+    : itemName.replace(/ /g, "_");
+}
+
+export function parseItem(
+  { gfx, id, name, description, type },
   spriteSheetOffsets
 ) {
-  const item = {};
-  item["id"] = type !== "trinket" ? parseInt(id) : parseInt(id) + 6666;
-  item["readableName"] = name;
-  item["encodedName"] = name.replace(/ /g, "_");
-  item["type"] = type;
-  item["shortDescription"] = description;
-  item["longDescription"] = {};
-  item["offset"] = spriteSheetOffsets
-    ? spriteSheetOffsets[gfx.toLowerCase()]
-    : null;
-
-  return item as any;
+  return {
+    id: type !== "trinket" ? parseInt(id) : parseInt(id) + 6666,
+    readableName: name,
+    encodedName: encodeName(name),
+    type: type.replace(/^\w/, chr => chr.toUpperCase()),
+    shortDescription: description,
+    longDescription: {},
+    offset: spriteSheetOffsets ? spriteSheetOffsets[gfx.toLowerCase()] : null
+  };
 }

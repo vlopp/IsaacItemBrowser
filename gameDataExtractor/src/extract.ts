@@ -35,7 +35,7 @@ export default async function({
     itemsDataStringified
   );
 
-  const tagDelimiter = /([\s-=,\.])/;
+  const tagDelimiter = /([\s-=,.])/;
   const tags = await extractTags(itemsData, tagDelimiter);
 
   /* Merge the extracted tags with the tags provided in customData */

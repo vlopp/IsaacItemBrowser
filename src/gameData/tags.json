@@ -6,6 +6,12 @@
     ]
   },
   {
+    "tag": "$",
+    "items": [
+      "A_Dollar"
+    ]
+  },
+  {
     "tag": "$$$",
     "items": [
       "A_Dollar",
@@ -44,7 +50,7 @@
       "The_Pact",
       "Stigmata",
       "Speed_Ball",
-      "Cat-o-nine-tails",
+      "Cat-O-Nine-Tails",
       "Sacred_Heart",
       "Tooth_Picks",
       "Holy_Grail",
@@ -103,6 +109,12 @@
       "Sad_Bombs",
       "Pyromaniac",
       "Hot_Bombs"
+    ]
+  },
+  {
+    "tag": "-50%",
+    "items": [
+      "Steam_Sale"
     ]
   },
   {
@@ -251,7 +263,7 @@
   {
     "tag": "<3",
     "items": [
-      "<3"
+      "Less_Than_Three"
     ]
   },
   {
@@ -362,7 +374,130 @@
   {
     "tag": "active",
     "items": [
-      "Schoolbag"
+      "Schoolbag",
+      "Broken_Shovel",
+      "The_Bible",
+      "The_Book_of_Belial",
+      "The_Necronomicon",
+      "The_Poop",
+      "Mr._Boom",
+      "Tammy's_Head",
+      "Mom's_Bra",
+      "Kamikaze!",
+      "Mom's_Pad",
+      "Bob's_Rotten_Head",
+      "Teleport!",
+      "Yum_Heart",
+      "Doctor's_Remote",
+      "Shoop_da_Whoop!",
+      "Lemon_Mishap",
+      "Book_of_Shadows",
+      "Anarchist_Cookbook",
+      "The_Hourglass",
+      "My_Little_Unicorn",
+      "Book_of_Revelations",
+      "The_Nail",
+      "We_Need_To_Go_Deeper!",
+      "Deck_of_Cards",
+      "Monstro's_Tooth",
+      "The_Gamekid",
+      "The_Book_of_Sin",
+      "Mom's_Bottle_of_Pills",
+      "The_D6",
+      "The_Pinking_Shears",
+      "The_Bean",
+      "Monster_Manual",
+      "Dead_Sea_Scrolls",
+      "Razor_Blade",
+      "Forget_Me_Now",
+      "A_Pony",
+      "Guppy's_Paw",
+      "IV_Bag",
+      "Best_Friend",
+      "Remote_Detonator",
+      "Guppy's_Head",
+      "Prayer_Card",
+      "Notched_Axe",
+      "Crystal_Ball",
+      "Crack_the_Sky",
+      "The_Candle",
+      "D20",
+      "Spider_Butt",
+      "Dad's_Key",
+      "Portable_Slot",
+      "White_Pony",
+      "Blood_Rights",
+      "Telepathy_For_Dummies",
+      "How_to_Jump",
+      "D100",
+      "D4",
+      "D10",
+      "Blank_Card",
+      "Book_of_Secrets",
+      "Box_of_Spiders",
+      "Red_Candle",
+      "The_Jar",
+      "Flush!",
+      "Satanic_Bible",
+      "Head_of_Krampus",
+      "Butter_Bean",
+      "Magic_Fingers",
+      "Converter",
+      "Pandora's_Box",
+      "Unicorn_Stump",
+      "Isaac's_Tears",
+      "Undefined",
+      "Scissors",
+      "Breath_of_Life",
+      "The_Boomerang",
+      "Diplopia",
+      "Placebo",
+      "Wooden_Nickel",
+      "Mega_Bean",
+      "Glass_Cannon",
+      "Box_of_Friends",
+      "Friendly_Ball",
+      "Tear_Detonator",
+      "D12",
+      "Ventricle_Razor",
+      "D8",
+      "Teleport_2.0",
+      "Kidney_Bean",
+      "Glowing_Hour_Glass",
+      "Mine_Crafter",
+      "Jar_of_Flies",
+      "D7",
+      "Mom's_Box",
+      "Mega_Blast",
+      "Plan_C",
+      "D1",
+      "Void",
+      "Pause",
+      "Smelter",
+      "Compost",
+      "Dataminer",
+      "Clicker",
+      "Mama_Mega!",
+      "Wait_What?",
+      "Crooked_Penny",
+      "Dull_Razor",
+      "Potato_Peeler",
+      "Metronome",
+      "D_infinity",
+      "Eden's_Soul",
+      "Brown_Nugget",
+      "Sharp_Straw",
+      "Delirious",
+      "Black_Hole",
+      "Mystery_Gift",
+      "Sprinkler",
+      "Coupon",
+      "Telekinesis",
+      "Moving_Box",
+      "Mr._ME!",
+      "Sacrificial_Altar",
+      "Book_of_the_Dead",
+      "Mom's_Shovel"
     ]
   },
   {
@@ -419,6 +554,12 @@
     "items": [
       "Ball_of_Bandages",
       "Friendly_Ball"
+    ]
+  },
+  {
+    "tag": "all-stats-up",
+    "items": [
+      "Magic_Mushroom"
     ]
   },
   {
@@ -568,13 +709,8 @@
   {
     "tag": "arrow",
     "items": [
-      "Cupid's_Arrow"
-    ]
-  },
-  {
-    "tag": "asdad",
-    "items": [
-      "The_Sad_Onion"
+      "Cupid's_Arrow",
+      "The_Compass"
     ]
   },
   {
@@ -702,7 +838,8 @@
       "Punching_Bag",
       "Rune_Bag",
       "IV_Bag",
-      "Bag_Lunch"
+      "Bag_Lunch",
+      "Dessert"
     ]
   },
   {
@@ -784,7 +921,8 @@
   {
     "tag": "bat",
     "items": [
-      "Bat_Wing"
+      "Bat_Wing",
+      "Charm_of_the_Vampire"
     ]
   },
   {
@@ -1021,7 +1159,12 @@
       "Black_Hole",
       "Black_Lipstick",
       "Black_Feather",
-      "Black_Tooth"
+      "Black_Tooth",
+      "The_Inner_Eye",
+      "Skatole",
+      "Wire_Coat_Hanger",
+      "Steven",
+      "Charm_of_the_Vampire"
     ]
   },
   {
@@ -1189,7 +1332,8 @@
     "tag": "blue",
     "items": [
       "Blue_Map",
-      "Blue_Cap"
+      "Blue_Cap",
+      "Mini_Mush"
     ]
   },
   {
@@ -1235,6 +1379,12 @@
     ]
   },
   {
+    "tag": "bolt",
+    "items": [
+      "The_Battery"
+    ]
+  },
+  {
     "tag": "bomb",
     "items": [
       "Bobby-Bomb",
@@ -1243,7 +1393,8 @@
       "Bomb_Bag",
       "Mr._Boom",
       "Bob's_Rotten_Head",
-      "Remote_Detonator"
+      "Remote_Detonator",
+      "Boom!"
     ]
   },
   {
@@ -1276,7 +1427,8 @@
       "Fast_Bombs",
       "Bomb_Bag",
       "Anarchist_Cookbook",
-      "Bob's_Bladder"
+      "Bob's_Bladder",
+      "Dr._Fetus"
     ]
   },
   {
@@ -1292,7 +1444,8 @@
       "Compound_Fracture",
       "Jaw_Bone",
       "Wish_Bone",
-      "Finger_Bone"
+      "Finger_Bone",
+      "Rotten_Meat"
     ]
   },
   {
@@ -1365,6 +1518,12 @@
     ]
   },
   {
+    "tag": "boots",
+    "items": [
+      "Mom's_Heels"
+    ]
+  },
+  {
     "tag": "bottle",
     "items": [
       "Mom's_Bottle_of_Pills"
@@ -1385,7 +1544,8 @@
   {
     "tag": "bow",
     "items": [
-      "Maggy's_Bow"
+      "Maggy's_Bow",
+      "Cupid's_Arrow"
     ]
   },
   {
@@ -1508,7 +1668,24 @@
       "Broken_Remote",
       "Broken_Magnet",
       "Broken_Ankh",
-      "Dim_Bulb"
+      "Dim_Bulb",
+      "Spoon_Bender",
+      "My_Reflection"
+    ]
+  },
+  {
+    "tag": "bronze",
+    "items": [
+      "Blood_of_the_Martyr",
+      "Raw_Liver",
+      "Lunch",
+      "Dinner",
+      "Dessert",
+      "Wooden_Spoon",
+      "The_Belt",
+      "The_Ladder",
+      "The_Battery",
+      "Chocolate_Milk"
     ]
   },
   {
@@ -1742,7 +1919,8 @@
   {
     "tag": "can",
     "items": [
-      "Black_Hole"
+      "Black_Hole",
+      "Dinner"
     ]
   },
   {
@@ -1837,8 +2015,9 @@
   {
     "tag": "cat",
     "items": [
-      "Cat-o-nine-tails",
-      "Dead_Cat"
+      "Cat-O-Nine-Tails",
+      "Dead_Cat",
+      "Cricket's_Head"
     ]
   },
   {
@@ -2058,6 +2237,12 @@
     "tag": "close",
     "items": [
       "Child_Leash"
+    ]
+  },
+  {
+    "tag": "closed",
+    "items": [
+      "Dr._Fetus"
     ]
   },
   {
@@ -2393,7 +2578,8 @@
       "Crown_Of_Light",
       "Dark_Princes_Crown",
       "Cracked_Crown",
-      "Bloody_Crown"
+      "Bloody_Crown",
+      "Blood_of_the_Martyr"
     ]
   },
   {
@@ -2405,7 +2591,8 @@
   {
     "tag": "crying",
     "items": [
-      "Linger_Bean"
+      "Linger_Bean",
+      "The_Sad_Onion"
     ]
   },
   {
@@ -2582,7 +2769,7 @@
       "The_Common_Cold",
       "Mr._Mega",
       "The_Wafer",
-      "Cat-o-nine-tails",
+      "Cat-O-Nine-Tails",
       "Jesus_Juice",
       "Cricket's_Body",
       "Infamy",
@@ -2592,6 +2779,14 @@
       "Spider_Butt",
       "Blood_Rights",
       "Blind_Rage"
+    ]
+  },
+  {
+    "tag": "damage-up",
+    "items": [
+      "Blood_of_the_Martyr",
+      "Pentagram",
+      "Mini_Mush"
     ]
   },
   {
@@ -2646,7 +2841,8 @@
       "Dead_Sea_Scrolls",
       "Book_of_the_Dead",
       "Isaac's_Head",
-      "Black_Tooth"
+      "Black_Tooth",
+      "Cricket's_Head"
     ]
   },
   {
@@ -2769,6 +2965,12 @@
     ]
   },
   {
+    "tag": "devil",
+    "items": [
+      "Pentagram"
+    ]
+  },
+  {
     "tag": "diaper",
     "items": [
       "Used_Diaper"
@@ -2865,7 +3067,9 @@
   {
     "tag": "dog",
     "items": [
-      "Dog_Tooth"
+      "Dog_Tooth",
+      "Dinner",
+      "Dessert"
     ]
   },
   {
@@ -2957,6 +3161,12 @@
     ]
   },
   {
+    "tag": "drink",
+    "items": [
+      "Chocolate_Milk"
+    ]
+  },
+  {
     "tag": "drips",
     "items": [
       "Bloody_Crown"
@@ -3008,6 +3218,12 @@
     "tag": "e",
     "items": [
       "E._Coli"
+    ]
+  },
+  {
+    "tag": "ears",
+    "items": [
+      "Cricket's_Head"
     ]
   },
   {
@@ -3225,7 +3441,8 @@
       "Lil_Brimstone",
       "Satanic_Bible",
       "Black_Lipstick",
-      "Daemon's_Tail"
+      "Daemon's_Tail",
+      "Pentagram"
     ]
   },
   {
@@ -3295,13 +3512,20 @@
       "Cain's_Other_Eye",
       "Bloodshot_Eye",
       "Pinky_Eye",
-      "Cain's_Eye"
+      "Cain's_Eye",
+      "Technology"
     ]
   },
   {
     "tag": "eyeball",
     "items": [
       "Pop!"
+    ]
+  },
+  {
+    "tag": "eyebrows",
+    "items": [
+      "Mom's_Eye"
     ]
   },
   {
@@ -3330,6 +3554,112 @@
     "tag": "faith's",
     "items": [
       "Maggy's_Faith"
+    ]
+  },
+  {
+    "tag": "familiar",
+    "items": [
+      "Brother_Bobby",
+      "Halo_of_Flies",
+      "1up!",
+      "Distant_Admiration",
+      "Sister_Maggy",
+      "Cube_of_Meat",
+      "Dead_Cat",
+      "Little_Chubby",
+      "Sack_of_Pennies",
+      "Robo-Baby",
+      "Little_C.H.A.D.",
+      "The_Relic",
+      "Little_Gish",
+      "Little_Steven",
+      "Guardian_Angel",
+      "Demon_Baby",
+      "Forever_alone",
+      "Bomb_Bag",
+      "Bum_Friend",
+      "The_Peeper",
+      "Ghost_Baby",
+      "Harlequin_Baby",
+      "Daddy_Longlegs",
+      "Sacrificial_Dagger",
+      "Rainbow_Baby",
+      "Holy_Water",
+      "Guppy's_Hairball",
+      "Abel",
+      "Guillotine",
+      "Ball_of_Bandages",
+      "Key_Piece_1",
+      "Key_Piece_2",
+      "Smart_Fly",
+      "Dry_Baby",
+      "Juicy_Sack",
+      "Robo-Baby_2.0",
+      "Rotten_Baby",
+      "Headless_Baby",
+      "Leech",
+      "Mystery_Sack",
+      "BBF",
+      "Bob's_Brain",
+      "Best_Bud",
+      "Lil_Brimstone",
+      "Isaac's_Heart",
+      "Lil_Haunt",
+      "Dark_Bum",
+      "Big_Fan",
+      "Sissy_Longlegs",
+      "Punching_Bag",
+      "Gemini",
+      "Cain's_Other_Eye",
+      "???'s_Only_Friend",
+      "Samson's_Chains",
+      "Mongo_Baby",
+      "Incubus",
+      "Fate's_Reward",
+      "Lil_Chest",
+      "Sworn_Protector",
+      "Friend_Zone",
+      "Lost_Fly",
+      "Charged_Baby",
+      "Lil_Gurdy",
+      "Bumbo",
+      "Censer",
+      "Key_Bum",
+      "Rune_Bag",
+      "Seraphim",
+      "Spider_Mod",
+      "Farting_Baby",
+      "GB_Bug",
+      "Succubus",
+      "Obsessed_Fan",
+      "Papa_Fly",
+      "Multidimensional_Baby",
+      "Lil_Loki",
+      "Milk!",
+      "Finger!",
+      "Shade",
+      "Depression",
+      "Hushy",
+      "Lil_Monstro",
+      "King_Baby",
+      "Big_Chubby",
+      "Acid_Baby",
+      "YO_LISTEN!",
+      "Sack_of_Sacks",
+      "Mom's_Razor",
+      "Bloodshot_Eye",
+      "Angry_Fly",
+      "Buddy_in_a_Box",
+      "Lil_Delirium",
+      "Leprosy",
+      "7_Seals",
+      "Angelic_Prism",
+      "Lil_Spewer",
+      "Mystery_Egg",
+      "Slipped_Rib",
+      "Hallowed_Ground",
+      "Pointy_Rib",
+      "Jaw_Bone"
     ]
   },
   {
@@ -3587,7 +3917,9 @@
     "tag": "flesh",
     "items": [
       "God's_Flesh",
-      "Potato_Peeler"
+      "Potato_Peeler",
+      "Raw_Liver",
+      "Lucky_Foot"
     ]
   },
   {
@@ -3596,7 +3928,8 @@
       "Hive_Mind",
       "Halo_of_Flies",
       "Jar_of_Flies",
-      "Rotten_Penny"
+      "Rotten_Penny",
+      "Breakfast"
     ]
   },
   {
@@ -3629,6 +3962,12 @@
     ]
   },
   {
+    "tag": "fluid",
+    "items": [
+      "Chocolate_Milk"
+    ]
+  },
+  {
     "tag": "flush!",
     "items": [
       "Flush!"
@@ -3647,7 +3986,15 @@
       "Papa_Fly",
       "Angry_Fly",
       "Guppy's_Head",
-      "Brown_Nugget"
+      "Brown_Nugget",
+      "Lunch",
+      "Breakfast"
+    ]
+  },
+  {
+    "tag": "flybane",
+    "items": [
+      "Magic_Mushroom"
     ]
   },
   {
@@ -3848,10 +4195,22 @@
     ]
   },
   {
+    "tag": "gaben",
+    "items": [
+      "Steam_Sale"
+    ]
+  },
+  {
     "tag": "gain",
     "items": [
       "Crown_Of_Light",
       "Compost"
+    ]
+  },
+  {
+    "tag": "gallows",
+    "items": [
+      "Transcendence"
     ]
   },
   {
@@ -3965,7 +4324,10 @@
     "items": [
       "Shard_of_Glass",
       "Glass_Cannon",
-      "Glowing_Hour_Glass"
+      "Glowing_Hour_Glass",
+      "My_Reflection",
+      "Dr._Fetus",
+      "Chocolate_Milk"
     ]
   },
   {
@@ -4109,6 +4471,15 @@
     ]
   },
   {
+    "tag": "gray",
+    "items": [
+      "Boom!",
+      "Lunch",
+      "Mom's_Lipstick",
+      "Cupid's_Arrow"
+    ]
+  },
+  {
     "tag": "greed",
     "items": [
       "Eye_of_Greed",
@@ -4126,6 +4497,14 @@
     "items": [
       "Bum_Friend",
       "Rib_of_Greed"
+    ]
+  },
+  {
+    "tag": "green",
+    "items": [
+      "The_Sad_Onion",
+      "Roid_Rage",
+      "A_Dollar"
     ]
   },
   {
@@ -4282,6 +4661,12 @@
     ]
   },
   {
+    "tag": "hanged",
+    "items": [
+      "Transcendence"
+    ]
+  },
+  {
     "tag": "hanger",
     "items": [
       "Wire_Coat_Hanger"
@@ -4411,6 +4796,18 @@
     ]
   },
   {
+    "tag": "health-up",
+    "items": [
+      "Less_Than_Three",
+      "Raw_Liver",
+      "Lunch",
+      "Dinner",
+      "Dessert",
+      "Breakfast",
+      "Rotten_Meat"
+    ]
+  },
+  {
     "tag": "healthy",
     "items": [
       "Maggy's_Bow"
@@ -4424,7 +4821,9 @@
       "Yum_Heart",
       "Purple_Heart",
       "Child's_Heart",
-      "Crow_Heart"
+      "Crow_Heart",
+      "Skatole",
+      "Less_Than_Three"
     ]
   },
   {
@@ -4585,7 +4984,7 @@
   {
     "tag": "hp",
     "items": [
-      "<3",
+      "Less_Than_Three",
       "Raw_Liver",
       "Lunch",
       "Dinner",
@@ -4695,6 +5094,12 @@
     "tag": "immunity",
     "items": [
       "Black_Candle"
+    ]
+  },
+  {
+    "tag": "imprisoned",
+    "items": [
+      "Dr._Fetus"
     ]
   },
   {
@@ -4933,7 +5338,8 @@
     "tag": "jar",
     "items": [
       "The_Jar",
-      "Jar_of_Flies"
+      "Jar_of_Flies",
+      "Dr._Fetus"
     ]
   },
   {
@@ -4945,7 +5351,8 @@
   {
     "tag": "jesus",
     "items": [
-      "Jesus_Juice"
+      "Jesus_Juice",
+      "Blood_of_the_Martyr"
     ]
   },
   {
@@ -5100,6 +5507,12 @@
     ]
   },
   {
+    "tag": "knot",
+    "items": [
+      "Transcendence"
+    ]
+  },
+  {
     "tag": "know",
     "items": [
       "The_Mind"
@@ -5225,6 +5638,12 @@
     ]
   },
   {
+    "tag": "leg",
+    "items": [
+      "Lucky_Foot"
+    ]
+  },
+  {
     "tag": "lemon",
     "items": [
       "Lemon_Mishap"
@@ -5306,6 +5725,12 @@
     ]
   },
   {
+    "tag": "lightning",
+    "items": [
+      "The_Battery"
+    ]
+  },
+  {
     "tag": "like",
     "items": [
       "Match_Stick"
@@ -5344,7 +5769,8 @@
   {
     "tag": "liquid",
     "items": [
-      "Mysterious_Liquid"
+      "Mysterious_Liquid",
+      "Number_One"
     ]
   },
   {
@@ -5514,6 +5940,12 @@
     ]
   },
   {
+    "tag": "luck-up",
+    "items": [
+      "Lucky_Foot"
+    ]
+  },
+  {
     "tag": "lucky",
     "items": [
       "Lucky_Foot",
@@ -5655,7 +6087,8 @@
     "tag": "map",
     "items": [
       "Treasure_Map",
-      "Blue_Map"
+      "Blue_Map",
+      "The_Compass"
     ]
   },
   {
@@ -5766,13 +6199,20 @@
     "tag": "meat",
     "items": [
       "Rotten_Meat",
-      "Cube_of_Meat"
+      "Cube_of_Meat",
+      "Raw_Liver"
     ]
   },
   {
     "tag": "meat!",
     "items": [
       "MEAT!"
+    ]
+  },
+  {
+    "tag": "mechanism",
+    "items": [
+      "Technology"
     ]
   },
   {
@@ -5812,7 +6252,8 @@
   {
     "tag": "metal",
     "items": [
-      "Metal_Plate"
+      "Metal_Plate",
+      "Spoon_Bender"
     ]
   },
   {
@@ -5872,6 +6313,12 @@
     "tag": "mini",
     "items": [
       "Mini_Mush"
+    ]
+  },
+  {
+    "tag": "mirror",
+    "items": [
+      "My_Reflection"
     ]
   },
   {
@@ -5952,7 +6399,8 @@
       "Money_=_Power",
       "Pay_To_Play",
       "Greed's_Gullet",
-      "Sack_of_Pennies"
+      "Sack_of_Pennies",
+      "A_Dollar"
     ]
   },
   {
@@ -6011,6 +6459,12 @@
       "Sack_Head",
       "Compost",
       "Sharp_Straw"
+    ]
+  },
+  {
+    "tag": "mouth",
+    "items": [
+      "Steven"
     ]
   },
   {
@@ -6196,7 +6650,7 @@
   {
     "tag": "nine",
     "items": [
-      "Cat-o-nine-tails"
+      "Cat-O-Nine-Tails"
     ]
   },
   {
@@ -6274,7 +6728,7 @@
   {
     "tag": "o",
     "items": [
-      "Cat-o-nine-tails"
+      "Cat-O-Nine-Tails"
     ]
   },
   {
@@ -6562,6 +7016,18 @@
     ]
   },
   {
+    "tag": "panties",
+    "items": [
+      "Mom's_Underwear"
+    ]
+  },
+  {
+    "tag": "pants",
+    "items": [
+      "Mom's_Underwear"
+    ]
+  },
+  {
     "tag": "papa",
     "items": [
       "Papa_Fly"
@@ -6571,7 +7037,8 @@
     "tag": "paper",
     "items": [
       "Paper_Clip",
-      "Mysterious_Paper"
+      "Mysterious_Paper",
+      "Treasure_Map"
     ]
   },
   {
@@ -6596,6 +7063,330 @@
     "tag": "party",
     "items": [
       "Bozo"
+    ]
+  },
+  {
+    "tag": "passive",
+    "items": [
+      "The_Sad_Onion",
+      "The_Inner_Eye",
+      "Spoon_Bender",
+      "Cricket's_Head",
+      "My_Reflection",
+      "Number_One",
+      "Blood_of_the_Martyr",
+      "Skatole",
+      "Magic_Mushroom",
+      "The_Virus",
+      "Roid_Rage",
+      "Less_Than_Three",
+      "Raw_Liver",
+      "Skeleton_Key",
+      "A_Dollar",
+      "Boom!",
+      "Transcendence",
+      "The_Compass",
+      "Lunch",
+      "Dinner",
+      "Dessert",
+      "Breakfast",
+      "Rotten_Meat",
+      "Wooden_Spoon",
+      "The_Belt",
+      "Mom's_Underwear",
+      "Mom's_Heels",
+      "Mom's_Lipstick",
+      "Wire_Coat_Hanger",
+      "Lucky_Foot",
+      "Cupid's_Arrow",
+      "Steven",
+      "Pentagram",
+      "Dr._Fetus",
+      "Magneto",
+      "Treasure_Map",
+      "Mom's_Eye",
+      "The_Ladder",
+      "Charm_of_the_Vampire",
+      "The_Battery",
+      "Steam_Sale",
+      "Technology",
+      "Chocolate_Milk",
+      "Growth_Hormones",
+      "Mini_Mush",
+      "Rosary",
+      "A_Quarter",
+      "PHD",
+      "X-Ray_Vision",
+      "The_Mark",
+      "The_Pact",
+      "Lord_of_the_Pit",
+      "Loki's_Horns",
+      "Spider_Bite",
+      "The_Small_Rock",
+      "Spelunker_Hat",
+      "Super_Bandage",
+      "The_Halo",
+      "The_Common_Cold",
+      "The_Parasite",
+      "Mr._Mega",
+      "The_Wafer",
+      "Money_=_Power",
+      "Mom's_Contacts",
+      "Mom's_Knife",
+      "Ouija_Board",
+      "9_Volt",
+      "Dead_Bird",
+      "Brimstone",
+      "Blood_Bag",
+      "Odd_Mushroom",
+      "Whore_of_Babylon",
+      "Bobby-Bomb",
+      "Bucket_of_Lard",
+      "A_Lump_of_Coal",
+      "Guppy's_Tail",
+      "Stigmata",
+      "Mom's_Purse",
+      "Bob's_Curse",
+      "Pageant_Boy",
+      "Scapular",
+      "Speed_Ball",
+      "Infestation",
+      "Ipecac",
+      "Tough_Love",
+      "The_Mulligan",
+      "Technology_2",
+      "Mutant_Spider",
+      "Chemical_Peel",
+      "Habit",
+      "Bloody_Lust",
+      "Spirit_of_the_Night",
+      "Ankh",
+      "Celtic_Cross",
+      "Cat-O-Nine-Tails",
+      "Epic_Fetus",
+      "Polyphemus",
+      "Mitre",
+      "Stem_Cells",
+      "Fate",
+      "The_Black_Bean",
+      "Sacred_Heart",
+      "Tooth_Picks",
+      "Holy_Grail",
+      "Dead_Dove",
+      "SMB_Super_Fan",
+      "Pyro",
+      "3_Dollar_Bill",
+      "MEAT!",
+      "Magic_8_Ball",
+      "Mom's_Coin_Purse",
+      "Squeezy",
+      "Jesus_Juice",
+      "Box",
+      "Mom's_Key",
+      "Mom's_Eyeshadow",
+      "Iron_Bar",
+      "Midas'_Touch",
+      "Humbleing_Bundle",
+      "Fanny_Pack",
+      "Sharp_Plug",
+      "Champion_Belt",
+      "Butt_Bombs",
+      "Gnawed_Leaf",
+      "Spider_Baby",
+      "Guppy's_Collar",
+      "Lost_Contact",
+      "Anemic",
+      "Goat_Head",
+      "Ceremonial_Robes",
+      "Mom's_Wig",
+      "Placenta",
+      "Old_Bandage",
+      "Sad_Bombs",
+      "Rubber_Cement",
+      "Anti-Gravity",
+      "Pyromaniac",
+      "Cricket's_Body",
+      "Gimpy",
+      "Black_Lotus",
+      "Piggy_Bank",
+      "Mom's_Perfume",
+      "Monstro's_Lung",
+      "Abaddon",
+      "Ball_of_Tar",
+      "Stop_Watch",
+      "Tiny_Planet",
+      "Infestation_2",
+      "E._Coli",
+      "Death's_Touch",
+      "Experimental_Treatment",
+      "Contract_from_Below",
+      "Infamy",
+      "Trinity_Shield",
+      "Tech.5",
+      "20/20",
+      "Blue_Map",
+      "BFFS!",
+      "Hive_Mind",
+      "There's_Options",
+      "BOGO_Bombs",
+      "Starter_Deck",
+      "Little_Baggy",
+      "Magic_Scab",
+      "Blood_Clot",
+      "Screw",
+      "Hot_Bombs",
+      "Fire_Mind",
+      "Missing_No.",
+      "Dark_Matter",
+      "Black_Candle",
+      "Proptosis",
+      "Missing_Page_2",
+      "Taurus",
+      "Aries",
+      "Leo",
+      "Virgo",
+      "Libra",
+      "Scorpio",
+      "Sagittarius",
+      "Capricorn",
+      "Aquarius",
+      "Pisces",
+      "Eve's_Mascara",
+      "Judas'_Shadow",
+      "Maggy's_Bow",
+      "Holy_Mantle",
+      "Thunder_Thighs",
+      "Strange_Attractor",
+      "Cursed_Eye",
+      "Mysterious_Liquid",
+      "The_Polaroid",
+      "The_Negative",
+      "The_Ludovico_Technique",
+      "Soy_Milk",
+      "Godhead",
+      "Lazarus'_Rags",
+      "The_Mind",
+      "The_Body",
+      "The_Soul",
+      "Dead_Onion",
+      "Broken_Watch",
+      "Safety_Pin",
+      "Caffeine_Pill",
+      "Torn_Photo",
+      "Blue_Cap",
+      "Latch_Key",
+      "Match_Book",
+      "Synthoil",
+      "A_Snack",
+      "Toxic_Shock",
+      "Bomber_Boy",
+      "Crack_Jacks",
+      "Mom's_Pearls",
+      "Car_Battery",
+      "The_Wiz",
+      "8_Inch_Nails",
+      "Scatter_Bombs",
+      "Sticky_Bombs",
+      "Epiphora",
+      "Continuum",
+      "Mr._Dolly",
+      "Curse_of_the_Tower",
+      "Dead_Eye",
+      "Holy_Light",
+      "Host_Hat",
+      "Restock",
+      "Bursting_Sack",
+      "No._2",
+      "Pupula_Duplex",
+      "Pay_To_Play",
+      "Eden's_Blessing",
+      "Betrayal",
+      "Zodiac",
+      "Serpent's_Kiss",
+      "Marked",
+      "Tech_X",
+      "Tractor_Beam",
+      "God's_Flesh",
+      "Maw_Of_The_Void",
+      "Spear_Of_Destiny",
+      "Explosivo",
+      "Chaos",
+      "Purity",
+      "Athame",
+      "Empty_Vessel",
+      "Evil_Eye",
+      "Lusty_Blood",
+      "Cambion_Conception",
+      "Immaculate_Conception",
+      "More_Options",
+      "Crown_Of_Light",
+      "Deep_Pockets",
+      "Fruit_Cake",
+      "Black_Powder",
+      "Circle_of_Protection",
+      "Sack_Head",
+      "Night_Light",
+      "PJs",
+      "Head_of_the_Keeper",
+      "Glitter_Bombs",
+      "My_Shadow",
+      "Binky",
+      "Kidney_Stone",
+      "Dark_Princes_Crown",
+      "Apple!",
+      "Lead_Pencil",
+      "Dog_Tooth",
+      "Dead_Tooth",
+      "Linger_Bean",
+      "Shard_of_Glass",
+      "Metal_Plate",
+      "Eye_of_Greed",
+      "Tarot_Cloth",
+      "Varicose_Veins",
+      "Compound_Fracture",
+      "Polydactyly",
+      "Dad's_Lost_Coin",
+      "Moldy_Bread",
+      "Cone_Head",
+      "Belly_Button",
+      "Sinus_Infection",
+      "Glaucoma",
+      "Parasitoid",
+      "Eye_of_Belial",
+      "Sulfuric_Acid",
+      "Glyph_of_Balance",
+      "Analog_Stick",
+      "Contagion",
+      "Adrenaline",
+      "Jacob's_Ladder",
+      "Ghost_Pepper",
+      "Euthanasia",
+      "Camo_Undies",
+      "Duality",
+      "Eucharist",
+      "Greed's_Gullet",
+      "Large_Zit",
+      "Little_Horn",
+      "Poke_Go",
+      "BackStabber",
+      "Bozo",
+      "Broken_Modem",
+      "Fast_Bombs",
+      "Jumper_Cables",
+      "Technology_Zero",
+      "Pop!",
+      "Death's_List",
+      "Haemolacria",
+      "Lachryphagy",
+      "Trisagion",
+      "Schoolbag",
+      "Blanket",
+      "Marbles",
+      "Flat_Stone",
+      "Marrow",
+      "Dad's_Ring",
+      "Divorce_Papers",
+      "Brittle_Bones"
     ]
   },
   {
@@ -6815,6 +7606,15 @@
     "items": [
       "Safety_Pin",
       "Push_Pin"
+    ]
+  },
+  {
+    "tag": "pink",
+    "items": [
+      "Mom's_Underwear",
+      "Lucky_Foot",
+      "Dr._Fetus",
+      "Growth_Hormones"
     ]
   },
   {
@@ -7146,6 +7946,12 @@
     ]
   },
   {
+    "tag": "pull",
+    "items": [
+      "Magneto"
+    ]
+  },
+  {
     "tag": "pulls",
     "items": [
       "Super_Magnet"
@@ -7164,6 +7970,12 @@
     ]
   },
   {
+    "tag": "pupil",
+    "items": [
+      "Mom's_Eye"
+    ]
+  },
+  {
     "tag": "pupula",
     "items": [
       "Pupula_Duplex"
@@ -7179,7 +7991,8 @@
   {
     "tag": "purple",
     "items": [
-      "Purple_Heart"
+      "Purple_Heart",
+      "Growth_Hormones"
     ]
   },
   {
@@ -7295,6 +8108,14 @@
     ]
   },
   {
+    "tag": "range-up",
+    "items": [
+      "Roid_Rage",
+      "Mom's_Underwear",
+      "Mom's_Heels"
+    ]
+  },
+  {
     "tag": "ranged",
     "items": [
       "Bob's_Rotten_Head"
@@ -7350,7 +8171,19 @@
     "items": [
       "Haemolacria",
       "Red_Candle",
-      "Red_Patch"
+      "Red_Patch",
+      "Skatole",
+      "Magic_Mushroom",
+      "The_Virus",
+      "Raw_Liver",
+      "The_Compass",
+      "Mom's_Heels",
+      "Mom's_Lipstick",
+      "Cupid's_Arrow",
+      "Pentagram",
+      "Magneto",
+      "Mom's_Eye",
+      "Steam_Sale"
     ]
   },
   {
@@ -7444,6 +8277,12 @@
     ]
   },
   {
+    "tag": "retina",
+    "items": [
+      "Mom's_Eye"
+    ]
+  },
+  {
     "tag": "reusable",
     "items": [
       "Mr._Boom",
@@ -7472,7 +8311,7 @@
   {
     "tag": "revenge",
     "items": [
-      "Spiderbaby",
+      "Spider_Baby",
       "Judas'_Shadow",
       "Smart_Fly",
       "Eve's_Bird_Foot"
@@ -7593,6 +8432,14 @@
     ]
   },
   {
+    "tag": "round",
+    "items": [
+      "The_Inner_Eye",
+      "Skatole",
+      "Wooden_Spoon"
+    ]
+  },
+  {
     "tag": "rubber",
     "items": [
       "Rubber_Cement"
@@ -7697,12 +8544,6 @@
     "tag": "sale",
     "items": [
       "Steam_Sale"
-    ]
-  },
-  {
-    "tag": "sampletag2",
-    "items": [
-      "The_Inner_Eye"
     ]
   },
   {
@@ -7957,9 +8798,16 @@
     ]
   },
   {
+    "tag": "shit",
+    "items": [
+      "Lunch"
+    ]
+  },
+  {
     "tag": "shock",
     "items": [
-      "Toxic_Shock"
+      "Toxic_Shock",
+      "The_Battery"
     ]
   },
   {
@@ -7989,7 +8837,7 @@
       "Speed_Ball",
       "Tough_Love",
       "Mutant_Spider",
-      "Cat-o-nine-tails",
+      "Cat-O-Nine-Tails",
       "Tooth_Picks",
       "Magic_8_Ball",
       "Mom's_Perfume",
@@ -8020,6 +8868,14 @@
       "God's_Flesh",
       "Explosivo",
       "Evil_Eye"
+    ]
+  },
+  {
+    "tag": "shot-height",
+    "items": [
+      "Roid_Rage",
+      "Mom's_Underwear",
+      "Mom's_Heels"
     ]
   },
   {
@@ -8069,7 +8925,14 @@
   {
     "tag": "silver",
     "items": [
-      "Silver_Dollar"
+      "Silver_Dollar",
+      "Spoon_Bender",
+      "My_Reflection",
+      "Skeleton_Key",
+      "Dinner",
+      "The_Belt",
+      "The_Battery",
+      "Technology"
     ]
   },
   {
@@ -8104,6 +8967,12 @@
     ]
   },
   {
+    "tag": "size-down",
+    "items": [
+      "Mini_Mush"
+    ]
+  },
+  {
     "tag": "skatole",
     "items": [
       "Skatole"
@@ -8130,7 +8999,8 @@
   {
     "tag": "skull",
     "items": [
-      "Cursed_Skull"
+      "Cursed_Skull",
+      "Skeleton_Key"
     ]
   },
   {
@@ -8273,7 +9143,7 @@
       "Growth_Hormones",
       "Mini_Mush",
       "Speed_Ball",
-      "Cat-o-nine-tails",
+      "Cat-O-Nine-Tails",
       "Tooth_Picks",
       "Magic_8_Ball",
       "Screw",
@@ -8290,6 +9160,14 @@
     ]
   },
   {
+    "tag": "speed-up",
+    "items": [
+      "Roid_Rage",
+      "Wooden_Spoon",
+      "Mini_Mush"
+    ]
+  },
+  {
     "tag": "spelunker",
     "items": [
       "Spelunker_Hat"
@@ -8302,11 +9180,19 @@
     ]
   },
   {
+    "tag": "sphere",
+    "items": [
+      "The_Inner_Eye",
+      "Skatole",
+      "Wooden_Spoon"
+    ]
+  },
+  {
     "tag": "spider",
     "items": [
       "Spider_Bite",
       "Mutant_Spider",
-      "Spiderbaby",
+      "Spider_Baby",
       "Bursting_Sack",
       "Spider_Mod",
       "Spider_Butt"
@@ -8315,7 +9201,7 @@
   {
     "tag": "spiderbaby",
     "items": [
-      "Spiderbaby"
+      "Spider_Baby"
     ]
   },
   {
@@ -8323,6 +9209,12 @@
     "items": [
       "Hive_Mind",
       "Box_of_Spiders"
+    ]
+  },
+  {
+    "tag": "spikes",
+    "items": [
+      "Blood_of_the_Martyr"
     ]
   },
   {
@@ -8379,6 +9271,13 @@
     "tag": "sprinkles",
     "items": [
       "Sprinkler"
+    ]
+  },
+  {
+    "tag": "spun-set",
+    "items": [
+      "The_Virus",
+      "Roid_Rage"
     ]
   },
   {
@@ -8461,7 +9360,8 @@
     "items": [
       "8_Inch_Nails",
       "Analog_Stick",
-      "Match_Stick"
+      "Match_Stick",
+      "Wooden_Spoon"
     ]
   },
   {
@@ -8706,9 +9606,11 @@
     ]
   },
   {
-    "tag": "tag1",
+    "tag": "syringe",
     "items": [
-      "The_Sad_Onion"
+      "The_Virus",
+      "Roid_Rage",
+      "Growth_Hormones"
     ]
   },
   {
@@ -8722,7 +9624,7 @@
   {
     "tag": "tails",
     "items": [
-      "Cat-o-nine-tails"
+      "Cat-O-Nine-Tails"
     ]
   },
   {
@@ -8785,7 +9687,8 @@
     "items": [
       "Sad_Bombs",
       "Tammy's_Head",
-      "Tear_Detonator"
+      "Tear_Detonator",
+      "Number_One"
     ]
   },
   {
@@ -8857,6 +9760,12 @@
       "Eye_of_Belial",
       "Sulfuric_Acid",
       "Analog_Stick"
+    ]
+  },
+  {
+    "tag": "tears-up",
+    "items": [
+      "Wire_Coat_Hanger"
     ]
   },
   {
@@ -9100,6 +10009,12 @@
     ]
   },
   {
+    "tag": "thorns",
+    "items": [
+      "Blood_of_the_Martyr"
+    ]
+  },
+  {
     "tag": "thoughts",
     "items": [
       "Bob's_Brain"
@@ -9129,6 +10044,12 @@
     "tag": "tick",
     "items": [
       "Tick"
+    ]
+  },
+  {
+    "tag": "ticket",
+    "items": [
+      "Steam_Sale"
     ]
   },
   {
@@ -9168,6 +10089,13 @@
       "Blind_Rage",
       "Walnut",
       "Pay_To_Win"
+    ]
+  },
+  {
+    "tag": "toadstool",
+    "items": [
+      "Magic_Mushroom",
+      "Mini_Mush"
     ]
   },
   {
@@ -9273,7 +10201,8 @@
   {
     "tag": "trail",
     "items": [
-      "Aquarius"
+      "Aquarius",
+      "Treasure_Map"
     ]
   },
   {
@@ -9328,7 +10257,134 @@
     "tag": "trinket",
     "items": [
       "Mom's_Purse",
-      "Smelter"
+      "Cancer",
+      "Tonsil",
+      "Smelter",
+      "Swallowed_Penny",
+      "Petrified_Poop",
+      "AAA_Battery",
+      "Broken_Remote",
+      "Purple_Heart",
+      "Broken_Magnet",
+      "Rosary_Bead",
+      "Cartridge",
+      "Pulse_Worm",
+      "Wiggle_Worm",
+      "Ring_Worm",
+      "Flat_Worm",
+      "Store_Credit",
+      "Callus",
+      "Lucky_Rock",
+      "Mom's_Toenail",
+      "Black_Lipstick",
+      "Bible_Tract",
+      "Paper_Clip",
+      "Monkey_Paw",
+      "Mysterious_Paper",
+      "Daemon's_Tail",
+      "Missing_Poster",
+      "Butt_Penny",
+      "Mysterious_Candy",
+      "Hook_Worm",
+      "Whip_Worm",
+      "Broken_Ankh",
+      "Fish_Head",
+      "Pinky_Eye",
+      "Push_Pin",
+      "Liberty_Cap",
+      "Umbilical_Cord",
+      "Child's_Heart",
+      "Curved_Horn",
+      "Rusted_Key",
+      "Goat_Hoof",
+      "Mom's_Pearl",
+      "Red_Patch",
+      "Match_Stick",
+      "Lucky_Toe",
+      "Cursed_Skull",
+      "Safety_Cap",
+      "Ace_of_Spades",
+      "Isaac's_Fork",
+      "A_Missing_Page",
+      "Bloody_Penny",
+      "Burnt_Penny",
+      "Flat_Penny",
+      "Counterfeit_Penny",
+      "Tick",
+      "Isaac's_Head",
+      "Maggy's_Faith",
+      "Judas'_Tongue",
+      "???'s_Soul",
+      "Samson's_Lock",
+      "Cain's_Eye",
+      "Eve's_Bird_Foot",
+      "The_Left_Hand",
+      "Shiny_Rock",
+      "Safety_Scissors",
+      "Rainbow_Worm",
+      "Tape_Worm",
+      "Lazy_Worm",
+      "Cracked_Dice",
+      "Super_Magnet",
+      "Faded_Polaroid",
+      "Louse",
+      "Bob's_Bladder",
+      "Watch_Battery",
+      "Blasting_Cap",
+      "Stud_Finder",
+      "Error",
+      "Poker_Chip",
+      "Blister",
+      "Second_Hand",
+      "Endless_Nameless",
+      "Black_Feather",
+      "Blind_Rage",
+      "Golden_Horse_Shoe",
+      "Store_Key",
+      "Rib_of_Greed",
+      "Karma",
+      "Lil_Larva",
+      "Mom's_Locket",
+      "NO!",
+      "Child_Leash",
+      "Brown_Cap",
+      "Meconium",
+      "Cracked_Crown",
+      "Used_Diaper",
+      "Fish_Tail",
+      "Black_Tooth",
+      "Ouroboros_Worm",
+      "Nose_Goblin",
+      "Super_Ball",
+      "Vibrant_Bulb",
+      "Dim_Bulb",
+      "Fragmented_Card",
+      "Equality!",
+      "Wish_Bone",
+      "Bag_Lunch",
+      "Lost_Cork",
+      "Crow_Heart",
+      "Walnut",
+      "Duct_Tape",
+      "Silver_Dollar",
+      "Bloody_Crown",
+      "Pay_To_Win",
+      "Locust_of_War",
+      "Locust_of_Pestilence",
+      "Locust_of_Famine",
+      "Locust_of_Death",
+      "Locust_of_Conquest",
+      "Bat_Wing",
+      "Stem_Cell",
+      "Hairpin",
+      "Wooden_Cross",
+      "Butter!",
+      "Filigree_Feather",
+      "Door_Stop",
+      "Extension_Cord",
+      "Rotten_Penny",
+      "Baby-Bender",
+      "Finger_Bone"
     ]
   },
   {
@@ -9341,6 +10397,12 @@
     "tag": "trisagion",
     "items": [
       "Trisagion"
+    ]
+  },
+  {
+    "tag": "tube",
+    "items": [
+      "Mom's_Lipstick"
     ]
   },
   {
@@ -9445,7 +10507,7 @@
       "Number_One",
       "Blood_of_the_Martyr",
       "Roid_Rage",
-      "<3",
+      "Less_Than_Three",
       "Raw_Liver",
       "Lunch",
       "Dinner",
@@ -9475,7 +10537,7 @@
       "Stigmata",
       "Speed_Ball",
       "Chemical_Peel",
-      "Cat-o-nine-tails",
+      "Cat-O-Nine-Tails",
       "Stem_Cells",
       "Sacred_Heart",
       "Tooth_Picks",
@@ -9788,7 +10850,17 @@
     "tag": "white",
     "items": [
       "Crack_the_Sky",
-      "White_Pony"
+      "White_Pony",
+      "The_Sad_Onion",
+      "The_Inner_Eye",
+      "Magic_Mushroom",
+      "Breakfast",
+      "Rotten_Meat",
+      "Steven",
+      "Treasure_Map",
+      "Mom's_Eye",
+      "Steam_Sale",
+      "Mini_Mush"
     ]
   },
   {
@@ -9845,7 +10917,8 @@
   {
     "tag": "wings",
     "items": [
-      "Lord_of_the_Pit"
+      "Lord_of_the_Pit",
+      "Charm_of_the_Vampire"
     ]
   },
   {
@@ -9961,7 +11034,14 @@
     "tag": "x",
     "items": [
       "X-Ray_Vision",
-      "Tech_X"
+      "Tech_X",
+      "Treasure_Map"
+    ]
+  },
+  {
+    "tag": "x10",
+    "items": [
+      "Boom!"
     ]
   },
   {
@@ -9989,9 +11069,27 @@
     ]
   },
   {
+    "tag": "yellow",
+    "items": [
+      "Cricket's_Head",
+      "Number_One",
+      "The_Compass",
+      "Breakfast",
+      "Rotten_Meat"
+    ]
+  },
+  {
     "tag": "yes!",
     "items": [
       "Store_Credit"
+    ]
+  },
+  {
+    "tag": "yes-mother",
+    "items": [
+      "Mom's_Underwear",
+      "Mom's_Heels",
+      "Mom's_Eye"
     ]
   },
   {
