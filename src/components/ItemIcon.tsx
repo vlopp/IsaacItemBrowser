@@ -1,5 +1,5 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core";
+import React, { useRef } from "react";
+import { makeStyles, useMediaQuery, useTheme } from "@material-ui/core";
 import {
   items as itemsImport,
   sprites as spritesImport
@@ -29,8 +29,15 @@ const useStyles = makeStyles(theme => ({
     width: `32px`,
     transform: `scale(${props.scale})`,
     margin: `${props.scale * 16 - 16}px`,
-    imageRendering: ("pixelated" as any),
-    display: "inline-block"
+    imageRendering: "pixelated" as any,
+    display: "inline-block",
+    transition: "transform 0.07s",
+    transitionTimingFunction: "ease-out",
+    "&:hover": {
+      transform: `scale(${props.scale * 1.5})`,
+      transitionTimingFunction: "ease-out",
+      transition: "transform 0.07s"
+    }
   })
 }));
 
@@ -38,24 +45,48 @@ const ItemIcon = (props: ItemIconProps) => {
   const { itemName, scale, ...rest } = props;
   const styles = useStyles({ itemName, scale: scale || defaultScale });
 
+  const theme = useTheme();
+  const isXs = useMediaQuery(theme.breakpoints.down("xs"));
+
   const dispatch = useDispatch();
-  const onClickOrHoverHandle = e => {
+  const onMouseDownHandle = e => {
     dispatch(describeItem(itemName));
   };
 
-  const onAuxClickHandle = (e) => {
-    e.preventDefault();
+  const wikiOpen = () => {
     window.open(
-      `https://bindingofisaacrebirth.gamepedia.com/${items[itemName].encodedName}`,
+      `https://bindingofisaacrebirth.gamepedia.com/${itemName}`,
       "_blank"
     );
   };
 
+  const onAuxClickHandle = e => {
+    e.preventDefault();
+    wikiOpen();
+  };
+
+  const maxDoubleTapInterval = 300; // ms
+  const lastTapped = useRef(0);
+  const onLostPointerCaptureHandle = e => {
+    const now = new Date().getTime();
+    if (now - lastTapped.current < maxDoubleTapInterval) {
+      wikiOpen();
+    } else {
+      if (isXs) {
+        setTimeout(() => {
+          dispatch(describeItem(itemName));
+          window.scrollTo(0, 0);
+        }, maxDoubleTapInterval);
+      }
+    }
+    lastTapped.current = now;
+  };
+
   return (
     <div
+      onLostPointerCapture={onLostPointerCaptureHandle}
       onAuxClick={onAuxClickHandle}
-      onClick={onClickOrHoverHandle}
-      onMouseEnter={onClickOrHoverHandle}
+      onMouseDown={onMouseDownHandle}
       {...rest}
       className={styles.root}
     ></div>
