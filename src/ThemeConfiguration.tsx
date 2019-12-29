@@ -81,12 +81,17 @@ const IsaacCssBaseline = withStyles(theme => ({
       scrollBehavior: "smooth"
     },
     "*::-webkit-scrollbar": {
-      background: "#000",
-      width: "16px"
+      background: "transparent",
+      width: "8px"
     },
     "*::-webkit-scrollbar-thumb": {
-      background: "#251b1a",
-      borderLeft: "4px solid #4e2d1a"
+      background: "#3d2e27"
+    },
+    // todo fix the mozilla scrollbar
+    ".scroller": {
+      width: "50px",
+      scrollbarColor: "rebeccapurple green",
+      scrollbarWidth: "thin"
     }
   }
 }))(() => null);

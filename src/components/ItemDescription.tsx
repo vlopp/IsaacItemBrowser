@@ -8,6 +8,9 @@ import ItemIcon from "$root/components/ItemIcon";
 const items = itemsImport;
 
 const useStyles = makeStyles(theme => ({
+    mainBox:{
+        direction:"ltr"
+    },
   itemName: {
     fontSize: "300%",
     textShadow: "10px 6px 5px black",
@@ -37,7 +40,7 @@ export const ItemDescription = () => {
   const styles = useStyles();
 
   return (
-    <Box display={"flex"} alignItems={"center"} flexDirection={"column"}>
+    <Box display={"flex"} alignItems={"center"} flexDirection={"column"} className={styles.mainBox}>
       <ItemIcon scale={2.6} itemName={describedItem} />
       <Typography align={"center"} className={styles.itemName}>
         {items[describedItem].readableName}
