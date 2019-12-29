@@ -7,6 +7,10 @@ import {
 import { useDispatch } from "react-redux";
 import { describeItem } from "$redux/actions/describeItem";
 
+// todo Generalize browser detection and move it to a more sensible place.
+// @ts-ignore
+const isMozilla = typeof InstallTrigger !== "undefined";
+
 /* Rebinding for debugging, see https://github.com/webpack/webpack/issues/3957 and https://github.com/babel/babel/issues/1468*/
 const items = itemsImport;
 const sprites = spritesImport;
@@ -29,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     width: `32px`,
     transform: `scale(${props.scale})`,
     margin: `${props.scale * 16 - 16}px`,
-    imageRendering: "pixelated" as any,
+    imageRendering: isMozilla ? "-moz-crisp-edges" : ("pixelated" as any),
     display: "inline-block",
     transition: "transform 0.07s",
     transitionTimingFunction: "ease-out",
