@@ -25,6 +25,10 @@ const useStyles = makeStyles(theme => ({
     padding: "5px 30px",
     maxWidth: "95%",
     cursor: `url("${cursor}"), auto`
+  },
+  box:{
+    gridArea:"searchBar",
+    width:"100%"
   }
 }));
 
@@ -48,7 +52,7 @@ export const TopBar = () => {
   };
 
   return (
-    <Box display={"flex"} justifyContent={"center"}>
+    <Box display={"flex"} justifyContent={"center"} className={styles.box}>
       <InputBase
         className={styles.pictureDiv}
         placeholder={"XVII: May you find what you desire..."}

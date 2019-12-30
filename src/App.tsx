@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import {
   Grid,
   makeStyles,
@@ -17,35 +17,30 @@ import { ItemDescription } from "$root/components/ItemDescription";
 import { TopBar } from "$root/components/TopBar";
 import { ItemGrid } from "$root/components/ItemGrid";
 import { Background } from "$root/components/Background";
+import { IsaacContext } from "$root/IsaacContext";
+import { useIsaacContext } from "$root/useIsaacContext";
 
-const useStyles = makeStyles(theme => ({
-  grid: {
+// @ts-ignore
+const useStyles = makeStyles<>(theme => ({
+  grid: props => ({
     display: "grid",
-    gridTemplateRows: "auto 1fr",
-    height: "100vh"
+    gridTemplateRows: "auto auto 1fr",
+    gridTemplateColumns: "25% 1fr",
+    height: "100vh",
+    gridTemplateAreas: props.isSmallVersion
+      ? `
+    "searchBar searchBar"
+    "itemGrid itemGrid"
+    "itemGrid itemGrid"
+    `
+      : `"itemDescription searchBar"
+    "itemDescription itemGrid"
+    "itemDescription itemGrid"
+    `
     //gridTemplateColumns:""
-  },
+  }),
   mainGrid: {
     overflow: "hidden"
-  },
-  itemDesc: {
-    padding: theme.spacing(2),
-    overflowY: "scroll",
-    height: "100%",
-    flexWrap: "wrap",
-    direction: "rtl",
-    justifyContent: "center"
-  },
-  itemGrid: {
-    padding: theme.spacing(2),
-    paddingTop: theme.spacing(4),
-    height: "100%",
-    overflowY: "scroll",
-    justifyContent: "flex-start",
-    alignContent:"flex-start",
-    [theme.breakpoints.down("xs")]: {
-      justifyContent: "center"
-    }
   },
   bar: {
     padding: theme.spacing(1)
@@ -53,21 +48,18 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const App = () => {
-  const styles = useStyles();
+  const { isSmallVersion } = useIsaacContext();
+  const styles = useStyles({ isSmallVersion });
+
+  const describedItem = useSelector((store: Store) => store.describedItem);
 
   return (
     <>
-      <Background />
+      <Background zIndex={-666} />
       <div className={styles.grid}>
         <TopBar />
-        <Grid container className={styles.mainGrid}>
-          <Grid className={styles.itemDesc} item container xs={12} sm={3}>
-            <ItemDescription />
-          </Grid>
-          <Grid className={styles.itemGrid} item container xs={12} sm={9}>
-            <ItemGrid />
-          </Grid>
-        </Grid>
+        {(!isSmallVersion || describedItem !== "") && <ItemDescription />}
+        <ItemGrid />
       </div>
     </>
   );

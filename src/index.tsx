@@ -4,12 +4,15 @@ import App from "$root/App";
 import StoreConfiguration from "$redux/StoreConfiguration";
 import ThemeConfiguration from "$root/ThemeConfiguration";
 import { CssBaseline, withStyles } from "@material-ui/core";
+import { IsaacContextProvider } from "$root/IsaacContext";
 
 ReactDOM.render(
   <CssBaseline>
     <ThemeConfiguration>
       <StoreConfiguration>
-        <App />
+        <IsaacContextProvider>
+          <App />
+        </IsaacContextProvider>
       </StoreConfiguration>
     </ThemeConfiguration>
   </CssBaseline>,
