@@ -1,6 +1,8 @@
 import cheerio from "cheerio";
 import fetch from "node-fetch";
 
+
+// todo fetch other categories besides effects and notes
 const extract = (elem, indent = -1) => {
   let acc = "";
 
