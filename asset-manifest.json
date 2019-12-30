@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/IsaacBrowser/static/css/main.4c6fc073.chunk.css",
+    "main.js": "/IsaacBrowser/static/js/main.f7ed1865.chunk.js",
+    "main.js.map": "/IsaacBrowser/static/js/main.f7ed1865.chunk.js.map",
+    "runtime-main.js": "/IsaacBrowser/static/js/runtime-main.279e2935.js",
+    "runtime-main.js.map": "/IsaacBrowser/static/js/runtime-main.279e2935.js.map",
+    "static/js/2.7b7b4476.chunk.js": "/IsaacBrowser/static/js/2.7b7b4476.chunk.js",
+    "static/js/2.7b7b4476.chunk.js.map": "/IsaacBrowser/static/js/2.7b7b4476.chunk.js.map",
+    "index.html": "/IsaacBrowser/index.html",
+    "precache-manifest.f269e55f568983bf01484472ea5dac02.js": "/IsaacBrowser/precache-manifest.f269e55f568983bf01484472ea5dac02.js",
+    "service-worker.js": "/IsaacBrowser/service-worker.js",
+    "static/css/main.4c6fc073.chunk.css.map": "/IsaacBrowser/static/css/main.4c6fc073.chunk.css.map",
+    "static/js/0.a3681bf8.chunk.worker.js": "/IsaacBrowser/static/js/0.a3681bf8.chunk.worker.js",
+    "static/js/0.a3681bf8.chunk.worker.js.map": "/IsaacBrowser/static/js/0.a3681bf8.chunk.worker.js.map",
+    "static/js/2.7b7b4476.chunk.js.LICENSE": "/IsaacBrowser/static/js/2.7b7b4476.chunk.js.LICENSE",
+    "static/media/fonts.css": "/IsaacBrowser/static/media/upheavtt.2d6cbf09.ttf",
+    "static/media/sprites.png": "/IsaacBrowser/static/media/sprites.c853d8c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.279e2935.js",
+    "static/js/2.7b7b4476.chunk.js",
+    "static/css/main.4c6fc073.chunk.css",
+    "static/js/main.f7ed1865.chunk.js"
+  ]
+}
