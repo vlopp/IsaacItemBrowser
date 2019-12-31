@@ -769,14 +769,25 @@
     },
     "offset": 7744
   },
-  "Odd_Mushroom": {
+  "Odd_Mushroom_(Thin)": {
+    "id": 120,
+    "readableName": "Odd Mushroom",
+    "type": "Passive",
+    "shortDescription": "Fire rate up",
+    "longDescription": {
+      "effects": "+1.7 Tears.\n+0.3 Speed.\nDecreases Isaac's size, making him less likely to be hit.\nReduces damage using the following formula: (Damage Ups from other items * 0.9) - 0.4.\n This item belongs to the Fun Guy set. Collecting three items from this set will transform Isaac into a walking mushroom.",
+      "notes": "There are two collectible items in the game named Odd Mushroom; you can tell them apart from the sprites.\nThis item affects damage differently than other items in the game. Instead of multiplying your damage stat, it directly alters the total added damage from other items. In practice, this means this item reduces your damage significantly if you have no items that grant extra damage (x0.72), but won't have as strong of an impact as you collect more 'damage up' items."
+    },
+    "offset": 7776
+  },
+  "Odd_Mushroom_(Large)": {
     "id": 121,
     "readableName": "Odd Mushroom",
     "type": "Passive",
     "shortDescription": "DMG up",
     "longDescription": {
-      "effects": "Odd Mushroom, a passive collectible that increases the tears and speed stat in addition to other effects.\nOdd Mushroom, a passive collectible that increases damage and grants a heart container in addition to other effects.",
-      "notes": ""
+      "effects": "Gives Isaac one red heart container.\n+0.3 Damage.\n+0.25 Range.\n+0.5 Shot Height.\n-0.1 Speed.\nIncreases Isaac's size.\n This item belongs to the Fun Guy set. Collecting three items from this set will transform Isaac into a walking mushroom.",
+      "notes": "There are two collectible items in the game named Odd Mushroom; you can tell them apart from the sprites."
     },
     "offset": 7808
   },
@@ -1886,8 +1897,8 @@
     "type": "Passive",
     "shortDescription": "Short range mega tears",
     "longDescription": {
-      "effects": "Doubles Isaac's Damage stat.\nIsaac's tears become larger and do more damage, but shrink and do less damage the further they travel.",
-      "notes": "Effective range of Isaac's tears now also depends on damage, as they can shrink out of existence before their air time runs out.\nTear size increasing items also increase the maximum distance before disappearance, but the damage dealt can go below original at the extreme.\nThe item has the opposite effect of the item A Lump of Coal, which makes Isaac deal more damage from farther away."
+      "effects": "Doubles Isaac's Damage stat.\nIsaac's tears become larger and do more damage, but shrink and do less damage the farther they travel.",
+      "notes": "Effective range of Isaac's tears now also depends on damage, as they can shrink out of existence before their air time runs out.\nTear size increasing items also increase the maximum distance before disappearance, but the damage dealt can go below original at the extreme.\nThe item has the opposite effect of the item A Lump of Coal, which makes Isaac deal more damage from farther away.\nDoes not affect Azazel's short-ranged Brimstone unless the range stat is extremely high."
     },
     "offset": 12256
   },
@@ -1925,15 +1936,15 @@
     "offset": 13472
   },
   "Cancer": {
-    "id": 6705,
+    "id": 301,
     "readableName": "Cancer",
-    "type": "Trinket",
-    "shortDescription": "Yay, cancer!",
+    "type": "Passive",
+    "shortDescription": "HP up + you feel protected",
     "longDescription": {
       "effects": "Grants three soul hearts.\nUpon taking damage, grants The Wafer effect of damage reduction for the current room.",
       "notes": ""
     },
-    "offset": 1184
+    "offset": 13504
   },
   "Leo": {
     "id": 302,
@@ -3229,7 +3240,7 @@
     "shortDescription": "Needle shot",
     "longDescription": {
       "effects": "Adds a chance to fire needles which deal triple Isaac's tear damage.\n  Needles will instantly kill regular enemies and cause them to burst into 10 more tears in all directions. \n  The chance to fire a needle depends on luck . At base luck (0), it is 3.33% and goes up to 100% at 15 luck.\n",
-      "notes": "The needle tears have the ability to kill enemies that are normally invincible, such as Peep's eyes, Death's Heads, and Stoneys.\nThe needle tears can kill Grimaces, allowing the player to permanently remove any obstacle in a room.\nPossible needle tears in a burst from killing an enemy do not retain the instant kill and burst-causing capabilities, but still deal triple damage. This prevents chain reactions of bursts.\nThe tears in the burst are larger than normal, but do not have a damage bonus."
+      "notes": "The needle tears have the ability to kill enemies that are normally invincible, such as Peep's eyes, Death's Heads, and Stoneys.\nThe needle tears can kill Grimaces, allowing the player to permanently remove any obstacle in a room.\nPossible needle tears in a burst from killing an enemy do not retain the instant kill and burst-causing capabilities, but still deal triple damage. This prevents chain reactions of bursts.\nThe tears in the burst are larger than normal, but do not have a damage bonus.\nUnless piercing is obtained, Knights from the front will still block the needles."
     },
     "offset": 19744
   },
@@ -6411,6 +6422,17 @@
       "notes": "\n\t\t\n\t\t\t\n\t\t\t\n Mom's Pearl's original appearance before Booster Pack #5.\n\n\t\t\t\n\t\t\n"
     },
     "offset": 1152
+  },
+  "Cancer_(Trinket)": {
+    "id": 6705,
+    "readableName": "Cancer",
+    "type": "Trinket",
+    "shortDescription": "Yay, cancer!",
+    "longDescription": {
+      "effects": "-2 tear delay (increased rate of fire)\n  Since this directly affects tear delay instead of changing the tears stat, it allows Isaac's rate of fire to go over the normal maximum rate. \n  Tear delay decreases are only noticeable when the tears stat is high.",
+      "notes": "The pickup quote is a tribute to the community of the original game. Due to the usefulness of the trinket in the original The Binding of Isaac it became a popular joke to consider \"getting cancer\" as a good thing."
+    },
+    "offset": 1184
   },
   "Red_Patch": {
     "id": 6706,

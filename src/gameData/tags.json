@@ -69,6 +69,7 @@
       "Screw",
       "Black_Candle",
       "Taurus",
+      "Cancer",
       "Sagittarius",
       "Pisces",
       "Eve's_Mascara",
@@ -1933,13 +1934,14 @@
   {
     "tag": "cancer",
     "items": [
-      "Cancer"
+      "Cancer",
+      "Cancer_(Trinket)"
     ]
   },
   {
     "tag": "cancer!",
     "items": [
-      "Cancer"
+      "Cancer_(Trinket)"
     ]
   },
   {
@@ -3036,7 +3038,7 @@
       "The_Pact",
       "The_Small_Rock",
       "Money_=_Power",
-      "Odd_Mushroom",
+      "Odd_Mushroom_(Large)",
       "Stigmata",
       "Chemical_Peel",
       "Sacred_Heart",
@@ -3773,6 +3775,7 @@
       "Mitre",
       "Mom's_Wig",
       "Trinity_Shield",
+      "Cancer",
       "Virgo",
       "Libra",
       "Maggy's_Bow",
@@ -3876,6 +3879,7 @@
   {
     "tag": "fire",
     "items": [
+      "Odd_Mushroom_(Thin)",
       "Fire_Mind"
     ]
   },
@@ -5001,6 +5005,7 @@
       "Old_Bandage",
       "Black_Lotus",
       "Magic_Scab",
+      "Cancer",
       "Maggy's_Bow",
       "Thunder_Thighs",
       "Blue_Cap",
@@ -6511,7 +6516,8 @@
     "tag": "mushroom",
     "items": [
       "Magic_Mushroom",
-      "Odd_Mushroom"
+      "Odd_Mushroom_(Thin)",
+      "Odd_Mushroom_(Large)"
     ]
   },
   {
@@ -6740,7 +6746,8 @@
   {
     "tag": "odd",
     "items": [
-      "Odd_Mushroom"
+      "Odd_Mushroom_(Thin)",
+      "Odd_Mushroom_(Large)"
     ]
   },
   {
@@ -7138,7 +7145,8 @@
       "Dead_Bird",
       "Brimstone",
       "Blood_Bag",
-      "Odd_Mushroom",
+      "Odd_Mushroom_(Thin)",
+      "Odd_Mushroom_(Large)",
       "Whore_of_Babylon",
       "Bobby-Bomb",
       "Bucket_of_Lard",
@@ -7243,6 +7251,7 @@
       "Missing_Page_2",
       "Taurus",
       "Aries",
+      "Cancer",
       "Leo",
       "Virgo",
       "Libra",
@@ -7896,6 +7905,7 @@
   {
     "tag": "protected",
     "items": [
+      "Cancer",
       "Virgo"
     ]
   },
@@ -8125,6 +8135,12 @@
     "tag": "rapid",
     "items": [
       "Fast_Bombs"
+    ]
+  },
+  {
+    "tag": "rate",
+    "items": [
+      "Odd_Mushroom_(Thin)"
     ]
   },
   {
@@ -10257,7 +10273,6 @@
     "tag": "trinket",
     "items": [
       "Mom's_Purse",
-      "Cancer",
       "Tonsil",
       "Smelter",
       "Swallowed_Penny",
@@ -10298,6 +10313,7 @@
       "Rusted_Key",
       "Goat_Hoof",
       "Mom's_Pearl",
+      "Cancer_(Trinket)",
       "Red_Patch",
       "Match_Stick",
       "Lucky_Toe",
@@ -10531,7 +10547,8 @@
       "The_Small_Rock",
       "The_Halo",
       "Blood_Bag",
-      "Odd_Mushroom",
+      "Odd_Mushroom_(Thin)",
+      "Odd_Mushroom_(Large)",
       "Whore_of_Babylon",
       "Bucket_of_Lard",
       "Stigmata",
@@ -10563,6 +10580,7 @@
       "Screw",
       "Black_Candle",
       "Missing_Page_2",
+      "Cancer",
       "Sagittarius",
       "Capricorn",
       "Pisces",
@@ -11059,7 +11077,7 @@
   {
     "tag": "yay",
     "items": [
-      "Cancer"
+      "Cancer_(Trinket)"
     ]
   },
   {
@@ -11106,6 +11124,7 @@
       "Mitre",
       "Mom's_Wig",
       "Trinity_Shield",
+      "Cancer",
       "Virgo",
       "Libra",
       "Maggy's_Bow",

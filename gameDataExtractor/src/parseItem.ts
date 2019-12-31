@@ -1,6 +1,5 @@
-//todo fix scapular, marked
-function encodeName(itemName: string) {
-  const specialNames = {
+function encodeName(rawItemData) {
+  const simpleReplacements = {
     "<3": "Less_Than_Three",
     "Cat-o-nine-tails": "Cat-O-Nine-Tails",
     "Humbleing_Bundle":"Humbling_Bundle",
@@ -9,22 +8,35 @@ function encodeName(itemName: string) {
 
   };
 
-  return Object.keys(specialNames).includes(itemName)
-    ? specialNames[itemName]
-    : itemName.replace(/ /g, "_");
+  switch (true) {
+    case Object.keys(simpleReplacements).includes(rawItemData.name):
+      return simpleReplacements[rawItemData.name];
+    case rawItemData.name === "Cancer":
+      if (rawItemData.type === "trinket") {
+        return "Cancer_(Trinket)";
+      } else return "Cancer";
+    case rawItemData.name === "Odd Mushroom":
+      if (rawItemData.gfx.includes("Thin")) {
+        return "Odd_Mushroom_(Thin)";
+      } else {
+        return "Odd_Mushroom_(Large)";
+      }
+    default:
+      return rawItemData.name.replace(/ /g, "_");
+  }
 }
 
 export function parseItem(
-  { gfx, id, name, description, type },
-  spriteSheetOffsets
+    itemData,
+    spriteSheetOffsets
 ) {
   return {
-    id: type !== "trinket" ? parseInt(id) : parseInt(id) + 6666,
-    readableName: name,
-    encodedName: encodeName(name),
-    type: type.replace(/^\w/, chr => chr.toUpperCase()),
-    shortDescription: description,
+    id: itemData.type !== "trinket" ? parseInt(itemData.id) : parseInt(itemData.id) + 6666,
+    readableName: itemData.name,
+    encodedName: encodeName(itemData),
+    type: itemData.type.replace(/^\w/, chr => chr.toUpperCase()),
+    shortDescription: itemData.description,
     longDescription: {},
-    offset: spriteSheetOffsets ? spriteSheetOffsets[gfx.toLowerCase()] : null
+    offset: spriteSheetOffsets ? spriteSheetOffsets[itemData.gfx.toLowerCase()] : null
   };
 }
