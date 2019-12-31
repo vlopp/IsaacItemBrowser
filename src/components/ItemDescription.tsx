@@ -54,6 +54,9 @@ const useStyles = makeStyles(theme => ({
     fontFamily: "Silom",
     textShadow: "5px 4px 5px black"
   },
+  itemType: {
+    color: "#faebd7"
+  },
   xButton: {
     position: "absolute",
     right: "10px",
@@ -118,6 +121,9 @@ export const ItemDescription = () => {
           <Typography align={"center"} className={styles.itemShortDescription}>
             {items[describedItem].shortDescription}
           </Typography>
+          <Typography align={"center"} className={styles.itemType}>
+            {items[describedItem].type}
+          </Typography>
           <ul className={styles.ul}>
             <ListEntry
               entryString={items[describedItem].longDescription.effects}
@@ -137,25 +143,25 @@ export const ItemDescription = () => {
 const ListEntry = ({ entryString }) => {
   const styles = useStyles();
 
+  const generateStyle = str => {
+    if (str.startsWith("  ")) {
+      return {
+        margin: "4px 5px",
+        marginLeft: `${Math.floor((/ +/.exec("  ") as any)[0].length / 2) *
+          20}px`
+      };
+    } else {
+      return { margin: "8px 5px" };
+    }
+  };
+
   return (
     <>
       {entryString
         .split("\n")
         .filter(x => !/(^$|\n|\t+)/.test(x))
         .map(x => (
-          <li
-            key={x}
-            style={
-              x.startsWith("  ")
-                ? {
-                    margin: "4px 5px",
-                    marginLeft: `${Math.floor(
-                      (/ +/.exec("  ") as any)[0].length / 2
-                    ) * 20}px`
-                  }
-                : { margin: "8px 5px" }
-            }
-          >
+          <li key={x} style={generateStyle(x)}>
             <Typography className={styles.silom}>{x}</Typography>
           </li>
         ))}
