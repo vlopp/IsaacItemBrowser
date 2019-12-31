@@ -52,7 +52,7 @@
       "Speed_Ball",
       "Cat-O-Nine-Tails",
       "Sacred_Heart",
-      "Tooth_Picks",
+      "Toothpicks",
       "Holy_Grail",
       "Dead_Dove",
       "MEAT!",
@@ -134,8 +134,8 @@
   {
     "tag": "1+1",
     "items": [
-      "Humbleing_Bundle",
-      "BOGO_Bombs"
+      "Humbling_Bundle",
+      "Bogo_Bombs"
     ]
   },
   {
@@ -195,13 +195,13 @@
   {
     "tag": "4",
     "items": [
-      "Lil_Loki"
+      "Lil%27_Loki"
     ]
   },
   {
     "tag": "4evar",
     "items": [
-      "Humbleing_Bundle"
+      "Humbling_Bundle"
     ]
   },
   {
@@ -290,8 +290,8 @@
   {
     "tag": "???'s",
     "items": [
-      "???'s_Only_Friend",
-      "???'s_Soul"
+      "%3F%3F%3F%27s_Only_Friend",
+      "%3F%3F%3F%27s_Soul"
     ]
   },
   {
@@ -387,7 +387,7 @@
       "Kamikaze!",
       "Mom's_Pad",
       "Bob's_Rotten_Head",
-      "Teleport!",
+      "Teleport",
       "Yum_Heart",
       "Doctor's_Remote",
       "Shoop_da_Whoop!",
@@ -398,7 +398,7 @@
       "My_Little_Unicorn",
       "Book_of_Revelations",
       "The_Nail",
-      "We_Need_To_Go_Deeper!",
+      "We_Need_to_Go_Deeper!",
       "Deck_of_Cards",
       "Monstro's_Tooth",
       "The_Gamekid",
@@ -428,7 +428,7 @@
       "Portable_Slot",
       "White_Pony",
       "Blood_Rights",
-      "Telepathy_For_Dummies",
+      "Telepathy_for_Dummies",
       "How_to_Jump",
       "D100",
       "D4",
@@ -484,7 +484,7 @@
       "Dull_Razor",
       "Potato_Peeler",
       "Metronome",
-      "D_infinity",
+      "D_Infinity",
       "Eden's_Soul",
       "Brown_Nugget",
       "Sharp_Straw",
@@ -578,7 +578,7 @@
   {
     "tag": "alone",
     "items": [
-      "Forever_alone"
+      "Forever_Alone"
     ]
   },
   {
@@ -717,7 +717,7 @@
   {
     "tag": "at",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Dog_Tooth",
       "Blood_Rights",
       "Breath_of_Life"
@@ -735,7 +735,7 @@
       "Monstro's_Lung",
       "Distant_Admiration",
       "Little_Chubby",
-      "Forever_alone",
+      "Forever_Alone",
       "A_Pony"
     ]
   },
@@ -779,6 +779,7 @@
   {
     "tag": "baby",
     "items": [
+      "Spider_Baby",
       "Robo-Baby",
       "Demon_Baby",
       "Ghost_Baby",
@@ -815,14 +816,14 @@
   {
     "tag": "back!",
     "items": [
-      "BackStabber",
+      "Backstabber",
       "Blister"
     ]
   },
   {
     "tag": "backstabber",
     "items": [
-      "BackStabber"
+      "Backstabber"
     ]
   },
   {
@@ -1048,7 +1049,7 @@
   {
     "tag": "below",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Stud_Finder"
     ]
   },
@@ -1370,7 +1371,7 @@
   {
     "tag": "bogo",
     "items": [
-      "BOGO_Bombs"
+      "Bogo_Bombs"
     ]
   },
   {
@@ -1420,7 +1421,7 @@
       "Butt_Bombs",
       "Sad_Bombs",
       "Pyromaniac",
-      "BOGO_Bombs",
+      "Bogo_Bombs",
       "Hot_Bombs",
       "Scatter_Bombs",
       "Sticky_Bombs",
@@ -1483,7 +1484,7 @@
     "tag": "boom!",
     "items": [
       "Boom!",
-      "BOGO_Bombs"
+      "Bogo_Bombs"
     ]
   },
   {
@@ -1741,7 +1742,7 @@
     "tag": "buddy!",
     "items": [
       "Spider_Mod",
-      "Lil_Loki"
+      "Lil%27_Loki"
     ]
   },
   {
@@ -1781,7 +1782,7 @@
   {
     "tag": "bundle",
     "items": [
-      "Humbleing_Bundle"
+      "Humbling_Bundle"
     ]
   },
   {
@@ -1812,7 +1813,7 @@
   {
     "tag": "but",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Mom's_Shovel"
     ]
   },
@@ -2300,7 +2301,7 @@
   {
     "tag": "coli",
     "items": [
-      "E._Coli"
+      "E_Coli"
     ]
   },
   {
@@ -2391,7 +2392,7 @@
   {
     "tag": "consume",
     "items": [
-      "Maw_Of_The_Void",
+      "Maw_of_the_Void",
       "Void",
       "Isaac's_Fork"
     ]
@@ -2423,7 +2424,7 @@
   {
     "tag": "contract",
     "items": [
-      "Contract_from_Below"
+      "Contract_From_Below"
     ]
   },
   {
@@ -2431,7 +2432,7 @@
     "items": [
       "The_Ludovico_Technique",
       "Tractor_Beam",
-      "???'s_Only_Friend"
+      "%3F%3F%3F%27s_Only_Friend"
     ]
   },
   {
@@ -2476,7 +2477,7 @@
   {
     "tag": "cost?",
     "items": [
-      "Contract_from_Below"
+      "Contract_From_Below"
     ]
   },
   {
@@ -2577,8 +2578,8 @@
   {
     "tag": "crown",
     "items": [
-      "Crown_Of_Light",
-      "Dark_Princes_Crown",
+      "Crown_of_Light",
+      "Dark_Prince's_Crown",
       "Cracked_Crown",
       "Bloody_Crown",
       "Blood_of_the_Martyr"
@@ -2670,7 +2671,7 @@
     "tag": "d",
     "items": [
       "Little_C.H.A.D.",
-      "D_infinity"
+      "D_Infinity"
     ]
   },
   {
@@ -2801,7 +2802,7 @@
     "tag": "dark",
     "items": [
       "Dark_Matter",
-      "Dark_Princes_Crown",
+      "Dark_Prince's_Crown",
       "Dark_Bum",
       "Incubus",
       "The_Left_Hand"
@@ -2885,7 +2886,7 @@
   {
     "tag": "deeper!",
     "items": [
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
@@ -2948,7 +2949,7 @@
   {
     "tag": "destiny",
     "items": [
-      "Spear_Of_Destiny",
+      "Spear_of_Destiny",
       "The_D6"
     ]
   },
@@ -3207,7 +3208,7 @@
   {
     "tag": "dummies",
     "items": [
-      "Telepathy_For_Dummies"
+      "Telepathy_for_Dummies"
     ]
   },
   {
@@ -3219,7 +3220,7 @@
   {
     "tag": "e",
     "items": [
-      "E._Coli"
+      "E_Coli"
     ]
   },
   {
@@ -3337,7 +3338,7 @@
   {
     "tag": "enemy!",
     "items": [
-      "Maw_Of_The_Void"
+      "Maw_of_the_Void"
     ]
   },
   {
@@ -3577,7 +3578,7 @@
       "Little_Steven",
       "Guardian_Angel",
       "Demon_Baby",
-      "Forever_alone",
+      "Forever_Alone",
       "Bomb_Bag",
       "Bum_Friend",
       "The_Peeper",
@@ -3613,7 +3614,7 @@
       "Punching_Bag",
       "Gemini",
       "Cain's_Other_Eye",
-      "???'s_Only_Friend",
+      "%3F%3F%3F%27s_Only_Friend",
       "Samson's_Chains",
       "Mongo_Baby",
       "Incubus",
@@ -3636,7 +3637,7 @@
       "Obsessed_Fan",
       "Papa_Fly",
       "Multidimensional_Baby",
-      "Lil_Loki",
+      "Lil%27_Loki",
       "Milk!",
       "Finger!",
       "Shade",
@@ -3982,7 +3983,7 @@
     "items": [
       "Skatole",
       "Distant_Admiration",
-      "Forever_alone",
+      "Forever_Alone",
       "Smart_Fly",
       "BBF",
       "Friend_Zone",
@@ -4036,7 +4037,7 @@
   {
     "tag": "for",
     "items": [
-      "Telepathy_For_Dummies",
+      "Telepathy_for_Dummies",
       "Mystery_Gift",
       "Coupon",
       "Shiny_Rock"
@@ -4045,8 +4046,8 @@
   {
     "tag": "forever",
     "items": [
-      "Forever_alone",
-      "D_infinity"
+      "Forever_Alone",
+      "D_Infinity"
     ]
   },
   {
@@ -4094,7 +4095,7 @@
   {
     "tag": "free",
     "items": [
-      "Humbleing_Bundle"
+      "Humbling_Bundle"
     ]
   },
   {
@@ -4116,7 +4117,7 @@
       "Lil_Brimstone",
       "Gemini",
       "Cain's_Other_Eye",
-      "???'s_Only_Friend",
+      "%3F%3F%3F%27s_Only_Friend",
       "Mongo_Baby",
       "Incubus",
       "Sworn_Protector",
@@ -4126,7 +4127,7 @@
       "Lil_Delirium",
       "Best_Friend",
       "Isaac's_Head",
-      "???'s_Soul"
+      "%3F%3F%3F%27s_Soul"
     ]
   },
   {
@@ -4159,7 +4160,7 @@
   {
     "tag": "from",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Circle_of_Protection",
       "Glyph_of_Balance",
       "Book_of_the_Dead",
@@ -4207,7 +4208,7 @@
   {
     "tag": "gain",
     "items": [
-      "Crown_Of_Light",
+      "Crown_of_Light",
       "Compost"
     ]
   },
@@ -4374,7 +4375,7 @@
     "tag": "go",
     "items": [
       "Poke_Go",
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
@@ -5016,7 +5017,7 @@
   {
     "tag": "humbleing",
     "items": [
-      "Humbleing_Bundle"
+      "Humbling_Bundle"
     ]
   },
   {
@@ -5080,7 +5081,7 @@
   {
     "tag": "imaginary",
     "items": [
-      "???'s_Soul"
+      "%3F%3F%3F%27s_Soul"
     ]
   },
   {
@@ -5158,7 +5159,7 @@
   {
     "tag": "infinity",
     "items": [
-      "D_infinity"
+      "D_Infinity"
     ]
   },
   {
@@ -5224,7 +5225,7 @@
       "The_Compass",
       "Mom's_Key",
       "Taurus",
-      "Dark_Princes_Crown",
+      "Dark_Prince's_Crown",
       "Lil_Larva",
       "Bag_Lunch"
     ]
@@ -5681,7 +5682,7 @@
   {
     "tag": "level",
     "items": [
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
@@ -5725,7 +5726,7 @@
     "tag": "light",
     "items": [
       "Holy_Light",
-      "Crown_Of_Light",
+      "Crown_of_Light",
       "Night_Light"
     ]
   },
@@ -5748,7 +5749,7 @@
       "Lil_Haunt",
       "Lil_Chest",
       "Lil_Gurdy",
-      "Lil_Loki",
+      "Lil%27_Loki",
       "Hushy",
       "Lil_Monstro",
       "Lil_Delirium",
@@ -5845,7 +5846,7 @@
   {
     "tag": "loki",
     "items": [
-      "Lil_Loki"
+      "Lil%27_Loki"
     ]
   },
   {
@@ -5890,7 +5891,7 @@
   {
     "tag": "loss",
     "items": [
-      "Dark_Princes_Crown"
+      "Dark_Prince's_Crown"
     ]
   },
   {
@@ -6171,7 +6172,7 @@
   {
     "tag": "maw",
     "items": [
-      "Maw_Of_The_Void"
+      "Maw_of_the_Void"
     ]
   },
   {
@@ -6402,7 +6403,7 @@
     "tag": "money",
     "items": [
       "Money_=_Power",
-      "Pay_To_Play",
+      "Pay_to_Play",
       "Greed's_Gullet",
       "Sack_of_Pennies",
       "A_Dollar"
@@ -6598,7 +6599,7 @@
   {
     "tag": "need",
     "items": [
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
@@ -6765,9 +6766,9 @@
       "Aquarius",
       "Curse_of_the_Tower",
       "Serpent's_Kiss",
-      "Maw_Of_The_Void",
-      "Spear_Of_Destiny",
-      "Crown_Of_Light",
+      "Maw_of_the_Void",
+      "Spear_of_Destiny",
+      "Crown_of_Light",
       "Circle_of_Protection",
       "Night_Light",
       "Head_of_the_Keeper",
@@ -6876,7 +6877,7 @@
   {
     "tag": "only",
     "items": [
-      "???'s_Only_Friend"
+      "%3F%3F%3F%27s_Only_Friend"
     ]
   },
   {
@@ -7178,7 +7179,7 @@
       "Fate",
       "The_Black_Bean",
       "Sacred_Heart",
-      "Tooth_Picks",
+      "Toothpicks",
       "Holy_Grail",
       "Dead_Dove",
       "SMB_Super_Fan",
@@ -7194,7 +7195,7 @@
       "Mom's_Eyeshadow",
       "Iron_Bar",
       "Midas'_Touch",
-      "Humbleing_Bundle",
+      "Humbling_Bundle",
       "Fanny_Pack",
       "Sharp_Plug",
       "Champion_Belt",
@@ -7224,10 +7225,10 @@
       "Stop_Watch",
       "Tiny_Planet",
       "Infestation_2",
-      "E._Coli",
+      "E_Coli",
       "Death's_Touch",
       "Experimental_Treatment",
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Infamy",
       "Trinity_Shield",
       "Tech.5",
@@ -7236,7 +7237,7 @@
       "BFFS!",
       "Hive_Mind",
       "There's_Options",
-      "BOGO_Bombs",
+      "Bogo_Bombs",
       "Starter_Deck",
       "Little_Baggy",
       "Magic_Scab",
@@ -7307,7 +7308,7 @@
       "Bursting_Sack",
       "No._2",
       "Pupula_Duplex",
-      "Pay_To_Play",
+      "Pay_to_Play",
       "Eden's_Blessing",
       "Betrayal",
       "Zodiac",
@@ -7316,8 +7317,8 @@
       "Tech_X",
       "Tractor_Beam",
       "God's_Flesh",
-      "Maw_Of_The_Void",
-      "Spear_Of_Destiny",
+      "Maw_of_the_Void",
+      "Spear_of_Destiny",
       "Explosivo",
       "Chaos",
       "Purity",
@@ -7328,7 +7329,7 @@
       "Cambion_Conception",
       "Immaculate_Conception",
       "More_Options",
-      "Crown_Of_Light",
+      "Crown_of_Light",
       "Deep_Pockets",
       "Fruit_Cake",
       "Black_Powder",
@@ -7341,7 +7342,7 @@
       "My_Shadow",
       "Binky",
       "Kidney_Stone",
-      "Dark_Princes_Crown",
+      "Dark_Prince's_Crown",
       "Apple!",
       "Lead_Pencil",
       "Dog_Tooth",
@@ -7377,7 +7378,7 @@
       "Large_Zit",
       "Little_Horn",
       "Poke_Go",
-      "BackStabber",
+      "Backstabber",
       "Bozo",
       "Broken_Modem",
       "Fast_Bombs",
@@ -7426,9 +7427,9 @@
   {
     "tag": "pay",
     "items": [
-      "Pay_To_Play",
+      "Pay_to_Play",
       "Magic_Fingers",
-      "Pay_To_Win"
+      "Pay_to_Win"
     ]
   },
   {
@@ -7564,7 +7565,7 @@
   {
     "tag": "picks",
     "items": [
-      "Tooth_Picks"
+      "Toothpicks"
     ]
   },
   {
@@ -7689,7 +7690,7 @@
   {
     "tag": "play",
     "items": [
-      "Pay_To_Play",
+      "Pay_to_Play",
       "Magic_Fingers"
     ]
   },
@@ -7830,8 +7831,8 @@
     "tag": "power",
     "items": [
       "Money_=_Power",
-      "Crown_Of_Light",
-      "Dark_Princes_Crown",
+      "Crown_of_Light",
+      "Dark_Prince's_Crown",
       "Adrenaline",
       "Telekinesis",
       "A_Missing_Page",
@@ -7861,7 +7862,7 @@
   {
     "tag": "princes",
     "items": [
-      "Dark_Princes_Crown"
+      "Dark_Prince's_Crown"
     ]
   },
   {
@@ -7946,7 +7947,7 @@
     "tag": "psychic",
     "items": [
       "Little_Steven",
-      "Telepathy_For_Dummies"
+      "Telepathy_for_Dummies"
     ]
   },
   {
@@ -8271,7 +8272,7 @@
       "D10",
       "D8",
       "D7",
-      "D_infinity"
+      "D_Infinity"
     ]
   },
   {
@@ -8307,7 +8308,7 @@
       "Yum_Heart",
       "Doctor's_Remote",
       "Book_of_Revelations",
-      "We_Need_To_Go_Deeper!",
+      "We_Need_to_Go_Deeper!",
       "Deck_of_Cards",
       "The_Book_of_Sin",
       "Mom's_Bottle_of_Pills",
@@ -8854,7 +8855,7 @@
       "Tough_Love",
       "Mutant_Spider",
       "Cat-O-Nine-Tails",
-      "Tooth_Picks",
+      "Toothpicks",
       "Magic_8_Ball",
       "Mom's_Perfume",
       "Abaddon",
@@ -8873,7 +8874,7 @@
       "Pupula_Duplex",
       "Euthanasia",
       "Harlequin_Baby",
-      "Telepathy_For_Dummies"
+      "Telepathy_for_Dummies"
     ]
   },
   {
@@ -9003,7 +9004,7 @@
   {
     "tag": "skip",
     "items": [
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
@@ -9121,7 +9122,7 @@
       "Guppy's_Paw",
       "Converter",
       "Eden's_Soul",
-      "???'s_Soul"
+      "%3F%3F%3F%27s_Soul"
     ]
   },
   {
@@ -9139,7 +9140,7 @@
   {
     "tag": "spear",
     "items": [
-      "Spear_Of_Destiny"
+      "Spear_of_Destiny"
     ]
   },
   {
@@ -9160,7 +9161,7 @@
       "Mini_Mush",
       "Speed_Ball",
       "Cat-O-Nine-Tails",
-      "Tooth_Picks",
+      "Toothpicks",
       "Magic_8_Ball",
       "Screw",
       "Taurus",
@@ -9212,12 +9213,6 @@
       "Bursting_Sack",
       "Spider_Mod",
       "Spider_Butt"
-    ]
-  },
-  {
-    "tag": "spiderbaby",
-    "items": [
-      "Spider_Baby"
     ]
   },
   {
@@ -9652,7 +9647,7 @@
   {
     "tag": "talks",
     "items": [
-      "Pay_To_Play"
+      "Pay_to_Play"
     ]
   },
   {
@@ -9725,7 +9720,7 @@
       "Loki's_Horns",
       "Ouija_Board",
       "Polyphemus",
-      "Tooth_Picks",
+      "Toothpicks",
       "Dead_Dove",
       "3_Dollar_Bill",
       "Squeezy",
@@ -9814,7 +9809,7 @@
   {
     "tag": "telepathy",
     "items": [
-      "Telepathy_For_Dummies"
+      "Telepathy_for_Dummies"
     ]
   },
   {
@@ -9826,7 +9821,7 @@
   {
     "tag": "teleport!",
     "items": [
-      "Teleport!",
+      "Teleport",
       "Teleport_2.0"
     ]
   },
@@ -9841,7 +9836,7 @@
       "The_Nail",
       "The_Gamekid",
       "Monster_Manual",
-      "Telepathy_For_Dummies"
+      "Telepathy_for_Dummies"
     ]
   },
   {
@@ -9898,9 +9893,9 @@
       "Curse_of_the_Tower",
       "Zodiac",
       "Serpent's_Kiss",
-      "Maw_Of_The_Void",
+      "Maw_of_the_Void",
       "Athame",
-      "Crown_Of_Light",
+      "Crown_of_Light",
       "Black_Powder",
       "Night_Light",
       "Head_of_the_Keeper",
@@ -10051,7 +10046,7 @@
   {
     "tag": "thy",
     "items": [
-      "Maw_Of_The_Void",
+      "Maw_of_the_Void",
       "Trisagion",
       "Isaac's_Fork"
     ]
@@ -10094,17 +10089,17 @@
     "tag": "to",
     "items": [
       "8_Inch_Nails",
-      "Pay_To_Play",
+      "Pay_to_Play",
       "Athame",
       "Deep_Pockets",
       "Dark_Bum",
-      "We_Need_To_Go_Deeper!",
+      "We_Need_to_Go_Deeper!",
       "How_to_Jump",
       "Magic_Fingers",
       "Child's_Heart",
       "Blind_Rage",
       "Walnut",
-      "Pay_To_Win"
+      "Pay_to_Win"
     ]
   },
   {
@@ -10150,7 +10145,7 @@
     "tag": "tooth",
     "items": [
       "Tough_Love",
-      "Tooth_Picks",
+      "Toothpicks",
       "Dog_Tooth",
       "Dead_Tooth",
       "Monstro's_Tooth",
@@ -10175,7 +10170,7 @@
       "The_Virus",
       "The_Black_Bean",
       "Midas'_Touch",
-      "E._Coli",
+      "E_Coli",
       "Death's_Touch",
       "Liberty_Cap"
     ]
@@ -10330,7 +10325,7 @@
       "Isaac's_Head",
       "Maggy's_Faith",
       "Judas'_Tongue",
-      "???'s_Soul",
+      "%3F%3F%3F%27s_Soul",
       "Samson's_Lock",
       "Cain's_Eye",
       "Eve's_Bird_Foot",
@@ -10384,7 +10379,7 @@
       "Duct_Tape",
       "Silver_Dollar",
       "Bloody_Crown",
-      "Pay_To_Win",
+      "Pay_to_Win",
       "Locust_of_War",
       "Locust_of_Pestilence",
       "Locust_of_Famine",
@@ -10424,7 +10419,7 @@
   {
     "tag": "turdy",
     "items": [
-      "E._Coli"
+      "E_Coli"
     ]
   },
   {
@@ -10512,7 +10507,7 @@
   {
     "tag": "untainted",
     "items": [
-      "Crown_Of_Light"
+      "Crown_of_Light"
     ]
   },
   {
@@ -10557,7 +10552,7 @@
       "Cat-O-Nine-Tails",
       "Stem_Cells",
       "Sacred_Heart",
-      "Tooth_Picks",
+      "Toothpicks",
       "Holy_Grail",
       "SMB_Super_Fan",
       "MEAT!",
@@ -10712,7 +10707,7 @@
   {
     "tag": "void",
     "items": [
-      "Maw_Of_The_Void",
+      "Maw_of_the_Void",
       "Athame",
       "Void"
     ]
@@ -10777,7 +10772,7 @@
     "items": [
       "Stop_Watch",
       "Broken_Watch",
-      "BackStabber",
+      "Backstabber",
       "Finger!",
       "Watch_Battery"
     ]
@@ -10792,7 +10787,7 @@
     "tag": "way",
     "items": [
       "Soy_Milk",
-      "Lil_Loki"
+      "Lil%27_Loki"
     ]
   },
   {
@@ -10801,13 +10796,13 @@
       "Transcendence",
       "Scatter_Bombs",
       "Robo-Baby_2.0",
-      "We_Need_To_Go_Deeper!"
+      "We_Need_to_Go_Deeper!"
     ]
   },
   {
     "tag": "wealth",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Butt_Penny",
       "Bloody_Penny",
       "Burnt_Penny",
@@ -10831,7 +10826,7 @@
   {
     "tag": "what",
     "items": [
-      "Contract_from_Below",
+      "Contract_From_Below",
       "Buddy_in_a_Box",
       "D1",
       "Bag_Lunch"
@@ -10923,7 +10918,7 @@
   {
     "tag": "win",
     "items": [
-      "Pay_To_Win"
+      "Pay_to_Win"
     ]
   },
   {
@@ -11173,8 +11168,8 @@
       "Scatter_Bombs",
       "Eden's_Blessing",
       "Betrayal",
-      "Spear_Of_Destiny",
-      "BackStabber",
+      "Spear_of_Destiny",
+      "Backstabber",
       "Dark_Bum",
       "Fate's_Reward",
       "Lil_Gurdy",

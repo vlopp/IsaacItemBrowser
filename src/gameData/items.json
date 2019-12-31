@@ -1132,13 +1132,13 @@
     },
     "offset": 9760
   },
-  "Tooth_Picks": {
+  "Toothpicks": {
     "id": 183,
     "readableName": "Tooth Picks",
     "type": "Passive",
     "shortDescription": "Tears + shot speed up",
     "longDescription": {
-      "effects": "",
+      "effects": "+0.7 Tears up.\n+16% Shot Speed.\nColors tears red.",
       "notes": ""
     },
     "offset": 9792
@@ -1308,14 +1308,14 @@
     },
     "offset": 10400
   },
-  "Humbleing_Bundle": {
+  "Humbling_Bundle": {
     "id": 203,
     "readableName": "Humbleing Bundle",
     "type": "Passive",
     "shortDescription": "1+1 free 4Evar",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Transforms all Heart, Bomb, Penny, and Key pickups into their respective 1+1 versions.\n  Does not work with Soul Hearts , Black Hearts , half Red Hearts , Nickels , Dimes , or drops from The Book of Sin . \n  Does not work with Gold Hearts , Lucky Pennies , or Sticky Nickels .",
+      "notes": "By bombing Donation Machines, the player can earn more money than is taken from the machine, giving an endless supply of coins until the machine breaks or the player runs out of bombs.\n  This is especially effective with Bomber Boy , as a single bomb can yield upwards of 20 coins.\nWhen used while fighting Greed, Hangers, or Keepers, every coin knocked out of Isaac will be worth two coins, allowing Isaac to net a profit."
     },
     "offset": 10432
   },
@@ -1376,7 +1376,7 @@
   },
   "Spider_Baby": {
     "id": 211,
-    "readableName": "Spiderbaby",
+    "readableName": "Spider Baby",
     "type": "Passive",
     "shortDescription": "Spider revenge",
     "longDescription": {
@@ -1638,14 +1638,14 @@
     },
     "offset": 11424
   },
-  "E._Coli": {
+  "E_Coli": {
     "id": 236,
     "readableName": "E. Coli",
     "type": "Passive",
     "shortDescription": "Turdy touch",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Enemies that touch Isaac are turned into Poop.",
+      "notes": "Poop created by this item is not grid-aligned, and flashes red when hit, similar to damaging Monsters.\n  Does not work on bosses.\nIf you touch the middle section of a Grub with E Coli, it will then split and become two heads (rather than destroying and spawning Maggots).\nMullibooms can be turned into poop without taking damage.\nThe poops vanish if the room is left and then returned to.\n This item belongs to the Oh Crap set. Collecting three items from this set will transform Isaac into a walking pile of poop."
     },
     "offset": 11456
   },
@@ -1671,14 +1671,14 @@
     },
     "offset": 11584
   },
-  "Contract_from_Below": {
+  "Contract_From_Below": {
     "id": 241,
     "readableName": "Contract from Below",
     "type": "Passive",
     "shortDescription": "Wealth... but at what cost?",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Doubles any pickups and chests earned for clearing a room.\nDecreases the chance for room drops by roughly 33%.\n  Neither effect applies to coins dropped in Greed Mode.",
+      "notes": "Diplopia: Each additional Contract increases the number of room drops by one and lowers the chance of getting nothing.\nGuppy's Tail: Higher chance of double chests upon clearing a room."
     },
     "offset": 11616
   },
@@ -1770,14 +1770,14 @@
     },
     "offset": 11872
   },
-  "BOGO_Bombs": {
+  "Bogo_Bombs": {
     "id": 250,
     "readableName": "BOGO Bombs",
     "type": "Passive",
     "shortDescription": "1+1 BOOM!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "All bombs become 1+1 bomb pickups",
+      "notes": "Humbling Bundle: No effect."
     },
     "offset": 11904
   },
@@ -2551,14 +2551,14 @@
     },
     "offset": 16000
   },
-  "Pay_To_Play": {
+  "Pay_to_Play": {
     "id": 380,
     "readableName": "Pay To Play",
     "type": "Passive",
     "shortDescription": "Money talks",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "+5 coins\nLocked doors now require a coin instead of a key to open.\n  Doors that require two keys to open will still require keys.",
+      "notes": "Store Key: Overridden by Pay to Play. Stores still require coins to unlock."
     },
     "offset": 16032
   },
@@ -2650,25 +2650,25 @@
     },
     "offset": 16608
   },
-  "Maw_Of_The_Void": {
+  "Maw_of_the_Void": {
     "id": 399,
     "readableName": "Maw Of The Void",
     "type": "Passive",
     "shortDescription": "Consume thy enemy!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "+1.0 Damage up.\nAfter firing tears for 2.5 seconds, releasing the fire button unleashes a black Brimstone ring around Isaac that expands and contracts, and deals damage at a rapid rate to all enemies touching it.\n  The charge is completed when a red upside-down cross appears on Isaac's forehead. \n  With charge bars enabled, there is also an indicator that displays the charge. \n  The black ring deals damage equal to Isaac's current damage per tick, and ticks a total of 30 times. \n  Enemies killed by the black ring have a 5% chance to drop black hearts . \n  Black hearts will drop as soon as the enemy is killed. (In other words, the heart will drop at the beginning of the death animation rather than at the end of the death animation.)\nThis item belongs to the Leviathan set. Collecting three items from this set will transform Isaac into Leviathan.",
+      "notes": "This item does not work while playing a blindfolded character, as it requires tears to charge.\n  This restriction can, however, be bypassed by picking up The Ludovico Technique . \n  This item's effect will not fully activate if picked up by Lilith ; its stat ups will still apply to her Incubus familiar, but the ring will not appear unless she also has The Ludovico Technique .\nThe ring will apply any tear status effects such as poison if Isaac has them."
     },
     "offset": 16640
   },
-  "Spear_Of_Destiny": {
+  "Spear_of_Destiny": {
     "id": 400,
     "readableName": "Spear Of Destiny",
     "type": "Passive",
     "shortDescription": "Your destiny",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Isaac holds a spear in front of him that deals 2 times his tear damage to enemies.\n  The spear occasionally inflicts fear on enemies it damages.",
+      "notes": "Spear of Destiny does not replace tears.\nThe item is similar to Mom's Knife, although it cannot be fired.\nDespite its size, the spear's hitbox is actually only located on the silver part and the handle, making it only effective at very close range.\nSpear of Destiny does not work while Blindfolded, except in The Guardian challenge.\nIn The Guardian challenge, the spear is reskinned to look like a sword.\nThe spear can kill permanently charmed enemies."
     },
     "offset": 16672
   },
@@ -2782,14 +2782,14 @@
     },
     "offset": 17120
   },
-  "Crown_Of_Light": {
+  "Crown_of_Light": {
     "id": 415,
     "readableName": "Crown Of Light",
     "type": "Passive",
     "shortDescription": "The untainted gain power",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Grants 2 Soul Hearts.\nReplaces normal tears with blue diamond tears while Isaac doesn't have any empty red heart containers.\n  This includes whenever Isaac doesn't have any red heart containers.\nWhile the effect is active, grants double damage, +5.25 range, +0.5 tear height and -0.30 shot speed.\n  The crown will glow blue while active; if inactive, it will appear grey.\nThe effect will deactivate for the rest of the current room when damage is taken, regardless of Isaac's health.",
+      "notes": "Because the effect occurs if Isaac has no red heart containers, this is an extremely beneficial item for Azazel, ???, Keeper and The Lost."
     },
     "offset": 17152
   },
@@ -2925,14 +2925,14 @@
     },
     "offset": 17952
   },
-  "Dark_Princes_Crown": {
+  "Dark_Prince's_Crown": {
     "id": 442,
     "readableName": "Dark Princes Crown",
     "type": "Passive",
     "shortDescription": "Loss is power",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "When at exactly 1 red heart, some of Isaac's stats are increased.\n  +1.5 range \n  +1 tear height \n  +0.7 tears \n  +0.2 shot speed\nThe effect is lost any time Isaac gains or loses red hearts.",
+      "notes": "This item pairs well with Eve, since she starts with Whore of Babylon, and is the only character that can gain Whore of Babylon's effect at 1 heart.\nThis item has no effect on Blue Baby, The Lost, or The Soul since they cannot gain red hearts.\nThis item only affects Keeper when he has only one coin heart.\nThis item only affects The Forgotten when he has one full bone heart.\nThe effect does not stack with multiple Dark Prince's Crowns."
     },
     "offset": 18016
   },
@@ -3321,14 +3321,14 @@
     },
     "offset": 20032
   },
-  "BackStabber": {
+  "Backstabber": {
     "id": 506,
     "readableName": "BackStabber",
     "type": "Passive",
     "shortDescription": "Watch your back!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "When tears land on the \"back\" of enemies, they deal double damage and inflict bleeding.\n  Bleeding enemies take damage equal to 10% of their maximum health every 5 seconds. \n  Bosses cannot be inflicted with bleeding, but will still take the extra damage.",
+      "notes": "Brimstone: Can still inflict bleeding, as long as Isaac is behind the enemy.\nDaddy Longlegs: Daddy Longlegs can occasionally gain the added damage and bleeding of Backstabber.\nShooting Familiars: Tears fired by familiars can inflict the effects of Backstabber.\nRubber Cement: Increases chance to backstab an enemy while standing in front or to the side by the shot bouncing to hit the enemy's back."
     },
     "offset": 20064
   },
@@ -3717,14 +3717,14 @@
     },
     "offset": 7552
   },
-  "Forever_alone": {
+  "Forever_Alone": {
     "id": 128,
     "readableName": "Forever alone",
     "type": "Familiar",
     "shortDescription": "Attack fly",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Spawns a blue attack fly orbital that orbits a long distance from Isaac and deals 2 damage per tick or 30 damage per second on contact.\nThis item belongs to the Beelzebub set. Collecting three items from this set will transform Isaac into a giant humanoid fly.",
+      "notes": "This item is used in Challenge #6 (Solar System).\nThe name of this item is a reference to the Forever Alone meme."
     },
     "offset": 8032
   },
@@ -4113,14 +4113,14 @@
     },
     "offset": 14080
   },
-  "???'s_Only_Friend": {
+  "%3F%3F%3F%27s_Only_Friend": {
     "id": 320,
     "readableName": "???'s Only Friend",
     "type": "Familiar",
     "shortDescription": "Controlled friend",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Gives Isaac a controllable follower that damages enemies on touch, dealing 2.5 damage per tick. Works similar to The Ludovico Technique and Robo-Baby 2.0.\nThis item belongs to the Beelzebub set. Collecting three items from this set will transform Isaac into a giant humanoid fly.",
+      "notes": "Unlike The Ludovico Technique, it cannot be controlled with the mouse, even with mouse control enabled.\nHolding two opposite fire keys (both left and right or both up and down) at the same time will keep the familiar in place, while making Isaac fire in the direction of whichever fire key was pressed second.\n  This can help during combats with bosses who do not move a lot, as the familiar can continuously damage the boss when kept stationary. \n  On some keyboards, holding opposite fire keys may cause other keys to become unresponsive."
     },
     "offset": 14112
   },
@@ -4366,14 +4366,14 @@
     },
     "offset": 17664
   },
-  "Lil_Loki": {
+  "Lil%27_Loki": {
     "id": 435,
     "readableName": "Lil Loki",
     "type": "Familiar",
     "shortDescription": "4-way buddy!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Spawns a familiar that fires tears in all four cardinal directions.",
+      "notes": "Lil Loki's tears do 3.5 damage."
     },
     "offset": 17792
   },
@@ -4773,14 +4773,14 @@
     },
     "offset": 5376
   },
-  "Teleport!": {
+  "Teleport": {
     "id": 44,
     "readableName": "Teleport!",
     "type": "Active",
     "shortDescription": "Teleport!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Upon activation, teleports Isaac to a random room on the current floor.",
+      "notes": "It is possible to teleport to the secret room or super secret room.\nIt is not possible to teleport to the I AM ERROR room.\nIt is not possible to teleport to the crawl space for the floor or the black market.\n It is possible to teleport to a super secret room with no doors, resulting in the player being stuck."
     },
     "offset": 5408
   },
@@ -4894,14 +4894,14 @@
     },
     "offset": 6592
   },
-  "We_Need_To_Go_Deeper!": {
+  "We_Need_to_Go_Deeper!": {
     "id": 84,
     "readableName": "We Need To Go Deeper!",
     "type": "Active",
     "shortDescription": "Reusable level skip",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Spawns a trapdoor that leads to the next floor upon activation.\n  There is a 10% chance the trapdoor will lead into a crawl space or a black market . \n  If used in Womb/Utero /Scarred Womb II, the trapdoor will always lead to Sheol .",
+      "notes": "If more than one crawl space trapdoor exists, they will all lead to the same Crawl Space.\nHas no effect in Sheol, Cathedral, The Chest, the Dark Room, and Blue Womb (no trapdoors of any type will be generated).\nA trapdoor cannot be placed in front of a secret room entrance position, making this item an indirect aid to locating secret rooms.\nThis item can be used to destroy rocks if used while Isaac is flying over a rock.\nThis item can be used to create a trapdoor on The Womb before defeating Mom's Heart, which means the player will be able to access Sheol before unlocking it, and, if the player manages to defeat Satan, also unlock rewards for beating Satan.\nWhen used on the last floor of a challenge, a trapdoor to the next floor can spawn. If it is entered, Isaac must beat the boss of that floor to spawn the game ending trophy.\n After unlocking The Forgotten, the item may be used on the dirt patches in the Dark Room to dig up a random type of chest."
     },
     "offset": 6624
   },
@@ -5224,14 +5224,14 @@
     },
     "offset": 9888
   },
-  "Telepathy_For_Dummies": {
+  "Telepathy_for_Dummies": {
     "id": 192,
     "readableName": "Telepathy For Dummies",
     "type": "Active",
     "shortDescription": "Temporary psychic shot",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Upon activation, grants homing tears for the current room.",
+      "notes": "Brimstone: The beam curves towards enemies.\n  Azazel 's Brimstone: The short-ranged beam can curve if Azazel gets enough range upgrades.\nDr. Fetus: The bombs slide towards enemies.\n Epic Fetus: Cursor slides towards enemies.\nThe Ludovico Technique: The tear will attempt to home towards a single target, even if it hits a different enemy on its way there, making it difficult to control.\nMarked: Tears will travel in the direction of the cross-hairs until close enough to home in on an enemy.\nMaw of the Void: The Brimstone ring curves towards enemies.\nMom's Knife: The knife curves towards enemies.\nTech X: The laser rings curve towards enemies, resulting in longer contact time and substantial damage increase per ring."
     },
     "offset": 10080
   },
@@ -5840,14 +5840,14 @@
     },
     "offset": 19488
   },
-  "D_infinity": {
+  "D_Infinity": {
     "id": 489,
     "readableName": "D infinity",
     "type": "Active",
     "shortDescription": "Reroll forever",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Grants a random dice item that transforms into a different random dice item upon use.\n  Each dice item has a 2 room charge.",
+      "notes": "The icon of the D Infinity will change to that of the corresponding dice while being held. Putting it back on a pedestal will change its icon back to normal."
     },
     "offset": 19520
   },
@@ -6610,14 +6610,14 @@
     },
     "offset": 1728
   },
-  "???'s_Soul": {
+  "%3F%3F%3F%27s_Soul": {
     "id": 6723,
     "readableName": "???'s Soul",
     "type": "Trinket",
     "shortDescription": "Imaginary friend",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Spawns a familiar that floats slowly around the room on a zig-zag pattern similar to The Peeper and fires spectral and homing tears that deal 3.5 damage.",
+      "notes": "Unlike The Peeper, ???'s Soul does no contact damage.\n ???'s Soul is unable to shoot while flying over obstacles (which is the same behavior that Ghost Baby has)."
     },
     "offset": 1760
   },
@@ -7204,14 +7204,14 @@
     },
     "offset": 3488
   },
-  "Pay_To_Win": {
+  "Pay_to_Win": {
     "id": 6778,
     "readableName": "Pay To Win",
     "type": "Trinket",
     "shortDescription": "...",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "Restock Boxes always spawn in Treasure Rooms.",
+      "notes": "The trinket's effect applies when the floor is generated, so it will only take effect if already held when entering a new floor. This means that finding it on a floor will not change the Treasure Room on that floor, nor will dropping it remove its effect on that floor's Treasure Room if Pay to Win was held when the floor was entered.\nThis trinket does not affect the two Treasure Rooms spawned in the Blue Womb.\nIn Greed Mode, this affects both normal and silver types of Treasure Rooms."
     },
     "offset": 3520
   },
