@@ -4806,14 +4806,14 @@
     },
     "offset": 5504
   },
-  "Shoop_da_Whoop!": {
+  "Shoop_Da_Whoop!": {
     "id": 49,
     "readableName": "Shoop da Whoop!",
     "type": "Active",
     "shortDescription": "BLLLARRRRGGG!",
     "longDescription": {
-      "effects": "",
-      "notes": ""
+      "effects": "When activated, the next shot will fire a big laser in the direction Isaac shoots that deals double Isaac's tear damage. If Isaac is already shooting, the item immediately activates in that direction.\n  The laser deals 4 times Isaac's tear damage.",
+      "notes": "Can still be used while Blindfolded.\nThis item synergizes extremely well with items that significantly increase damage such as Polyphemus and Ipecac."
     },
     "offset": 5568
   },
