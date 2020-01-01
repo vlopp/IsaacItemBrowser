@@ -1,5 +1,11 @@
 [
   {
+    "tag": " 50%",
+    "items": [
+      "Steam_Sale"
+    ]
+  },
+  {
     "tag": "!!!",
     "items": [
       "Chaos"
@@ -120,12 +126,6 @@
     "tag": ",stick",
     "items": [
       "Sharp_Straw"
-    ]
-  },
-  {
-    "tag": "-50%",
-    "items": [
-      "Steam_Sale"
     ]
   },
   {
@@ -624,23 +624,23 @@
     ]
   },
   {
-    "tag": "all!",
-    "items": [
-      "Ball_of_Bandages",
-      "Friendly_Ball"
-    ]
-  },
-  {
-    "tag": "all-stats-up",
+    "tag": "all stats-up",
     "items": [
       "Magic_Mushroom",
       "The_Halo"
     ]
   },
   {
-    "tag": "all-up",
+    "tag": "all up",
     "items": [
       "The_Halo"
+    ]
+  },
+  {
+    "tag": "all!",
+    "items": [
+      "Ball_of_Bandages",
+      "Friendly_Ball"
     ]
   },
   {
@@ -1349,7 +1349,7 @@
     ]
   },
   {
-    "tag": "belzebub-set",
+    "tag": "belzebub set",
     "items": [
       "Skatole",
       "Infestation",
@@ -1620,7 +1620,7 @@
     ]
   },
   {
-    "tag": "black-hearts",
+    "tag": "black hearts",
     "items": [
       "Abaddon"
     ]
@@ -1962,7 +1962,7 @@
     ]
   },
   {
-    "tag": "blue-spider",
+    "tag": "blue spider",
     "items": [
       "Infestation_2"
     ]
@@ -1974,21 +1974,21 @@
     ]
   },
   {
+    "tag": "bob set",
+    "items": [
+      "Bob's_Curse",
+      "Ipecac",
+      "Bob's_Brain",
+      "Bob's_Rotten_Head"
+    ]
+  },
+  {
     "tag": "bob's",
     "items": [
       "Bob's_Curse",
       "Bob's_Brain",
       "Bob's_Rotten_Head",
       "Bob's_Bladder"
-    ]
-  },
-  {
-    "tag": "bob-set",
-    "items": [
-      "Bob's_Curse",
-      "Ipecac",
-      "Bob's_Brain",
-      "Bob's_Rotten_Head"
     ]
   },
   {
@@ -2160,7 +2160,7 @@
     ]
   },
   {
-    "tag": "bookworm-set",
+    "tag": "bookworm set",
     "items": [
       "The_Bible",
       "The_Book_of_Belial",
@@ -3397,7 +3397,7 @@
     ]
   },
   {
-    "tag": "conjoined-set",
+    "tag": "conjoined set",
     "items": [
       "Brother_Bobby",
       "Sister_Maggy",
@@ -3930,13 +3930,13 @@
     ]
   },
   {
-    "tag": "damage-down",
+    "tag": "damage down",
     "items": [
       "Soy_Milk"
     ]
   },
   {
-    "tag": "damage-up",
+    "tag": "damage up",
     "items": [
       "Blood_of_the_Martyr",
       "Pentagram",
@@ -5911,7 +5911,7 @@
     ]
   },
   {
-    "tag": "fun-guy-set",
+    "tag": "fun guy-set",
     "items": [
       "Magic_Mushroom",
       "Mini_Mush",
@@ -6568,21 +6568,21 @@
     ]
   },
   {
-    "tag": "guppy's",
+    "tag": "guppy set",
     "items": [
       "Guppy's_Tail",
       "Guppy's_Collar",
+      "Dead_Cat",
       "Guppy's_Hairball",
       "Guppy's_Paw",
       "Guppy's_Head"
     ]
   },
   {
-    "tag": "guppy-set",
+    "tag": "guppy's",
     "items": [
       "Guppy's_Tail",
       "Guppy's_Collar",
-      "Dead_Cat",
       "Guppy's_Hairball",
       "Guppy's_Paw",
       "Guppy's_Head"
@@ -6653,7 +6653,7 @@
     ]
   },
   {
-    "tag": "half-heart",
+    "tag": "half heart",
     "items": [
       "The_Wafer",
       "Whore_of_Babylon"
@@ -6872,13 +6872,7 @@
     ]
   },
   {
-    "tag": "health!",
-    "items": [
-      "Greed's_Gullet"
-    ]
-  },
-  {
-    "tag": "health-up",
+    "tag": "health up",
     "items": [
       "Less_Than_Three",
       "Raw_Liver",
@@ -6904,6 +6898,12 @@
       "Blue_Cap",
       "A_Snack",
       "Marrow"
+    ]
+  },
+  {
+    "tag": "health!",
+    "items": [
+      "Greed's_Gullet"
     ]
   },
   {
@@ -8005,7 +8005,7 @@
     ]
   },
   {
-    "tag": "leviathan-set",
+    "tag": "leviathan set",
     "items": [
       "Pentagram",
       "The_Mark",
@@ -8323,7 +8323,7 @@
     ]
   },
   {
-    "tag": "luck-up",
+    "tag": "luck up",
     "items": [
       "Lucky_Foot",
       "Magic_Scab",
@@ -9429,17 +9429,17 @@
     ]
   },
   {
-    "tag": "oh!",
-    "items": [
-      "Mysterious_Candy"
-    ]
-  },
-  {
-    "tag": "oh-crap-set",
+    "tag": "oh crap-set",
     "items": [
       "E_Coli",
       "The_Poop",
       "Flush!"
+    ]
+  },
+  {
+    "tag": "oh!",
+    "items": [
+      "Mysterious_Candy"
     ]
   },
   {
@@ -10986,7 +10986,7 @@
     ]
   },
   {
-    "tag": "question-mark",
+    "tag": "question mark",
     "items": [
       "There's_Options"
     ]
@@ -11072,13 +11072,13 @@
     ]
   },
   {
-    "tag": "range-down",
+    "tag": "range down",
     "items": [
       "Kidney_Stone"
     ]
   },
   {
-    "tag": "range-up",
+    "tag": "range up",
     "items": [
       "Roid_Rage",
       "Mom's_Underwear",
@@ -12000,7 +12000,7 @@
     ]
   },
   {
-    "tag": "seraphim-set",
+    "tag": "seraphim set",
     "items": [
       "Rosary",
       "The_Halo",
@@ -12207,13 +12207,13 @@
     ]
   },
   {
-    "tag": "shoot-speed",
+    "tag": "shoot speed",
     "items": [
       "Cat-O-Nine-Tails"
     ]
   },
   {
-    "tag": "shoot-speed-up",
+    "tag": "shoot speed-up",
     "items": [
       "Speed_Ball",
       "Screw"
@@ -12264,17 +12264,7 @@
     ]
   },
   {
-    "tag": "shot!",
-    "items": [
-      "The_Wiz",
-      "Holy_Light",
-      "God's_Flesh",
-      "Explosivo",
-      "Evil_Eye"
-    ]
-  },
-  {
-    "tag": "shot-height",
+    "tag": "shot height",
     "items": [
       "Roid_Rage",
       "Mom's_Underwear",
@@ -12282,10 +12272,20 @@
     ]
   },
   {
-    "tag": "shot-speed-down",
+    "tag": "shot speed-down",
     "items": [
       "Eve's_Mascara",
       "Blue_Cap"
+    ]
+  },
+  {
+    "tag": "shot!",
+    "items": [
+      "The_Wiz",
+      "Holy_Light",
+      "God's_Flesh",
+      "Explosivo",
+      "Evil_Eye"
     ]
   },
   {
@@ -12474,7 +12474,7 @@
     ]
   },
   {
-    "tag": "size-down",
+    "tag": "size down",
     "items": [
       "Mini_Mush",
       "Odd_Mushroom_(Thin)"
@@ -12682,7 +12682,7 @@
     ]
   },
   {
-    "tag": "soul-hearts",
+    "tag": "soul hearts",
     "items": [
       "The_Soul",
       "PJs",
@@ -12754,7 +12754,7 @@
     ]
   },
   {
-    "tag": "speed-down",
+    "tag": "speed down",
     "items": [
       "The_Small_Rock",
       "Bucket_of_Lard",
@@ -12764,7 +12764,7 @@
     ]
   },
   {
-    "tag": "speed-up",
+    "tag": "speed up",
     "items": [
       "Roid_Rage",
       "Wooden_Spoon",
@@ -12875,7 +12875,7 @@
     ]
   },
   {
-    "tag": "spider-baby-set",
+    "tag": "spider baby-set",
     "items": [
       "Spider_Bite",
       "Mutant_Spider",
@@ -12979,7 +12979,7 @@
     ]
   },
   {
-    "tag": "spun-set",
+    "tag": "spun set",
     "items": [
       "The_Virus",
       "Roid_Rage",
@@ -13170,7 +13170,7 @@
     ]
   },
   {
-    "tag": "stompy-set",
+    "tag": "stompy set",
     "items": [
       "Magic_Mushroom",
       "Leo"
@@ -13335,7 +13335,7 @@
     ]
   },
   {
-    "tag": "super-bum-set",
+    "tag": "super bum-set",
     "items": [
       "Dark_Bum",
       "Key_Bum"
@@ -13560,7 +13560,7 @@
     ]
   },
   {
-    "tag": "tear-height",
+    "tag": "tear height",
     "items": [
       "The_Halo",
       "Jesus_Juice",
@@ -13627,21 +13627,7 @@
     ]
   },
   {
-    "tag": "tears!",
-    "items": [
-      "Head_of_the_Keeper",
-      "Eye_of_Greed",
-      "Compound_Fracture",
-      "Sinus_Infection",
-      "Glaucoma",
-      "Parasitoid",
-      "Eye_of_Belial",
-      "Sulfuric_Acid",
-      "Analog_Stick"
-    ]
-  },
-  {
-    "tag": "tears-up",
+    "tag": "tears up",
     "items": [
       "Wire_Coat_Hanger",
       "The_Pact",
@@ -13654,6 +13640,20 @@
       "Soy_Milk",
       "Blue_Cap",
       "Mr._Dolly"
+    ]
+  },
+  {
+    "tag": "tears!",
+    "items": [
+      "Head_of_the_Keeper",
+      "Eye_of_Greed",
+      "Compound_Fracture",
+      "Sinus_Infection",
+      "Glaucoma",
+      "Parasitoid",
+      "Eye_of_Belial",
+      "Sulfuric_Acid",
+      "Analog_Stick"
     ]
   },
   {
@@ -15450,7 +15450,7 @@
     ]
   },
   {
-    "tag": "x-eyes",
+    "tag": "x eyes",
     "items": [
       "Bobby-Bomb"
     ]
@@ -15615,13 +15615,7 @@
     ]
   },
   {
-    "tag": "yes!",
-    "items": [
-      "Store_Credit"
-    ]
-  },
-  {
-    "tag": "yes-mother-set",
+    "tag": "yes mother-set",
     "items": [
       "Mom's_Underwear",
       "Mom's_Heels",
@@ -15645,6 +15639,12 @@
       "Mom's_Toenail",
       "Mom's_Pearl",
       "Mom's_Locket"
+    ]
+  },
+  {
+    "tag": "yes!",
+    "items": [
+      "Store_Credit"
     ]
   },
   {

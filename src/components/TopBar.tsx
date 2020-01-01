@@ -26,9 +26,9 @@ const useStyles = makeStyles(theme => ({
     maxWidth: "95%",
     cursor: `url("${cursor}"), auto`
   },
-  box:{
-    gridArea:"searchBar",
-    width:"100%"
+  box: {
+    gridArea: "searchBar",
+    width: "100%"
   }
 }));
 
@@ -40,14 +40,34 @@ export const TopBar = () => {
 
   const items = useSelector((x: Store) => x.currentItems);
 
+  const tokenizeSearchString = (searchString: string): string[] => {
+    const tokensWithSpace = [
+      "damage up",
+      "spun set",
+      "belzebub set",
+      "yes mother set",
+      "guppy set",
+      "leviathan set",
+      "bob set",
+      "seraphim set",
+      "fun guy set",
+      "conjoined set",
+      "oh crap set",
+      "super bum set",
+      "bookworm set",
+      "spider baby set",
+      "stompy set"
+    ];
+
+    return searchString
+      .split(new RegExp(`(${tokensWithSpace.join("|")}| )`, "g"))
+      .filter(phrase => !["", " "].includes(phrase));
+  };
+
   const onChangeHandle = e => {
     setState(e.target.value);
     dispatch(
-      filterItems(
-        ...e.target.value
-          .split(" ")
-          .filter(phrase => phrase !== "" && phrase !== " ")
-      )
+      filterItems(...tokenizeSearchString(e.target.value.toLowerCase()))
     );
   };
 
