@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f43eaf44e1c79042029f4a5f6880db0",
+    "revision": "38d544006c5a03a9c6283cde8c175c51",
     "url": "/IsaacItemBrowser/index.html"
   },
   {
-    "revision": "9c3c5aacab7381443cf5",
+    "revision": "807ea1912b1106a17db9",
     "url": "/IsaacItemBrowser/static/css/main.297d7862.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IsaacItemBrowser/static/js/2.783e4161.chunk.js.LICENSE"
   },
   {
-    "revision": "9c3c5aacab7381443cf5",
-    "url": "/IsaacItemBrowser/static/js/main.e3d2b673.chunk.js"
+    "revision": "807ea1912b1106a17db9",
+    "url": "/IsaacItemBrowser/static/js/main.e8880bbf.chunk.js"
   },
   {
     "revision": "a39f27e08a1292c8f02f",
