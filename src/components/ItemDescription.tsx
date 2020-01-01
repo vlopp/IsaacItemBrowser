@@ -43,12 +43,12 @@ const useStyles = makeStyles(theme => ({
   itemShortDescription: {
     fontSize: "150%",
     color: "#959595",
-    margin: "5px",
+
     textShadow: "5px 4px 5px black"
   },
   ul: {
     alignSelf: "normal",
-    margin: "20px 0px"
+    margin: "0px 0px"
   },
   silom: {
     fontFamily: "Silom",
@@ -74,7 +74,8 @@ const useStyles = makeStyles(theme => ({
       transitionTimingFunction: "ease-out",
       transition: "transform 0.07s"
     }
-  }
+  },
+  sectionName: { marginTop: "20px", fontSize: "150%", color: "#c8b7b3" }
 }));
 
 export const ItemDescription = () => {
@@ -124,16 +125,18 @@ export const ItemDescription = () => {
           <Typography align={"center"} className={styles.itemType}>
             {items[describedItem].type}
           </Typography>
-          <ul className={styles.ul}>
-            <ListEntry
-              entryString={items[describedItem].longDescription.effects}
-            ></ListEntry>
-          </ul>
-          <ul className={styles.ul}>
-            <ListEntry
-              entryString={items[describedItem].longDescription.notes}
-            ></ListEntry>
-          </ul>
+          {Object.entries(items[describedItem].longDescription).map(
+            ([sectionName, sectionContent]) => (
+              <React.Fragment key={sectionName}>
+                <Typography className={styles.sectionName}>
+                  {sectionName}
+                </Typography>
+                <ul className={styles.ul}>
+                  <ListEntry entryString={sectionContent} />
+                </ul>
+              </React.Fragment>
+            )
+          )}
         </Box>
       </div>
     </>
