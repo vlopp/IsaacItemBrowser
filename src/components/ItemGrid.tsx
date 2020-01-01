@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import ItemIcon from "$root/components/ItemIcon";
 import { useSelector } from "react-redux";
 import { Store } from "$redux/store/Store";
-import { itemNames as itemNamesImport } from "$root/gameData/gameData";
+import { itemNames as itemNamesImport } from "$gameData/gameData";
 import { Box, makeStyles, useMediaQuery, useTheme } from "@material-ui/core";
 import { useIsaacContext } from "$root/useIsaacContext";
 

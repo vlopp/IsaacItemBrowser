@@ -43,3 +43,4 @@ export default async function ({resourceDirPath, outputDir}) {
 
   return spriteSheetOffsets;
 }
+

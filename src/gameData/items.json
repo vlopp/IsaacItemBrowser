@@ -2293,7 +2293,7 @@
     "longDescription": {
       "Effect": "Reduces tear delay by the formula: (delay / 4) - 2\nx0.2 damage multiplier",
       "Notes": "At base tear rate, Soy Milk sets the player's tear delay to the game's minimum value of 1, for 15 tears per second. This is much lower than the normal minimum tear delay; see the tear delay explanation page.\nAt base damage, Soy Milk is a very small DPS up (barely noticeable) if the player hits every single shot. With nearly any tears up at all, Soy Milk becomes a DPS down. The more tears per second before obtaining Soy Milk, the greater the decrease in DPS.\nSoy Milk's damage down also significantly decreases tear size.\nThe endless stream of tears effectively increases directional knockback.\nDue to the high fire rate, items that cause tears to inflict status effects activate more frequently.\n Soy Milk is a special item.",
-      "Interactions": "Epic Fetus: Damage of missiles will be decreased accordingly, but unlike normal tears, there is still a fixed timed delay between firing missiles\nProptosis: The low-damage tears disappear extremely quickly, greatly reducing range.\nTechnology 2: Half of the Soy Milk tears are replaced by constant laser, but damage down compounds.",
+      "Interactions": "Epic Fetus: Damage of missiles will be decreased accordingly, but unlike normal tears, there is still a fixed timed delay between firing missiles\nProptosis: The low-damage tears disappear extremely quickly, greatly reducing range.\nTechnology 2: Half of the Soy Milk tears are replaced by constant laser, but damage down compounds.\nMom's Knife: The large damage down reduces the effectiveness of the weapon to melee only in order to apply significant damage. Potential run ender.",
       "Trivia": "This item is used in Challenge #3 (Head Trauma)."
     },
     "offset": 14432
@@ -7563,10 +7563,7 @@
     "readableName": "Walnut",
     "type": "Trinket",
     "shortDescription": "That's a hard nut to crack!",
-    "longDescription": {
-      "Effect": "When the player takes damage from an explosion, it has a chance to be destroyed and spawn various pickups. These may include:\n Coins \n Hearts \n Keys \n  Random trinket",
-      "Interactions": "Smelter: Walnut will still only activate once after being absorbed."
-    },
+    "longDescription": {},
     "offset": 3392
   },
   "Duct_Tape": {

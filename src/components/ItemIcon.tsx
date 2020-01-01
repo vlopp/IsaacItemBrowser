@@ -3,7 +3,7 @@ import { makeStyles, useMediaQuery, useTheme } from "@material-ui/core";
 import {
   items as itemsImport,
   sprites as spritesImport
-} from "$gameData/gameData.js";
+} from "$gameData/gameData";
 import { useDispatch } from "react-redux";
 import { describeItem } from "$redux/actions/describeItem";
 import { viewItemOnWiki } from "$root/viewItemOnWiki";
@@ -24,6 +24,7 @@ type ItemIconProps = {
   React.HTMLAttributes<HTMLDivElement>,
   HTMLDivElement
 >;
+
 
 const defaultScale = 2;
 

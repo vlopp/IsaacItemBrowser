@@ -3,4 +3,6 @@ import tags from './tags.json';
 import sprites from './sprites.png';
 
 const itemNames = Object.keys(items);
-export {items, tags, sprites, itemNames};
+// @ts-ignore
+const {multiwordTags, tagList} = tags;
+export {items, multiwordTags, tagList, sprites, itemNames};

@@ -1,7 +1,35 @@
 import cheerio from "cheerio";
 import fetch from "node-fetch";
 
-/* Extracts all text from a node and its children. */
+/**
+ * Fetch a resource, retry on unsuccessful tries.
+ * @param url The resource to fetch.
+ * @param retries Max of retries.
+ * @param sleepBetweenRetries Milliseconds to sleep after a failed try.
+ */
+const fetchRetry = async (
+  url: string,
+  retries: number = 3,
+  sleepBetweenRetries: number = 100,
+  ...args
+) => {
+  if (args.length && (args[1].url || args[1].retries)) {
+  }
+  retries--;
+  if (!retries) {
+    return await fetch(url);
+  } else {
+    try {
+      return await fetch(url);
+    } catch (e) {
+      console.log(`Can't fetch ${url}, ${retries} retries remaining...`);
+      setTimeout(
+        () => fetchRetry(url, retries, sleepBetweenRetries),
+        sleepBetweenRetries
+      );
+    }
+  }
+};
 
 /**
  * Extracts all text from a node and its children.
@@ -57,9 +85,26 @@ const extractSection = (elem, indent = -1) => {
 export const wikiFetchSingle = async (
   itemName
 ): Promise<{ [sectionName: string]: string }> => {
-  const response = await fetch(
+
+  /*const response = await fetchRetry(
     `https://bindingofisaacrebirth.gamepedia.com/${itemName.replace(/ /g, "_")}`
-  );
+  );*/
+
+  // todo Implement proper fetch-retry.
+  let response;
+  while (!response) {
+    try {
+      response = await fetch(
+        `https://bindingofisaacrebirth.gamepedia.com/${itemName.replace(
+          / /g,
+          "_"
+        )}`
+      );
+    } catch (e) {
+      await new Promise((r) => setTimeout(r, 150));
+    }
+  }
+
   const text = await response.text();
   const $ = cheerio.load(text);
 

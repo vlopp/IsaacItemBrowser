@@ -4,6 +4,7 @@ import { filterItems } from "$redux/actions/filterItems";
 import { useDispatch, useSelector } from "react-redux";
 import { Store } from "$redux/store/Store";
 import cursor from "$root/static/images/cursor.png";
+import {multiwordTags} from "$gameData/gameData";
 
 const useStyles = makeStyles(theme => ({
   input: {
@@ -41,26 +42,9 @@ export const TopBar = () => {
   const items = useSelector((x: Store) => x.currentItems);
 
   const tokenizeSearchString = (searchString: string): string[] => {
-    const tokensWithSpace = [
-      "damage up",
-      "spun set",
-      "belzebub set",
-      "yes mother set",
-      "guppy set",
-      "leviathan set",
-      "bob set",
-      "seraphim set",
-      "fun guy set",
-      "conjoined set",
-      "oh crap set",
-      "super bum set",
-      "bookworm set",
-      "spider baby set",
-      "stompy set"
-    ];
 
     return searchString
-      .split(new RegExp(`(${tokensWithSpace.join("|")}| )`, "g"))
+      .split(new RegExp(`(${multiwordTags.join("|")}| )`, "g"))
       .filter(phrase => !["", " "].includes(phrase));
   };
 
