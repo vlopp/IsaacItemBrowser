@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38d544006c5a03a9c6283cde8c175c51",
+    "revision": "4e0eeef34381a8011f43f6c54ec94941",
     "url": "/IsaacItemBrowser/index.html"
   },
   {
-    "revision": "807ea1912b1106a17db9",
+    "revision": "943a828d2bd11f1c98c1",
     "url": "/IsaacItemBrowser/static/css/main.297d7862.chunk.css"
   },
   {
-    "revision": "da0471c96617ad2563b5",
-    "url": "/IsaacItemBrowser/static/js/2.783e4161.chunk.js"
+    "revision": "d90c94d07a1f7893f775",
+    "url": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js"
   },
   {
     "revision": "b51e62edbcf7a9c4f4ad13f506021d3e",
-    "url": "/IsaacItemBrowser/static/js/2.783e4161.chunk.js.LICENSE"
+    "url": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js.LICENSE"
   },
   {
-    "revision": "807ea1912b1106a17db9",
-    "url": "/IsaacItemBrowser/static/js/main.e8880bbf.chunk.js"
+    "revision": "943a828d2bd11f1c98c1",
+    "url": "/IsaacItemBrowser/static/js/main.b1c849dc.chunk.js"
   },
   {
     "revision": "a39f27e08a1292c8f02f",
