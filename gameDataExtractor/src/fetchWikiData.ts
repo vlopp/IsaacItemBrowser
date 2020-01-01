@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 /* Extracts all text from a node and its children. */
 
 /**
- * Recursively extracts all text from a node and its children.
+ * Extracts all text from a node and its children.
  * @param The element to extract text from.
  */
 const extractText = elem => {
@@ -17,8 +17,12 @@ const extractText = elem => {
   return "";
 };
 
-// todo fetch other categories besides effects and notes
-const extract = (elem, indent = -1) => {
+/**
+ * Extracts a section from the Isaac wiki.
+ * @param elem The main <ul> element of the section.
+ * @param indent Internal parameter for recursion.
+ */
+const extractSection = (elem, indent = -1) => {
   let acc = "";
 
   if (elem.name === "ul") indent++;
@@ -34,16 +38,25 @@ const extract = (elem, indent = -1) => {
     }
   } else if (elem.childNodes && elem.childNodes.length) {
     for (const x of elem.childNodes) {
-      acc += extract(x, indent);
+      acc += extractSection(x, indent);
     }
   } else if (elem.data) {
     acc += elem.data;
   }
 
-  return " ".repeat(indent) + acc.replace(/(?<!\s) {2,}(?!=\s)/g, " ");
+  return (
+    " ".repeat(indent) +
+    acc.replace(/(?<!\s) {2,}(?!=\s)/g, " ").replace(/(\s)\1+?(.|,)/, "$1$2")
+  );
 };
 
-export const wikiFetchSingle = async itemName => {
+/**
+ * Extract wiki sections for an item.
+ * @param itemName The item name to extract wiki sections for.
+ */
+export const wikiFetchSingle = async (
+  itemName
+): Promise<{ [sectionName: string]: string }> => {
   const response = await fetch(
     `https://bindingofisaacrebirth.gamepedia.com/${itemName.replace(/ /g, "_")}`
   );
@@ -64,13 +77,17 @@ export const wikiFetchSingle = async itemName => {
         extractText(elem.prev.prev).includes(section)
       );
       if (!sectionNode) throw new Error(`No section named ${section} found.`);
-      result[section] = await extract(sectionNode);
+      result[section] = await extractSection(sectionNode);
     } catch (e) {}
   }
 
   return { ...result };
 };
 
+/**
+ * Bulk wiki section extraction.
+ * @param encodedItemNames Item names to extract wiki sections for.
+ */
 export const wikiFetchAll = async (...encodedItemNames) => {
   const data = {};
   console.log(

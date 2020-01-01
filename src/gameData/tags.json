@@ -1349,6 +1349,29 @@
     ]
   },
   {
+    "tag": "belzebub-set",
+    "items": [
+      "Skatole",
+      "Infestation",
+      "The_Mulligan",
+      "Hive_Mind",
+      "Halo_of_Flies",
+      "Distant_Admiration",
+      "Forever_Alone",
+      "Smart_Fly",
+      "BBF",
+      "Best_Bud",
+      "Big_Fan",
+      "%3F%3F%3F%27s_Only_Friend",
+      "Friend_Zone",
+      "Lost_Fly",
+      "Obsessed_Fan",
+      "Papa_Fly",
+      "Angry_Fly",
+      "Jar_of_Flies"
+    ]
+  },
+  {
     "tag": "bender",
     "items": [
       "Spoon_Bender",
@@ -1960,6 +1983,15 @@
     ]
   },
   {
+    "tag": "bob-set",
+    "items": [
+      "Bob's_Curse",
+      "Ipecac",
+      "Bob's_Brain",
+      "Bob's_Rotten_Head"
+    ]
+  },
+  {
     "tag": "bobby",
     "items": [
       "Bobby-Bomb",
@@ -2138,7 +2170,11 @@
       "Book_of_Revelations",
       "The_Book_of_Sin",
       "Monster_Manual",
-      "Satanic_Bible"
+      "Telepathy_for_Dummies",
+      "How_to_Jump",
+      "Book_of_Secrets",
+      "Satanic_Bible",
+      "Book_of_the_Dead"
     ]
   },
   {
@@ -3358,6 +3394,18 @@
     "tag": "conjoined",
     "items": [
       "Gemini"
+    ]
+  },
+  {
+    "tag": "conjoined-set",
+    "items": [
+      "Brother_Bobby",
+      "Sister_Maggy",
+      "Little_Steven",
+      "Harlequin_Baby",
+      "Rotten_Baby",
+      "Headless_Baby",
+      "Mongo_Baby"
     ]
   },
   {
@@ -5863,6 +5911,18 @@
     ]
   },
   {
+    "tag": "fun-guy-set",
+    "items": [
+      "Magic_Mushroom",
+      "Mini_Mush",
+      "Odd_Mushroom_(Thin)",
+      "Odd_Mushroom_(Large)",
+      "Blue_Cap",
+      "God's_Flesh",
+      "1up!"
+    ]
+  },
+  {
     "tag": "fuse",
     "items": [
       "Safety_Scissors",
@@ -6522,7 +6582,10 @@
     "items": [
       "Guppy's_Tail",
       "Guppy's_Collar",
-      "Dead_Cat"
+      "Dead_Cat",
+      "Guppy's_Hairball",
+      "Guppy's_Paw",
+      "Guppy's_Head"
     ]
   },
   {
@@ -7939,6 +8002,19 @@
     "tag": "level",
     "items": [
       "We_Need_to_Go_Deeper!"
+    ]
+  },
+  {
+    "tag": "leviathan-set",
+    "items": [
+      "Pentagram",
+      "The_Mark",
+      "The_Pact",
+      "Brimstone",
+      "Spirit_of_the_Night",
+      "Abaddon",
+      "Maw_of_the_Void",
+      "The_Nail"
     ]
   },
   {
@@ -9359,6 +9435,14 @@
     ]
   },
   {
+    "tag": "oh-crap-set",
+    "items": [
+      "E_Coli",
+      "The_Poop",
+      "Flush!"
+    ]
+  },
+  {
     "tag": "ol'",
     "items": [
       "Samson's_Chains"
@@ -9505,7 +9589,7 @@
     ]
   },
   {
-    "tag": "overgrowm",
+    "tag": "overgrown",
     "items": [
       "Stem_Cells"
     ]
@@ -11918,11 +12002,15 @@
   {
     "tag": "seraphim-set",
     "items": [
+      "Rosary",
       "The_Halo",
       "Mitre",
       "Holy_Grail",
       "Dead_Dove",
-      "Holy_Mantle"
+      "Holy_Mantle",
+      "Guardian_Angel",
+      "Sworn_Protector",
+      "The_Bible"
     ]
   },
   {
@@ -12787,6 +12875,17 @@
     ]
   },
   {
+    "tag": "spider-baby-set",
+    "items": [
+      "Spider_Bite",
+      "Mutant_Spider",
+      "Spider_Baby",
+      "Spider_Mod",
+      "Spider_Butt",
+      "Box_of_Spiders"
+    ]
+  },
+  {
     "tag": "spiders",
     "items": [
       "Hive_Mind",
@@ -12884,7 +12983,12 @@
     "items": [
       "The_Virus",
       "Roid_Rage",
-      "Speed_Ball"
+      "Growth_Hormones",
+      "Speed_Ball",
+      "Experimental_Treatment",
+      "Synthoil",
+      "Adrenaline",
+      "Euthanasia"
     ]
   },
   {
@@ -13066,6 +13170,13 @@
     ]
   },
   {
+    "tag": "stompy-set",
+    "items": [
+      "Magic_Mushroom",
+      "Leo"
+    ]
+  },
+  {
     "tag": "stone",
     "items": [
       "Kidney_Stone",
@@ -13221,6 +13332,13 @@
       "SMB_Super_Fan",
       "Super_Magnet",
       "Super_Ball"
+    ]
+  },
+  {
+    "tag": "super-bum-set",
+    "items": [
+      "Dark_Bum",
+      "Key_Bum"
     ]
   },
   {
@@ -15503,11 +15621,30 @@
     ]
   },
   {
-    "tag": "yes-mother",
+    "tag": "yes-mother-set",
     "items": [
       "Mom's_Underwear",
       "Mom's_Heels",
-      "Mom's_Eye"
+      "Mom's_Lipstick",
+      "Mom's_Eye",
+      "Mom's_Contacts",
+      "Mom's_Knife",
+      "Mom's_Purse",
+      "Mom's_Coin_Purse",
+      "Mom's_Key",
+      "Mom's_Eyeshadow",
+      "Mom's_Wig",
+      "Mom's_Perfume",
+      "Mom's_Pearls",
+      "Mom's_Razor",
+      "Mom's_Bra",
+      "Mom's_Pad",
+      "Mom's_Bottle_of_Pills",
+      "Mom's_Box",
+      "Mom's_Shovel",
+      "Mom's_Toenail",
+      "Mom's_Pearl",
+      "Mom's_Locket"
     ]
   },
   {

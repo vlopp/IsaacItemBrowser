@@ -21,7 +21,7 @@
     "tags": ["thorns", "crown", "jesus", "damage-up", "spikes", "bronze"]
   },
   "Skatole": {
-    "tags": ["fly", "heart", "sphere", "red", "black", "round"]
+    "tags": ["fly", "heart", "sphere", "red", "black", "round", "belzebub-set"]
   },
   "Magic_Mushroom": {
     "tags": [
@@ -31,7 +31,9 @@
       "red",
       "white",
       "flybane",
-      "toadstool"
+      "toadstool",
+      "fun-guy-set",
+      "stompy-set"
     ]
   },
   "The_Virus": {
@@ -96,14 +98,14 @@
       "panties",
       "range-up",
       "shot-height",
-      "yes-mother"
+      "yes-mother-set"
     ]
   },
   "Mom's_Heels": {
-    "tags": ["red", "boots", "range-up", "shot-height", "yes-mother"]
+    "tags": ["red", "boots", "range-up", "shot-height", "yes-mother-set"]
   },
   "Mom's_Lipstick": {
-    "tags": ["red", "tube", "gray"]
+    "tags": ["red", "tube", "gray", "yes-mother-set"]
   },
   "Wire_Coat_Hanger": {
     "tags": ["black", "tears-up"]
@@ -118,7 +120,7 @@
     "tags": ["black", "white", "mouth"]
   },
   "Pentagram": {
-    "tags": ["devil", "red", "evil", "damage-up"]
+    "tags": ["devil", "red", "evil", "damage-up", "leviathan-set"]
   },
   "Dr._Fetus": {
     "tags": ["pink", "jar", "glass", "closed", "bombs"]
@@ -130,7 +132,7 @@
     "tags": ["x", "white", "paper", "trail"]
   },
   "Mom's_Eye": {
-    "tags": ["yes-mother", "eyebrows", "red", "white", "retina", "pupil"]
+    "tags": ["yes-mother-set", "eyebrows", "red", "white", "retina", "pupil"]
   },
   "The_Ladder": {
     "tags": ["bronze"]
@@ -151,7 +153,7 @@
     "tags": ["drink", "glass", "bronze", "fluid"]
   },
   "Growth_Hormones": {
-    "tags": ["syringe", "purple", "pink"]
+    "tags": ["syringe", "purple", "pink", "spun-set"]
   },
   "Mini_Mush": {
     "tags": [
@@ -161,11 +163,12 @@
       "size-down",
       "speed-up",
       "damage-up",
-      "speed-up"
+      "speed-up",
+      "fun-guy-set"
     ]
   },
   "Rosary": {
-    "tags": ["pray", "cross", "red", "faith", "mary"]
+    "tags": ["pray", "cross", "red", "faith", "mary", "seraphim-set"]
   },
   "A_Quarter": {
     "tags": ["coin", "25", "round", "sphere", "gray", "metal", "money"]
@@ -177,10 +180,20 @@
     "tags": ["glasses", "eyes", "red", "xray", "secret"]
   },
   "The_Mark": {
-    "tags": ["3", "three", "damage-up", "devil", "evil", "red", "symbol"]
+    "tags": [
+      "3",
+      "three",
+      "damage-up",
+      "devil",
+      "evil",
+      "red",
+      "symbol",
+      "leviathan-set"
+    ]
   },
   "The_Pact": {
     "tags": [
+      "leviathan-set",
       "red",
       "paper",
       "note",
@@ -198,7 +211,7 @@
     "tags": ["ears", "black"]
   },
   "Spider_Bite": {
-    "tags": ["red", "gray", "animal"]
+    "tags": ["red", "gray", "animal", "spider-baby-set"]
   },
   "The_Small_Rock": {
     "tags": ["stone", "gray", "damage-up", "speed-down", "tears-up"]
@@ -249,10 +262,18 @@
     "tags": ["red", "gray", "coin", "damage"]
   },
   "Mom's_Contacts": {
-    "tags": ["red", "pink", "black", "eye", "retina", "pupil"]
+    "tags": ["red", "pink", "black", "eye", "retina", "pupil", "yes-mother-set"]
   },
   "Mom's_Knife": {
-    "tags": ["damage", "gray", "bronze", "silver", "metal", "blade"]
+    "tags": [
+      "damage",
+      "gray",
+      "bronze",
+      "silver",
+      "metal",
+      "blade",
+      "yes-mother-set"
+    ]
   },
   "Ouija_Board": {
     "tags": ["ticket", "plate", "paper", "dots", "yellowish", "paper"]
@@ -264,16 +285,23 @@
     "tags": ["gray", "eve", "dark", "black"]
   },
   "Brimstone": {
-    "tags": ["red", "black", "evil", "devil", "satan"]
+    "tags": ["red", "black", "evil", "devil", "satan", "leviathan-set"]
   },
   "Blood_Bag": {
     "tags": ["health-up", "red", "hospital"]
   },
   "Odd_Mushroom_(Thin)": {
-    "tags": ["tears-up", "speed-up", "size-down", "bronze", "vegetable"]
+    "tags": [
+      "tears-up",
+      "speed-up",
+      "size-down",
+      "bronze",
+      "vegetable",
+      "fun-guy-set"
+    ]
   },
   "Odd_Mushroom_(Large)": {
-    "tags": ["thick", "round", "pink", "red", "vegetable"]
+    "tags": ["thick", "round", "pink", "red", "vegetable", "fun-guy-set"]
   },
   "Whore_of_Babylon": {
     "tags": ["moon", "red", "star", "half-heart", "eve", "damage-up"]
@@ -303,10 +331,10 @@
     ]
   },
   "Mom's_Purse": {
-    "tags": ["pink", "bag", "violet", "purple"]
+    "tags": ["pink", "bag", "violet", "purple", "yes-mother-set"]
   },
   "Bob's_Curse": {
-    "tags": ["bomb", "poison", "dead", "grimace", "sad", "fuse"]
+    "tags": ["bomb", "poison", "dead", "grimace", "sad", "fuse", "bob-set"]
   },
   "Pageant_Boy": {
     "tags": ["pink", "crown", "white", "money", "coin"]
@@ -318,22 +346,31 @@
     "tags": ["white", "syringe", "speed-up", "shoot-speed-up", "spun-set"]
   },
   "Infestation": {
-    "tags": ["seed", "flies", "yellow", "smiling"]
+    "tags": ["seed", "flies", "yellow", "smiling", "belzebub-set"]
   },
   "Ipecac": {
-    "tags": ["jar", "label", "white", "brown", "bronze", "bomb", "explosive"]
+    "tags": [
+      "jar",
+      "label",
+      "white",
+      "brown",
+      "bronze",
+      "bomb",
+      "explosive",
+      "bob-set"
+    ]
   },
   "Tough_Love": {
     "tags": ["knucle", "duster", "brass", "four", "silver", "gray", "metal"]
   },
   "The_Mulligan": {
-    "tags": ["heart", "blue", "fly", "wings", "gray"]
+    "tags": ["heart", "blue", "fly", "wings", "gray", "belzebub-set"]
   },
   "Technology_2": {
     "tags": ["red", "eye", "mechanic", "device", "cyborg", "wire"]
   },
   "Mutant_Spider": {
-    "tags": ["four", "green", "spider", "white", "black"]
+    "tags": ["four", "green", "spider", "white", "black", "spider-baby-set"]
   },
   "Chemical_Peel": {
     "tags": [
@@ -353,7 +390,16 @@
     "tags": ["tear", "drip", "blood", "white", "red", "damage", "samson"]
   },
   "Spirit_of_the_Night": {
-    "tags": ["devil", "devil", "red", "black", "spectral", "flight", "dark"]
+    "tags": [
+      "devil",
+      "devil",
+      "red",
+      "black",
+      "spectral",
+      "flight",
+      "dark",
+      "leviathan-set"
+    ]
   },
   "Ankh": {
     "tags": ["egypt", "cross", "dark", "gray", "immortaility", "symbol"]
@@ -414,7 +460,7 @@
       "red",
       "flesh",
       "cancer",
-      "overgrowm",
+      "overgrown",
       "health-up"
     ]
   },
@@ -473,7 +519,7 @@
     "tags": ["pool", "cue", "black", "dark", "sphere", "circular"]
   },
   "Mom's_Coin_Purse": {
-    "tags": ["yellow", "pills", "fly"]
+    "tags": ["yellow", "pills", "fly", "yes-mother-set"]
   },
   "Squeezy": {
     "tags": ["red", "white", "tears-up", "soul"]
@@ -495,10 +541,18 @@
     "tags": ["yellow", "white", "cardboard"]
   },
   "Mom's_Key": {
-    "tags": ["yellow"]
+    "tags": ["yellow", "yes-mother-set"]
   },
   "Mom's_Eyeshadow": {
-    "tags": ["blue", "black", "dark", "paint", "brush", "circular"]
+    "tags": [
+      "blue",
+      "black",
+      "dark",
+      "paint",
+      "brush",
+      "circular",
+      "yes-mother-set"
+    ]
   },
   "Iron_Bar": {
     "tags": ["metal", "silver", "gray", "white", "blink", "reflection"]
@@ -525,7 +579,7 @@
     "tags": ["bite", "bitten", "green", "tree"]
   },
   "Spider_Baby": {
-    "tags": ["heart", "love", "red", "blue", "smiling"]
+    "tags": ["heart", "love", "red", "blue", "smiling", "spider-baby-set"]
   },
   "Guppy's_Collar": {
     "tags": ["guppy-set", "pink", "heart"]
@@ -543,7 +597,7 @@
     "tags": ["dark", "black", "hood", "dress", "devil", "evil", "damage-up"]
   },
   "Mom's_Wig": {
-    "tags": ["orange", "hair", "head", "spider"]
+    "tags": ["orange", "hair", "head", "spider", "yes-mother-set"]
   },
   "Placenta": {
     "tags": ["body", "flesh", "purple", "violet", "red", "health-up"]
@@ -585,13 +639,30 @@
     "tags": ["pink", "animal", "money", "coin"]
   },
   "Mom's_Perfume": {
-    "tags": ["spray", "yellow", "glass", "white", "brown", "liquid", "fluid"]
+    "tags": [
+      "spray",
+      "yellow",
+      "glass",
+      "white",
+      "brown",
+      "liquid",
+      "fluid",
+      "yes-mother-set"
+    ]
   },
   "Monstro's_Lung": {
     "tags": ["body", "pink", "flesh"]
   },
   "Abaddon": {
-    "tags": ["pentagram", "red", "devil", "symbol", "evil", "black-hearts"]
+    "tags": [
+      "pentagram",
+      "red",
+      "devil",
+      "symbol",
+      "evil",
+      "black-hearts",
+      "leviathan-set"
+    ]
   },
   "Ball_of_Tar": {
     "tags": ["black", "dark", "mass", "spherical", "circular"]
@@ -606,13 +677,13 @@
     "tags": ["spider", "4", "quad", "blue-spider", "orange"]
   },
   "E_Coli": {
-    "tags": ["red", "white", "tail", "sperm"]
+    "tags": ["red", "white", "tail", "sperm", "oh-crap-set"]
   },
   "Death's_Touch": {
     "tags": ["scythe", "damage-up", "penetration", "metal", "tool", "silver"]
   },
   "Experimental_Treatment": {
-    "tags": ["syringe", "yellow"]
+    "tags": ["syringe", "yellow", "spun-set"]
   },
   "Contract_From_Below": {
     "tags": ["isaac", "paper", "note", "writing", "devil", "evil"]
@@ -645,7 +716,7 @@
     "tags": ["heart", "arrow", "cupid", "familiars", "love"]
   },
   "Hive_Mind": {
-    "tags": ["spider", "fly", "blue", "wings", "white"]
+    "tags": ["spider", "fly", "blue", "wings", "white", "belzebub-set"]
   },
   "There's_Options": {
     "tags": ["white", "?", "question-mark"]
@@ -742,7 +813,15 @@
     "tags": ["69", "zodiac", "blue", "symbol", "black", "health-up"]
   },
   "Leo": {
-    "tags": ["zodiac", "blue", "symbol", "black", "crush", "stomp"]
+    "tags": [
+      "zodiac",
+      "blue",
+      "symbol",
+      "black",
+      "crush",
+      "stomp",
+      "stompy-set"
+    ]
   },
   "Virgo": {
     "tags": ["zodiac", "blue", "symbol", "black"]
@@ -874,7 +953,8 @@
       "health-up",
       "tears-up",
       "shot-speed-down",
-      "food"
+      "food",
+      "fun-guy-set"
     ]
   },
   "Latch_Key": {
@@ -884,7 +964,7 @@
     "tags": ["paper", "bombs", "red", "white"]
   },
   "Synthoil": {
-    "tags": ["syringe", "damage-up", "range-up"]
+    "tags": ["syringe", "damage-up", "range-up", "spun-set"]
   },
   "A_Snack": {
     "tags": ["dog", "bone", "brown", "bronze", "health-up"]
@@ -899,7 +979,14 @@
     "tags": ["tlp", "red", "yellow", "white", "box", "cardboard"]
   },
   "Mom's_Pearls": {
-    "tags": ["necklace", "white", "range-up", "luck-up", "silver"]
+    "tags": [
+      "necklace",
+      "white",
+      "range-up",
+      "luck-up",
+      "silver",
+      "yes-mother-set"
+    ]
   },
   "Car_Battery": {
     "tags": ["black", "red", "box", "dark", "rect"]
@@ -1011,10 +1098,10 @@
     "tags": ["alien", "beam", "blue", "gray"]
   },
   "God's_Flesh": {
-    "tags": ["mushroom", "pink", "white"]
+    "tags": ["mushroom", "pink", "white", "fun-guy-set"]
   },
   "Maw_of_the_Void": {
-    "tags": ["red", "devil", "evil", "circle"]
+    "tags": ["red", "devil", "evil", "circle", "leviathan-set"]
   },
   "Spear_of_Destiny": {
     "tags": ["pen", "syringe", "black", "white"]
@@ -1181,7 +1268,7 @@
     "tags": ["red", "black", "symbol", "virus", "biohazard", "hazard"]
   },
   "Adrenaline": {
-    "tags": ["pink", "syringe"]
+    "tags": ["pink", "syringe", "spun-set"]
   },
   "Jacob's_Ladder": {
     "tags": ["blue", "shock", "gray"]
@@ -1190,7 +1277,7 @@
     "tags": ["white", "face", "sad"]
   },
   "Euthanasia": {
-    "tags": ["black", "dark", "syringe"]
+    "tags": ["black", "dark", "syringe", "spun-set"]
   },
   "Camo_Undies": {
     "tags": ["pants", "pink", "violet", "purple", "panties"]
@@ -1319,19 +1406,19 @@
     "tags": ["violet", "handle", "stick", "vertical", "purple"]
   },
   "Brother_Bobby": {
-    "tags": ["blue", "dead"]
+    "tags": ["blue", "dead", "conjoined-set"]
   },
   "Halo_of_Flies": {
-    "tags": ["two", "wings", "ball", "black"]
+    "tags": ["two", "wings", "ball", "black", "belzebub-set"]
   },
   "1up!": {
-    "tags": ["mushroom", "green", "white"]
+    "tags": ["mushroom", "green", "white", "fun-guy-set"]
   },
   "Distant_Admiration": {
-    "tags": ["fly", "lines", "black", "ball"]
+    "tags": ["fly", "lines", "black", "ball", "belzebub-set"]
   },
   "Sister_Maggy": {
-    "tags": ["red", "baby", "face", "smiling"]
+    "tags": ["red", "baby", "face", "smiling", "conjoined-set"]
   },
   "Cube_of_Meat": {
     "tags": ["box", "red", "flex", "cube"]
@@ -1358,16 +1445,16 @@
     "tags": ["ball", "yellow", "face", "baby", "spherical", "circular"]
   },
   "Little_Steven": {
-    "tags": ["white", "black", "shadow", "baby", "mouth"]
+    "tags": ["white", "black", "shadow", "baby", "mouth", "conjoined-set"]
   },
   "Guardian_Angel": {
-    "tags": ["wings", "baby", "pink", "face", "smiling"]
+    "tags": ["wings", "baby", "pink", "face", "smiling", "seraphim-set"]
   },
   "Demon_Baby": {
     "tags": ["black", "dark", "evil", "devil", "horns"]
   },
   "Forever_Alone": {
-    "tags": ["fly", "blue", "wings", "circle", "sphere"]
+    "tags": ["fly", "blue", "wings", "circle", "sphere", "belzebub-set"]
   },
   "Bomb_Bag": {
     "tags": ["sack", "gray"]
@@ -1382,7 +1469,7 @@
     "tags": ["face", "white"]
   },
   "Harlequin_Baby": {
-    "tags": ["red", "eyes", "mouth"]
+    "tags": ["red", "eyes", "mouth", "conjoined-set"]
   },
   "Daddy_Longlegs": {
     "tags": ["white", "silk", "yarn", "ball", "sphere", "circular"]
@@ -1406,7 +1493,15 @@
     "tags": ["jar", "cross", "liquid", "fluid", "glass"]
   },
   "Guppy's_Hairball": {
-    "tags": ["shit", "poop", "brown", "bronze", "white", "reflections"]
+    "tags": [
+      "shit",
+      "poop",
+      "brown",
+      "bronze",
+      "white",
+      "reflections",
+      "guppy-set"
+    ]
   },
   "Abel": {
     "tags": ["dead", "head", "yellowish", "greed", "sphere"]
@@ -1424,7 +1519,7 @@
     "tags": ["yellow"]
   },
   "Smart_Fly": {
-    "tags": ["glow", "yellow", "shine", "wings"]
+    "tags": ["glow", "yellow", "shine", "wings", "belzebub-set"]
   },
   "Dry_Baby": {
     "tags": ["white", "gray", "face"]
@@ -1436,10 +1531,10 @@
     "tags": ["white", "red", "mechanica;", "device", "face"]
   },
   "Rotten_Baby": {
-    "tags": ["fly", "flies", "green", "red"]
+    "tags": ["fly", "flies", "green", "red", "conjoined-set"]
   },
   "Headless_Baby": {
-    "tags": ["body", "blood", "red"]
+    "tags": ["body", "blood", "red", "conjoined-set"]
   },
   "Leech": {
     "tags": ["black", "dark", "teeth", "hole"]
@@ -1458,14 +1553,23 @@
       "dark",
       "black",
       "smiling",
-      "face"
+      "face",
+      "belzebub-set"
     ]
   },
   "Bob's_Brain": {
-    "tags": ["mass", "green", "bomb", "grass", "cabbage", "vegetable"]
+    "tags": [
+      "mass",
+      "green",
+      "bomb",
+      "grass",
+      "cabbage",
+      "vegetable",
+      "bob-set"
+    ]
   },
   "Best_Bud": {
-    "tags": ["silver", "white", "three", "fly"]
+    "tags": ["silver", "white", "three", "fly", "belzebub-set"]
   },
   "Lil_Brimstone": {
     "tags": ["horns", "face", "smiling"]
@@ -1477,10 +1581,19 @@
     "tags": ["ghost", "white", "face", "baby"]
   },
   "Dark_Bum": {
-    "tags": ["beggar", "black", "dark", "horns", "face", "smiling"]
+    "tags": [
+      "beggar",
+      "black",
+      "dark",
+      "horns",
+      "face",
+      "smiling",
+      "super-bum-set",
+      "super-bum-set"
+    ]
   },
   "Big_Fan": {
-    "tags": ["fly", "brown", "wings", "sphere", "ball"]
+    "tags": ["fly", "brown", "wings", "sphere", "ball", "belzebub-set"]
   },
   "Sissy_Longlegs": {
     "tags": ["face", "smiling", "spider", "blue"]
@@ -1495,13 +1608,13 @@
     "tags": ["eye", "white", "ball", "sphere", "retina"]
   },
   "%3F%3F%3F%27s_Only_Friend": {
-    "tags": ["baby", "familiar", "dead", "face"]
+    "tags": ["baby", "familiar", "dead", "face", "belzebub-set"]
   },
   "Samson's_Chains": {
     "tags": ["ball", "black", "chain", "silver", "metal"]
   },
   "Mongo_Baby": {
-    "tags": ["pink", "blue"]
+    "tags": ["pink", "blue", "conjoined-set"]
   },
   "Incubus": {
     "tags": ["black", "eyes", "red", "wings", "devil", "evil", "fly"]
@@ -1513,13 +1626,21 @@
     "tags": ["box", "brown"]
   },
   "Sworn_Protector": {
-    "tags": ["angel", "baby", "wings", "pink", "yellow", "white"]
+    "tags": [
+      "angel",
+      "baby",
+      "wings",
+      "pink",
+      "yellow",
+      "white",
+      "seraphim-set"
+    ]
   },
   "Friend_Zone": {
-    "tags": ["fly", "wings", "silver"]
+    "tags": ["fly", "wings", "silver", "belzebub-set"]
   },
   "Lost_Fly": {
-    "tags": ["fly", "wings", "silver"]
+    "tags": ["fly", "wings", "silver", "belzebub-set"]
   },
   "Charged_Baby": {
     "tags": ["battery", "shock", "yellow", "silver", "mechanical", "face"]
@@ -1543,7 +1664,7 @@
     "tags": ["holy", "cross", "gold", "yellow"]
   },
   "Key_Bum": {
-    "tags": ["beggar", "face", "mouth"]
+    "tags": ["beggar", "face", "mouth", "super-bum-set"]
   },
   "Rune_Bag": {
     "tags": ["purple", "pink", "sack", "violet", "symbol"]
@@ -1562,7 +1683,7 @@
     ]
   },
   "Spider_Mod": {
-    "tags": ["device", "mechanical", "red", "gray", "black"]
+    "tags": ["device", "mechanical", "red", "gray", "black", "spider-baby-set"]
   },
   "Farting_Baby": {
     "tags": ["yeloow", "face", "fat"]
@@ -1583,10 +1704,10 @@
     "tags": ["black", "eyes", "red", "wings", "devil", "evil", "fly", "angry"]
   },
   "Obsessed_Fan": {
-    "tags": ["fly", "purple", "wings"]
+    "tags": ["fly", "purple", "wings", "belzebub-set"]
   },
   "Papa_Fly": {
-    "tags": ["fly", "blue", "wings"]
+    "tags": ["fly", "blue", "wings", "belzebub-set"]
   },
   "Multidimensional_Baby": {
     "tags": ["gray", "black", "white", "contrast"]
@@ -1631,13 +1752,13 @@
     "tags": ["8", "eight", "brown", "bag"]
   },
   "Mom's_Razor": {
-    "tags": ["straw", "pink", "junction", "sticks"]
+    "tags": ["straw", "pink", "junction", "sticks", "yes-mother-set"]
   },
   "Bloodshot_Eye": {
     "tags": ["peeper", "eyeball", "pink"]
   },
   "Angry_Fly": {
-    "tags": ["red", "ball", "wings", "face"]
+    "tags": ["red", "ball", "wings", "face", "belzebub-set"]
   },
   "Buddy_in_a_Box": {
     "tags": ["hiding", "cardboard", "yellow", "blue", "black"]
@@ -1690,7 +1811,7 @@
     "tags": ["white", "bone", "bent", "thin", "antlers"]
   },
   "The_Bible": {
-    "tags": ["book", "bookworm-set", "cross", "holy", "brown"]
+    "tags": ["book", "bookworm-set", "cross", "holy", "brown", "seraphim-set"]
   },
   "The_Book_of_Belial": {
     "tags": [
@@ -1711,7 +1832,7 @@
     "tags": ["book", "bookworm-set", "face", "brown", "deformed"]
   },
   "The_Poop": {
-    "tags": ["shit", "brown"]
+    "tags": ["shit", "brown", "oh-crap-set"]
   },
   "Mr._Boom": {
     "tags": ["bomb", "ball", "fuse", "gray", "face", "smile"]
@@ -1720,7 +1841,7 @@
     "tags": ["cat", "dead", "face", "ears", "yellow"]
   },
   "Mom's_Bra": {
-    "tags": ["underwear", "white", "two"]
+    "tags": ["underwear", "white", "two", "yes-mother-set"]
   },
   "Kamikaze!": {
     "tags": [
@@ -1734,10 +1855,10 @@
     ]
   },
   "Mom's_Pad": {
-    "tags": ["white"]
+    "tags": ["white", "yes-mother-set"]
   },
   "Bob's_Rotten_Head": {
-    "tags": ["green", "ball", "spherical", "hole"]
+    "tags": ["green", "ball", "spherical", "hole", "bob-set"]
   },
   "Teleport": {
     "tags": ["blue", "antenna", "hole", "black", "button", "remote"]
@@ -1770,7 +1891,7 @@
     "tags": ["cross", "book", "bookworm-set", "white", "bronze", "brown"]
   },
   "The_Nail": {
-    "tags": ["blood", "screw", "silver", "gray", "metal"]
+    "tags": ["blood", "screw", "silver", "gray", "metal", "leviathan-set"]
   },
   "We_Need_to_Go_Deeper!": {
     "tags": ["dig", "shovel", "tool", "metal", "silver", "gray"]
@@ -1798,7 +1919,16 @@
     ]
   },
   "Mom's_Bottle_of_Pills": {
-    "tags": ["jar", "glass", "yellow", "red", "blue", "white", "label"]
+    "tags": [
+      "jar",
+      "glass",
+      "yellow",
+      "red",
+      "blue",
+      "white",
+      "label",
+      "yes-mother-set"
+    ]
   },
   "The_D6": {
     "tags": ["dice", "cube", "red", "game", "play", "isaac"]
@@ -1825,7 +1955,7 @@
     "tags": ["animal", "head", "horse", "red", "black", "dark"]
   },
   "Guppy's_Paw": {
-    "tags": ["soul-hearts", "pink", "three", "3", "black", "bone"]
+    "tags": ["soul-hearts", "pink", "three", "3", "black", "bone", "guppy-set"]
   },
   "IV_Bag": {
     "tags": ["red", "syringe", "blood", "pack", "liquid", "fluid"]
@@ -1837,7 +1967,7 @@
     "tags": ["bom", "bombs", "push", "tnt", "red"]
   },
   "Guppy's_Head": {
-    "tags": ["cat", "ears", "black", "animal", "dead", "white"]
+    "tags": ["cat", "ears", "black", "animal", "dead", "white", "guppy-set"]
   },
   "Prayer_Card": {
     "tags": ["picture", "holy", "drawing", "mary", "yellow", "blue"]
@@ -1858,7 +1988,17 @@
     "tags": ["dice", "20", "red"]
   },
   "Spider_Butt": {
-    "tags": ["home", "lair", "hole", "red", "gray", "web", "silk", "spider"]
+    "tags": [
+      "home",
+      "lair",
+      "hole",
+      "red",
+      "gray",
+      "web",
+      "silk",
+      "spider",
+      "spider-baby-set"
+    ]
   },
   "Dad's_Key": {
     "tags": ["yellow"]
@@ -1873,10 +2013,10 @@
     "tags": ["razor", "blood", "brown", "shave", "blade"]
   },
   "Telepathy_for_Dummies": {
-    "tags": ["book", "yellow"]
+    "tags": ["book", "yellow", "bookworm-set"]
   },
   "How_to_Jump": {
-    "tags": ["book", "black", "red", "blue"]
+    "tags": ["book", "black", "red", "blue", "bookworm-set"]
   },
   "D100": {
     "tags": ["white", "ball", "sphere", "100", "dice"]
@@ -1891,10 +2031,10 @@
     "tags": ["white", "blank", "paper", "rectangle", "empty", "square"]
   },
   "Book_of_Secrets": {
-    "tags": ["book", "?", "question"]
+    "tags": ["book", "?", "question", "bookworm-set"]
   },
   "Box_of_Spiders": {
-    "tags": ["gray", "box", "cardboard"]
+    "tags": ["gray", "box", "cardboard", "spider-baby-set"]
   },
   "Red_Candle": {
     "tags": ["flame", "red"]
@@ -1903,7 +2043,14 @@
     "tags": ["glass", "transparent", "red"]
   },
   "Flush!": {
-    "tags": ["silver", "gray", "something", "weird", "reflection"]
+    "tags": [
+      "silver",
+      "gray",
+      "something",
+      "weird",
+      "reflection",
+      "oh-crap-set"
+    ]
   },
   "Satanic_Bible": {
     "tags": [
@@ -1997,13 +2144,21 @@
     "tags": ["tnt", "bomb", "boom", "yellow", "writing", "orange"]
   },
   "Jar_of_Flies": {
-    "tags": ["fly", "jar", "glass", "transparent"]
+    "tags": ["fly", "jar", "glass", "transparent", "belzebub-set"]
   },
   "D7": {
     "tags": ["dice", "silver", "7"]
   },
   "Mom's_Box": {
-    "tags": ["purple", "dark", "black", "violet", "box", "cube"]
+    "tags": [
+      "purple",
+      "dark",
+      "black",
+      "violet",
+      "box",
+      "cube",
+      "yes-mother-set"
+    ]
   },
   "Mega_Blast": {
     "tags": ["head", "horns", "red", "dark", "black", "satan"]
@@ -2115,10 +2270,18 @@
     "tags": ["gray", "stone", "blood", "spilled", "box"]
   },
   "Book_of_the_Dead": {
-    "tags": ["book", "black", "white", "skull"]
+    "tags": ["book", "black", "white", "skull", "bookworm-set"]
   },
   "Mom's_Shovel": {
-    "tags": ["purple", "violet", "shovel", "tool", "dig", "deeper"]
+    "tags": [
+      "purple",
+      "violet",
+      "shovel",
+      "tool",
+      "dig",
+      "deeper",
+      "yes-mother-set"
+    ]
   },
   "Swallowed_Penny": {
     "tags": ["water", "spilled", "blue", "greed", "coin", "money", "gold"]
@@ -2184,7 +2347,7 @@
     "tags": ["stone", "gray"]
   },
   "Mom's_Toenail": {
-    "tags": ["wig", "hair", "yellow", "white"]
+    "tags": ["wig", "hair", "yellow", "white", "yes-mother-set"]
   },
   "Black_Lipstick": {
     "tags": ["cylinder", "black", "gray"]
@@ -2259,7 +2422,15 @@
     "tags": ["black", "gray", "pink", "brown", "bronze"]
   },
   "Mom's_Pearl": {
-    "tags": ["ball", "sphere", "circular", "reflection", "silver", "white"]
+    "tags": [
+      "ball",
+      "sphere",
+      "circular",
+      "reflection",
+      "silver",
+      "white",
+      "yes-mother-set"
+    ]
   },
   "Cancer_(Trinket)": {
     "tags": ["brown", "green"]
@@ -2420,7 +2591,7 @@
     "tags": ["white"]
   },
   "Mom's_Locket": {
-    "tags": ["red", "heart", "love", "<3"]
+    "tags": ["red", "heart", "love", "<3", "yes-mother-set"]
   },
   "NO!": {
     "tags": ["stop", "red", "sign", "forbidden", "white", "label"]
