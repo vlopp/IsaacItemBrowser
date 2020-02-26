@@ -23,7 +23,8 @@ function encodedName(rawItemData) {
     "Telepathy For Dummies": "Telepathy_for_Dummies",
     "D infinity": "D_Infinity",
     "???'s Soul": "%3F%3F%3F%27s_Soul",
-    "Pay To Win": "Pay_to_Win"
+    "Pay To Win": "Pay_to_Win",
+    "Steven": "Steven_(Item)"
   };
 
   switch (true) {

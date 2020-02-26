@@ -115,7 +115,7 @@ export const wikiFetchSingle = async (
 
   const result = {};
 
-  const sections = ["Effect", "Notes", "Interactions", "Trivia"];
+  const sections = ["Effect", "Notes", "Interactions", "Trivia", "Tips"];
   for (const section of sections) {
     try {
       const sectionNode = ulElementsIterable.find(elem =>

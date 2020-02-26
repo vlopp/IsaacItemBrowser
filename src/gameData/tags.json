@@ -1627,7 +1627,7 @@
         "The_Inner_Eye",
         "Skatole",
         "Wire_Coat_Hanger",
-        "Steven",
+        "Steven_(Item)",
         "Charm_of_the_Vampire",
         "Lord_of_the_Pit",
         "Loki's_Horns",
@@ -4583,7 +4583,7 @@
       "items": [
         "Cricket's_Head",
         "Blood_of_the_Martyr",
-        "Steven",
+        "Steven_(Item)",
         "Pentagram",
         "Growth_Hormones",
         "The_Mark",
@@ -9293,7 +9293,7 @@
     {
       "tag": "mouth",
       "items": [
-        "Steven",
+        "Steven_(Item)",
         "Serpent's_Kiss",
         "Little_Steven",
         "Harlequin_Baby",
@@ -10139,7 +10139,7 @@
         "Wire_Coat_Hanger",
         "Lucky_Foot",
         "Cupid's_Arrow",
-        "Steven",
+        "Steven_(Item)",
         "Pentagram",
         "Dr._Fetus",
         "Magneto",
@@ -13540,7 +13540,7 @@
     {
       "tag": "steven",
       "items": [
-        "Steven",
+        "Steven_(Item)",
         "Little_Steven"
       ]
     },
@@ -15063,7 +15063,7 @@
         "Mom's_Lipstick",
         "Wire_Coat_Hanger",
         "Lucky_Foot",
-        "Steven",
+        "Steven_(Item)",
         "Pentagram",
         "Growth_Hormones",
         "Mini_Mush",
@@ -15507,7 +15507,7 @@
         "Magic_Mushroom",
         "Breakfast",
         "Rotten_Meat",
-        "Steven",
+        "Steven_(Item)",
         "Treasure_Map",
         "Mom's_Eye",
         "Steam_Sale",
