@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/IsaacItemBrowser/static/css/main.297d7862.chunk.css",
-    "main.js": "/IsaacItemBrowser/static/js/main.e74c8b30.chunk.js",
-    "main.js.map": "/IsaacItemBrowser/static/js/main.e74c8b30.chunk.js.map",
+    "main.js": "/IsaacItemBrowser/static/js/main.c31390bd.chunk.js",
+    "main.js.map": "/IsaacItemBrowser/static/js/main.c31390bd.chunk.js.map",
     "runtime-main.js": "/IsaacItemBrowser/static/js/runtime-main.3c7e03dc.js",
     "runtime-main.js.map": "/IsaacItemBrowser/static/js/runtime-main.3c7e03dc.js.map",
     "static/js/2.f1ad0fc2.chunk.js": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js",
     "static/js/2.f1ad0fc2.chunk.js.map": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js.map",
     "index.html": "/IsaacItemBrowser/index.html",
-    "precache-manifest.b772e34e2b891db888289f7d8076212f.js": "/IsaacItemBrowser/precache-manifest.b772e34e2b891db888289f7d8076212f.js",
+    "precache-manifest.340ab542fccfe1dff3f4029e1f142ef8.js": "/IsaacItemBrowser/precache-manifest.340ab542fccfe1dff3f4029e1f142ef8.js",
     "service-worker.js": "/IsaacItemBrowser/service-worker.js",
     "static/css/main.297d7862.chunk.css.map": "/IsaacItemBrowser/static/css/main.297d7862.chunk.css.map",
     "static/js/2.f1ad0fc2.chunk.js.LICENSE": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3c7e03dc.js",
     "static/js/2.f1ad0fc2.chunk.js",
     "static/css/main.297d7862.chunk.css",
-    "static/js/main.e74c8b30.chunk.js"
+    "static/js/main.c31390bd.chunk.js"
   ]
 }
