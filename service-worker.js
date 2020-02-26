@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IsaacItemBrowser/precache-manifest.98cc0fa74f79b6f27d9882cf0d716ec2.js"
+  "/IsaacItemBrowser/precache-manifest.b772e34e2b891db888289f7d8076212f.js"
 );
 
 self.addEventListener('message', (event) => {
