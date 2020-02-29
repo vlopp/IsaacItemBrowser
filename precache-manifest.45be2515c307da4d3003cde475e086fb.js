@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37a0e7e23acad8582d8f8fc684bfc8bb",
+    "revision": "0c9b043b100ab43ea9195d767c7a91cc",
     "url": "/IsaacItemBrowser/index.html"
   },
   {
-    "revision": "6ca5288a68bfb0fd8e16",
+    "revision": "4de6f07936044b5d2ca1",
     "url": "/IsaacItemBrowser/static/css/main.297d7862.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IsaacItemBrowser/static/js/2.f1ad0fc2.chunk.js.LICENSE"
   },
   {
-    "revision": "6ca5288a68bfb0fd8e16",
-    "url": "/IsaacItemBrowser/static/js/main.0399e491.chunk.js"
+    "revision": "4de6f07936044b5d2ca1",
+    "url": "/IsaacItemBrowser/static/js/main.1c0989ad.chunk.js"
   },
   {
     "revision": "a39f27e08a1292c8f02f",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IsaacItemBrowser/static/media/Silom.ff5c5269.ttf"
   },
   {
-    "revision": "d26309f12374dbdd4aaac80d4dbb0187",
-    "url": "/IsaacItemBrowser/static/media/sprites.d26309f1.png"
+    "revision": "c853d8c3291611a0c3bba198a939b071",
+    "url": "/IsaacItemBrowser/static/media/sprites.c853d8c3.png"
   },
   {
     "revision": "2d6cbf09dd8de35e87023982d4501027",
