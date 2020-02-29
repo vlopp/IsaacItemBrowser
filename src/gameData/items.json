@@ -778,7 +778,7 @@
     "type": "Passive",
     "shortDescription": "Protective buddy",
     "longDescription": {
-      "Effect": "Taking damage summons a familiar that chases enemies for the remainder of the current room, dealing 2 damage per tick or 4 damage per second.",
+      "Effect": "Taking damage summons a familiar that chases enemies for the remainder of the current room, dealing 20 damage per tick or 40 damage per second.",
       "Notes": "Eve starts with this item by default.",
       "Interactions": "Box of Friends: Does not double Dead Bird, even if Isaac has taken damage before use.\nHoly Mantle: Dead Bird will not be activated if damage is taken while Holy Mantle is active.",
       "Trivia": "This item is used in Challenge #4 (Darkness Falls).\nThis item is a reference to an old series of comics Edmund McMillen drew called Thicker Than Water, where the Dead Bird is said to represent his inner doubts and self-destructive nature."
@@ -2753,7 +2753,7 @@
     "shortDescription": "The kiss of death",
     "longDescription": {
       "Effect": "Grants a chance to fire poison tears, dealing damage over time when inflicted.\nInflicts poison on enemies who make contact with the character.\nEnemies who are killed after they have been inflicted with this type of poison have a 20% chance to drop black hearts.",
-      "Notes": "Not affected by luck.\nThe contact and poison effects of this item are identical to The Virus, but does not include a Speed down.\nThis item and The Virus are the two only poison sources to have a chance to drop black hearts.\nEnemies and bosses with multiple segments, such as Chub and Larry Jr., have a chance to drop multiple Black Hearts.\nThe enemy does not need to be killed by the poison or still be poisoned when killed for the Black Hearts to drop.\n Although Stonies and Shopkeepers can't be visibly poisoned, they still can drop Black Hearts if destroyed after being touched.",
+      "Notes": "Not affected by luck.\nThe contact and poison effects of this item are identical to The Virus, but does not include a Speed down.\nThis item and The Virus are the two only poison sources to have a chance to drop black hearts.\nEnemies and bosses with multiple segments, such as Chub and Larry Jr., have a chance to drop multiple Black Hearts.\nThe enemy does not need to be killed by the poison or still be poisoned when killed for the Black Hearts to drop.\n Although Stonies and Shopkeepers can't be visibly poisoned, they still can drop Black Hearts if destroyed after being touched.\nIf a boss has status immunity due to being inflicted by another status, they can still drop a black heart if they've been touched or hit by a Serpent's Kiss tear.",
       "Interactions": "Tech X: The laser will poison enemies but never generates black hearts.\nTechnology: The laser will poison enemies but never generates black hearts.\nTechnology 2: The laser will poison enemies but never generates black hearts.",
       "Trivia": "Most likely referencing Viper (Madame Hydra), who has green lipstick and has transmitted poison through hollow fangs or poisoned lipstick before."
     },
@@ -2941,8 +2941,9 @@
     "type": "Passive",
     "shortDescription": "Feed them love",
     "longDescription": {
-      "Effect": "Upon picking up enough heart pickups, Isaac gains a permanent angelic familiar and generates a soul heart drop. Possible familiars include:\n Holy Water \n Guardian Angel \n Sworn Protector \n  The Relic \n  Seraphim\nThe first and second familiars will spawn after picking up 15 heart pickups each. The third, fourth, and fifth familiars will spawn after picking up 30 heart pickups each. No further familiars will spawn.",
-      "Notes": "Red, soul, black, and eternal hearts all count towards spawning a familiar.\nItems that directly add health such as Yum Heart, Book of Revelations, Satanic Bible, and The Nail do not count towards spawning a familiar.\nOnly one of each type of familiar can be spawned.\nThis item is the angelic counterpart to Cambion Conception.\nThe Lost can pick up soul and black hearts despite having no health and thus can activate Immaculate Conception.\nKeeper cannot encounter hearts and thus the item is useless for him.",
+      "Effect": "Upon picking up enough heart pickups, Isaac gains a permanent angelic familiar and generates a soul heart drop. Possible familiars include:\n Holy Water \n Guardian Angel \n Sworn Protector \n  The Relic \n  Seraphim\nAll five familiars will spawn in a random order, each after collecting 15 hearts.\nAfter all familiars have been spawned, a soul heart will still drop every 15 hearts collected.",
+      "Notes": "All types of hearts except gold hearts and blended hearts count.\n The amount healed by the heart does not matter, and as such half hearts are the most effective way to activate the item.\nItems that directly add health such as Yum Heart, Book of Revelations, Satanic Bible, and The Nail do not count towards spawning a familiar.\nOnly one of each type of familiar can be spawned.\nThis item is the angelic counterpart to Cambion Conception.\nThe Lost can pick up soul and black hearts despite having no health and thus can activate Immaculate Conception.\nKeeper cannot encounter hearts and thus the item is useless for him.",
+      "Interactions": "The Jar: Hearts collected in the jar do not count towards activation.",
       "Trivia": "Immaculate Conception refers to the Catholic teaching that the conception of the Virgin Mary was free from original sin."
     },
     "offset": 17088
@@ -3879,7 +3880,7 @@
     "type": "Familiar",
     "shortDescription": "Gives money",
     "longDescription": {
-      "Effect": "Spawns a familiar that drops a coin every 2 rooms.",
+      "Effect": "Spawns a familiar that drops a coin every 2 rooms.\n The first drop happens after 1 room.",
       "Trivia": " This item is used in PAY TO PLAY (challenge #24)."
     },
     "offset": 6944
@@ -3900,7 +3901,7 @@
     "type": "Familiar",
     "shortDescription": "Gives kisses",
     "longDescription": {
-      "Effect": "Drops a half red heart every three rooms.",
+      "Effect": "Drops a half red heart every three rooms.\n The first drop happens after two rooms.",
       "Notes": " There is a very small chance of it spawning from a shopkeeper.",
       "Interactions": "???: Useless unless you have also collected Dark Bum, because ??? can't pick up red hearts.\nKeeper: Will give flies instead of hearts.",
       "Trivia": "Little C.H.A.D. will give you a kiss every time you clear a room, even if no half red heart is created.\n This is a reference to the C.H.A.D. boss from Super Meat Boy, where after defeating C.H.A.D. he becomes very small and in the following cutscene will keep trying to get kisses from Meat Boy."
@@ -3913,7 +3914,7 @@
     "type": "Familiar",
     "shortDescription": "Soul generator",
     "longDescription": {
-      "Effect": "Spawns a small cross that follows Isaac and drops a soul heart every X rooms, where X rotates between:\n 3, 4, 5, 4, 4, 1, 4, 4, 5, 4, 5 \n After the sequence is finished, it goes back to position 2 (4, 5, 4, etc.). \n This is based on the formula: floor(rooms / 1.11) & 3 = 2",
+      "Effect": "Spawns a small cross that follows Isaac and drops a soul heart alternatingly every 5 or 6 rooms.",
       "Trivia": "A relic usually consists of remains of a saint or holy person, such as the tooth of Mary Magdalene.[1]"
     },
     "offset": 7072
@@ -3978,8 +3979,7 @@
     "type": "Familiar",
     "shortDescription": "Gives bombs",
     "longDescription": {
-      "Effect": "Isaac is followed by a small bag that drops a bomb every few rooms.\n The bomb dropped can be a normal bomb, 1+1 Free, a Troll Bomb, or a Gold Bomb .",
-      "Interactions": "BFFS!: Familiar is bigger but no effect on bomb drops."
+      "Effect": "Isaac is followed by a small bag that drops a bomb every 3 rooms.\n The first drop happens after 2 rooms. \n The bomb dropped can be a normal bomb, 1+1 Free, a Troll Bomb, or a Gold Bomb ."
     },
     "offset": 8128
   },
@@ -4067,7 +4067,7 @@
     "type": "Familiar",
     "shortDescription": "Splash!",
     "longDescription": {
-      "Effect": "Spawns a familiar that follows Isaac. If Isaac takes damage, it will shatter and create a blue pool of damaging water, similar to the usable item Lemon Mishap.\n The pool will deal 8 damage per tick to non-flying enemies. \n After breaking, Holy Water will reappear in the next room.",
+      "Effect": "Spawns a familiar that follows Isaac. If Isaac takes damage, it will shatter and create a blue pool of damaging water, similar to the usable item Lemon Mishap.\n The pool will deal 80 damage per tick to non-flying enemies. \n After breaking, Holy Water will reappear in the next room.",
       "Notes": "This item is useless when playing as The Lost as any damage will instantly kill him.",
       "Interactions": "BFFS!: Familiar is bigger but no effect on damage.\nLost Cork: Creep pool is bigger.",
       "Trivia": "The item is a reference to the sub-weapon of the same name from the Castlevania series of games.\nIn the original The Binding of Isaac, holding Holy Water will turn one of your shooting familiars into Brother Bobby, and it will change back when the Holy Water breaks. It will turn back into Brother Bobby after entering the next room.\nThe in-game description for Holy Water in the original game was 'Don't Spill It'."
@@ -4235,7 +4235,7 @@
     "type": "Familiar",
     "shortDescription": "?",
     "longDescription": {
-      "Effect": "Spawns a familiar that follows Isaac around and has a chance to drop a heart, coin, bomb, or key (or any of their variations) after clearing a room.",
+      "Effect": "Spawns a familiar that follows Isaac around and drops a heart, coin, bomb, or key (or any of their variations) alternatingly every 5 or 6 rooms.",
       "Trivia": "Prior to patch 1.04, this item did not drop any items, or do anything at all."
     },
     "offset": 12544
@@ -4548,7 +4548,7 @@
     "type": "Familiar",
     "shortDescription": "Rune generator",
     "longDescription": {
-      "Effect": "Drops a random rune every few rooms.\n If there are no runes unlocked, it will drop cards instead."
+      "Effect": "Drops a random rune alternatingly every 5 or 6 rooms.\n If there are no runes unlocked, it will drop cards instead."
     },
     "offset": 16320
   },
@@ -4768,7 +4768,7 @@
     "type": "Familiar",
     "shortDescription": "Pills pills pills!",
     "longDescription": {
-      "Effect": "Drops a random pill every 2 rooms.\nUpon using a pill, all enemies in the room will be poisoned for 2 ticks.",
+      "Effect": "Drops a random pill every 3 rooms.\n The first drop happens after 2 rooms.\nUpon using a pill, all enemies in the room will be poisoned for 2 ticks.",
       "Interactions": "Starter Deck: All pills dropped by Acid Baby will turn into cards."
     },
     "offset": 19584
@@ -4791,7 +4791,7 @@
     "type": "Familiar",
     "shortDescription": "Gives sacks",
     "longDescription": {
-      "Effect": "Spawns a sack familiar that follows Isaac and has a chance to drop a sack upon clearing a room."
+      "Effect": "Spawns a sack familiar that follows Isaac and drops a sack alternatingly every 5 or 6 rooms."
     },
     "offset": 19872
   },
@@ -6449,7 +6449,7 @@
     "shortDescription": "It's broken",
     "longDescription": {
       "Effect": "Triggers the Teleport effect whenever an activated item is used.",
-      "Notes": "Upon using The Bible while fighting Mom, Isaac will get teleported out of the room before the death animation is finished, resulting in the boss room being reset.\nThis item can only teleport Isaac to rooms that can be shown on the map. It is not possible to teleport to the I AM ERROR room, Devil Room, Angel Room, Crawl Space, Black Market, Boss Rush, the room with the access to Blue Womb, or Mega Satan."
+      "Notes": "Upon using The Bible while fighting Mom, Isaac will get teleported out of the room before the death animation is finished, resulting in the boss room being reset.\nWill teleport Isaac before firing Shoop Da Whoop! and cancel item usage, allowing infinite teleports\nThis item can only teleport Isaac to rooms that can be shown on the map. It is not possible to teleport to the I AM ERROR room, Devil Room, Angel Room, Crawl Space, Black Market, Boss Rush, the room with the access to Blue Womb, or Mega Satan."
     },
     "offset": 96
   },
